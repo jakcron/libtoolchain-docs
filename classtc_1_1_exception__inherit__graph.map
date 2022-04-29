@@ -1,0 +1,4 @@
+<map id="tc::Exception" name="tc::Exception">
+<area shape="rect" id="node1" title="An extension of std::exception that allows optionally specifying a module name." alt="" coords="7,131,107,281"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,109,83"/>
+</map>

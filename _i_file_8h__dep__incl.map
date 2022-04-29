@@ -1,0 +1,9 @@
+<map id="tc/fs/IFile.h" name="tc/fs/IFile.h">
+<area shape="rect" id="node1" title="Declaration of tc::fs::IFile." alt="" coords="72,5,160,32"/>
+<area shape="rect" id="node2" href="$fs_8h.html" title="Declaration of the filesystem library." alt="" coords="87,229,146,256"/>
+<area shape="rect" id="node4" href="$_i_file_system_8h.html" title="Declaration of tc::fs::IFileSystem." alt="" coords="50,80,183,107"/>
+<area shape="rect" id="node7" href="$_sandboxed_i_file_8h.html" title="Declaration of tc::fs::SandboxedIFile." alt="" coords="294,80,448,107"/>
+<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="87,304,146,331"/>
+<area shape="rect" id="node5" href="$_local_file_system_8h.html" title="Declaration of tc::fs::LocalFileSystem." alt="" coords="36,155,196,181"/>
+<area shape="rect" id="node6" href="$_sandboxed_i_file_system_8h.html" title="Declaration of tc::fs::SandboxedIFileSystem." alt="" coords="221,155,420,181"/>
+</map>
