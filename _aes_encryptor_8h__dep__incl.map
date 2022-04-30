@@ -1,16 +1,18 @@
 <map id="tc/crypto/AesEncryptor.h" name="tc/crypto/AesEncryptor.h">
-<area shape="rect" id="node1" title="Declarations for API resources related to AES block encryption." alt="" coords="1092,5,1259,32"/>
-<area shape="rect" id="node2" href="$crypto_8h.html" title="Declaration of the cryptography library." alt="" coords="1133,155,1217,181"/>
-<area shape="rect" id="node4" href="$_aes128_cbc_encryptor_8h.html" title="Declarations for API resources for related to AES128&#45;CBC mode encryption/decryption." alt="" coords="23,80,234,107"/>
-<area shape="rect" id="node5" href="$_aes128_ctr_encryptor_8h.html" title="Declarations for API resources for related to AES128&#45;CTR mode encryption/decryption." alt="" coords="258,80,463,107"/>
-<area shape="rect" id="node6" href="$_aes128_ecb_encryptor_8h.html" title="Declarations for API resources for related to AES128&#45;ECB mode encryption/decryption." alt="" coords="487,80,698,107"/>
-<area shape="rect" id="node7" href="$_aes128_xts_encryptor_8h.html" title="Declarations for API resources for related to AES128&#45;XTS mode encryption/decryption." alt="" coords="723,80,929,107"/>
-<area shape="rect" id="node8" href="$_aes192_cbc_encryptor_8h.html" title="Declarations for API resources for related to AES192&#45;CBC mode encryption/decryption." alt="" coords="954,80,1165,107"/>
-<area shape="rect" id="node9" href="$_aes192_ctr_encryptor_8h.html" title="Declarations for API resources for related to AES192&#45;CTR mode encryption/decryption." alt="" coords="1189,80,1394,107"/>
-<area shape="rect" id="node10" href="$_aes192_ecb_encryptor_8h.html" title="Declarations for API resources for related to AES192&#45;ECB mode encryption/decryption." alt="" coords="1418,80,1629,107"/>
-<area shape="rect" id="node11" href="$_aes256_cbc_encryptor_8h.html" title="Declarations for API resources for related to AES256&#45;CBC mode encryption/decryption." alt="" coords="1653,80,1863,107"/>
-<area shape="rect" id="node12" href="$_aes256_ctr_encryptor_8h.html" title="Declarations for API resources for related to AES256&#45;CTR mode encryption/decryption." alt="" coords="1887,80,2093,107"/>
-<area shape="rect" id="node13" href="$_aes256_ecb_encryptor_8h.html" title="Declarations for API resources for related to AES256&#45;ECB mode encryption/decryption." alt="" coords="2117,80,2327,107"/>
-<area shape="rect" id="node14" href="$_aes256_xts_encryptor_8h.html" title="Declarations for API resources for related to AES256&#45;XTS mode encryption/decryption." alt="" coords="2352,80,2559,107"/>
-<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="1153,229,1197,256"/>
+<area shape="rect" id="node1" title="Declarations for API resources related to AES block encryption." alt="" coords="1115,5,1282,32"/>
+<area shape="rect" id="node2" href="$crypto_8h.html" title="Declaration of the cryptography library." alt="" coords="716,244,800,271"/>
+<area shape="rect" id="node4" href="$_aes128_cbc_encryptor_8h.html" title="Declarations for API resources for related to AES128&#45;CBC mode encryption/decryption." alt="" coords="46,80,257,107"/>
+<area shape="rect" id="node6" href="$_aes128_ctr_encryptor_8h.html" title="Declarations for API resources for related to AES128&#45;CTR mode encryption/decryption." alt="" coords="281,80,486,107"/>
+<area shape="rect" id="node8" href="$_aes128_ecb_encryptor_8h.html" title="Declarations for API resources for related to AES128&#45;ECB mode encryption/decryption." alt="" coords="510,80,721,107"/>
+<area shape="rect" id="node9" href="$_aes128_xts_encryptor_8h.html" title="Declarations for API resources for related to AES128&#45;XTS mode encryption/decryption." alt="" coords="746,80,952,107"/>
+<area shape="rect" id="node10" href="$_aes192_cbc_encryptor_8h.html" title="Declarations for API resources for related to AES192&#45;CBC mode encryption/decryption." alt="" coords="977,80,1188,107"/>
+<area shape="rect" id="node11" href="$_aes192_ctr_encryptor_8h.html" title="Declarations for API resources for related to AES192&#45;CTR mode encryption/decryption." alt="" coords="1212,80,1417,107"/>
+<area shape="rect" id="node12" href="$_aes192_ecb_encryptor_8h.html" title="Declarations for API resources for related to AES192&#45;ECB mode encryption/decryption." alt="" coords="872,162,1082,189"/>
+<area shape="rect" id="node13" href="$_aes256_cbc_encryptor_8h.html" title="Declarations for API resources for related to AES256&#45;CBC mode encryption/decryption." alt="" coords="1106,162,1317,189"/>
+<area shape="rect" id="node14" href="$_aes256_ctr_encryptor_8h.html" title="Declarations for API resources for related to AES256&#45;CTR mode encryption/decryption." alt="" coords="1341,162,1546,189"/>
+<area shape="rect" id="node15" href="$_aes256_ecb_encryptor_8h.html" title="Declarations for API resources for related to AES256&#45;ECB mode encryption/decryption." alt="" coords="1570,162,1781,189"/>
+<area shape="rect" id="node16" href="$_aes256_xts_encryptor_8h.html" title="Declarations for API resources for related to AES256&#45;XTS mode encryption/decryption." alt="" coords="1806,162,2012,189"/>
+<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="736,319,780,345"/>
+<area shape="rect" id="node5" href="$_aes128_cbc_encrypted_stream_8h.html" title="Declaration of tc::crypto::Aes128CbcEncryptedStream." alt="" coords="166,155,370,196"/>
+<area shape="rect" id="node7" href="$_aes128_ctr_encrypted_stream_8h.html" title="Declaration of tc::crypto::Aes128CtrEncryptedStream." alt="" coords="446,155,644,196"/>
 </map>

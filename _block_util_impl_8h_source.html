@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.5.2</span>
    </div>
   </td>
  </tr>
@@ -97,22 +97,22 @@ $(function() {
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">inline</span> <span class="keywordtype">void</span> incr_counter&lt;16&gt;(<a class="code hl_typedef" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a>* counter, uint64_t incr)</div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>{</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_struct" href="structbe__uint64__t.html">be_uint64_t</a>* counter_words = (<a class="code hl_struct" href="structbe__uint64__t.html">be_uint64_t</a>*)counter;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <a class="code hl_struct" href="structtc_1_1bn_1_1be64.html">tc::bn::be64&lt;uint64_t&gt;</a>* counter_words = (<a class="code hl_struct" href="structtc_1_1bn_1_1be64.html">tc::bn::be64&lt;uint64_t&gt;</a>*)counter;</div>
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    uint64_t carry = incr;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; carry != 0 ; i = ((i + 1) % 2))</div>
 <div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    {</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        uint64_t word = counter_words[1 - i].<a class="code hl_function" href="structbe__uint64__t.html#a9b271f889a1f91de708230d9394fb039">unwrap</a>();</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        uint64_t word = counter_words[1 - i].<a class="code hl_function" href="structtc_1_1bn_1_1be64.html#a286fd745e1ee3b21bb3c8015321b4724">unwrap</a>();</div>
 <div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        uint64_t remaining = std::numeric_limits&lt;uint64_t&gt;::max() - word;</div>
 <div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
 <div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordflow">if</span> (remaining &gt; carry)</div>
 <div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        {</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            counter_words[1 - i].<a class="code hl_function" href="structbe__uint64__t.html#aabd90815f6ff3888c58365a6e1fcf1d3">wrap</a>(word + carry);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            counter_words[1 - i].<a class="code hl_function" href="structtc_1_1bn_1_1be64.html#a2a996c397ffe73934816ea15a750d1eb">wrap</a>(word + carry);</div>
 <div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            carry = 0;</div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        }</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>        <span class="keywordflow">else</span></div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>        {</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            counter_words[1 - i].<a class="code hl_function" href="structbe__uint64__t.html#aabd90815f6ff3888c58365a6e1fcf1d3">wrap</a>(carry - remaining - 1);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            counter_words[1 - i].<a class="code hl_function" href="structtc_1_1bn_1_1be64.html#a2a996c397ffe73934816ea15a750d1eb">wrap</a>(carry - remaining - 1);</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            carry = 1;</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>        }</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    }</div>
@@ -133,11 +133,11 @@ $(function() {
 <div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
 <div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>}}} <span class="comment">// namespace tc::crypto::detail</span></div>
 <div class="ttc" id="anamespacetc_html"><div class="ttname"><a href="namespacetc.html">tc</a></div><div class="ttdoc">Root namespace for libtoolchain.</div></div>
-<div class="ttc" id="astructbe__uint64__t_html"><div class="ttname"><a href="structbe__uint64__t.html">be_uint64_t</a></div><div class="ttdoc">Wrapper that allows accessing a big-endian uint64_t regardless of processor endianness.</div><div class="ttdef"><b>Definition:</b> <a href="endian__types_8h_source.html#l00120">endian_types.h:120</a></div></div>
-<div class="ttc" id="astructbe__uint64__t_html_a9b271f889a1f91de708230d9394fb039"><div class="ttname"><a href="structbe__uint64__t.html#a9b271f889a1f91de708230d9394fb039">be_uint64_t::unwrap</a></div><div class="ttdeci">uint64_t unwrap() const</div><div class="ttdoc">Unwrap value.</div><div class="ttdef"><b>Definition:</b> <a href="endian__types_8h_source.html#l00123">endian_types.h:123</a></div></div>
-<div class="ttc" id="astructbe__uint64__t_html_aabd90815f6ff3888c58365a6e1fcf1d3"><div class="ttname"><a href="structbe__uint64__t.html#aabd90815f6ff3888c58365a6e1fcf1d3">be_uint64_t::wrap</a></div><div class="ttdeci">void wrap(uint64_t var)</div><div class="ttdoc">Wrap value.</div><div class="ttdef"><b>Definition:</b> <a href="endian__types_8h_source.html#l00125">endian_types.h:125</a></div></div>
+<div class="ttc" id="astructtc_1_1bn_1_1be64_html"><div class="ttname"><a href="structtc_1_1bn_1_1be64.html">tc::bn::be64</a></div><div class="ttdoc">Wrapper that allows accessing a big-endian 64-bit POD regardless of processor endianness.</div><div class="ttdef"><b>Definition:</b> <a href="endian__types_8h_source.html#l00210">endian_types.h:210</a></div></div>
+<div class="ttc" id="astructtc_1_1bn_1_1be64_html_a286fd745e1ee3b21bb3c8015321b4724"><div class="ttname"><a href="structtc_1_1bn_1_1be64.html#a286fd745e1ee3b21bb3c8015321b4724">tc::bn::be64::unwrap</a></div><div class="ttdeci">T unwrap() const</div><div class="ttdoc">Unwrap value.</div><div class="ttdef"><b>Definition:</b> <a href="endian__types_8h_source.html#l00221">endian_types.h:221</a></div></div>
+<div class="ttc" id="astructtc_1_1bn_1_1be64_html_a2a996c397ffe73934816ea15a750d1eb"><div class="ttname"><a href="structtc_1_1bn_1_1be64.html#a2a996c397ffe73934816ea15a750d1eb">tc::bn::be64::wrap</a></div><div class="ttdeci">void wrap(const T &amp;var)</div><div class="ttdoc">Wrap value.</div><div class="ttdef"><b>Definition:</b> <a href="endian__types_8h_source.html#l00223">endian_types.h:223</a></div></div>
 <div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="types_8h.html">types.h</a></div><div class="ttdoc">Declaration of generic types used by libtoolchain.</div></div>
-<div class="ttc" id="atypes_8h_html_a11f018d226b5517a1b05e065843af7ae"><div class="ttname"><a href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a></div><div class="ttdeci">uint8_t byte_t</div><div class="ttdoc">Alias uint8_t to byte_t to more explicity indicate its role in memory related contexts.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00026">types.h:26</a></div></div>
+<div class="ttc" id="atypes_8h_html_a11f018d226b5517a1b05e065843af7ae"><div class="ttname"><a href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a></div><div class="ttdeci">uint8_t byte_t</div><div class="ttdoc">Alias uint8_t to byte_t to more explicity indicate its role in memory related contexts.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00027">types.h:27</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

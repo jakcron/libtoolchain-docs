@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.5.2</span>
    </div>
   </td>
  </tr>
@@ -79,6 +79,12 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html">Aes128CbcEncryptedStream</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for reading from a stream that is encrypted with AES128-CBC.  <a href="classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html">Aes128CtrEncryptedStream</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for reading from a stream that is encrypted with AES128-CTR.  <a href="classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1crypto_1_1_aes_encryptor.html">AesEncryptor</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for AES encryption/decryption.  <a href="classtc_1_1crypto_1_1_aes_encryptor.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,6 +304,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ae485ae8c562ece236bb4fde3866ab38e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetc_1_1crypto.html#ae485ae8c562ece236bb4fde3866ab38e">DecryptAes128Ctr</a> (<a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *dst, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *src, size_t size, uint64_t block_number, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *key, size_t key_size, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *iv, size_t iv_size)</td></tr>
 <tr class="memdesc:ae485ae8c562ece236bb4fde3866ab38e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for AES128-CTR decryption.  <a href="namespacetc_1_1crypto.html#ae485ae8c562ece236bb4fde3866ab38e">More...</a><br /></td></tr>
 <tr class="separator:ae485ae8c562ece236bb4fde3866ab38e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb8a9064a44707ee66fc554a3e6368ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetc_1_1crypto.html#adb8a9064a44707ee66fc554a3e6368ce">IncrementCounterAes128Ctr</a> (<a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *counter, uint64_t incr)</td></tr>
+<tr class="memdesc:adb8a9064a44707ee66fc554a3e6368ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for incrementing a AES128-CTR block counter.  <a href="namespacetc_1_1crypto.html#adb8a9064a44707ee66fc554a3e6368ce">More...</a><br /></td></tr>
+<tr class="separator:adb8a9064a44707ee66fc554a3e6368ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79329eb5af220fe04a657090f9e1967d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetc_1_1crypto.html#a79329eb5af220fe04a657090f9e1967d">EncryptAes128Ecb</a> (<a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *dst, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *src, size_t size, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *key, size_t key_size)</td></tr>
 <tr class="memdesc:a79329eb5af220fe04a657090f9e1967d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for AES128-ECB encryption.  <a href="namespacetc_1_1crypto.html#a79329eb5af220fe04a657090f9e1967d">More...</a><br /></td></tr>
 <tr class="separator:a79329eb5af220fe04a657090f9e1967d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -322,6 +331,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad23885c8ff275d84efeef4d9b2afa4bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetc_1_1crypto.html#ad23885c8ff275d84efeef4d9b2afa4bf">DecryptAes192Ctr</a> (<a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *dst, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *src, size_t size, uint64_t block_number, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *key, size_t key_size, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *iv, size_t iv_size)</td></tr>
 <tr class="memdesc:ad23885c8ff275d84efeef4d9b2afa4bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for AES192-CTR decryption.  <a href="namespacetc_1_1crypto.html#ad23885c8ff275d84efeef4d9b2afa4bf">More...</a><br /></td></tr>
 <tr class="separator:ad23885c8ff275d84efeef4d9b2afa4bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57a394f22867002bbdd07a6000a4369b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetc_1_1crypto.html#a57a394f22867002bbdd07a6000a4369b">IncrementCounterAes192Ctr</a> (<a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *counter, uint64_t incr)</td></tr>
+<tr class="memdesc:a57a394f22867002bbdd07a6000a4369b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for incrementing a AES192-CTR block counter.  <a href="namespacetc_1_1crypto.html#a57a394f22867002bbdd07a6000a4369b">More...</a><br /></td></tr>
+<tr class="separator:a57a394f22867002bbdd07a6000a4369b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afaa60145abeeaa10d9d8c3b8cd7acb06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetc_1_1crypto.html#afaa60145abeeaa10d9d8c3b8cd7acb06">EncryptAes192Ecb</a> (<a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *dst, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *src, size_t size, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *key, size_t key_size)</td></tr>
 <tr class="memdesc:afaa60145abeeaa10d9d8c3b8cd7acb06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for AES192-ECB encryption.  <a href="namespacetc_1_1crypto.html#afaa60145abeeaa10d9d8c3b8cd7acb06">More...</a><br /></td></tr>
 <tr class="separator:afaa60145abeeaa10d9d8c3b8cd7acb06"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -340,6 +352,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a46da3fa137a2ddd1b0b4020a4a730b4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetc_1_1crypto.html#a46da3fa137a2ddd1b0b4020a4a730b4d">DecryptAes256Ctr</a> (<a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *dst, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *src, size_t size, uint64_t block_number, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *key, size_t key_size, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *iv, size_t iv_size)</td></tr>
 <tr class="memdesc:a46da3fa137a2ddd1b0b4020a4a730b4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for AES256-CTR decryption.  <a href="namespacetc_1_1crypto.html#a46da3fa137a2ddd1b0b4020a4a730b4d">More...</a><br /></td></tr>
 <tr class="separator:a46da3fa137a2ddd1b0b4020a4a730b4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb5bdb093fb7a25dd88725ffe45a46ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetc_1_1crypto.html#abb5bdb093fb7a25dd88725ffe45a46ad">IncrementCounterAes256Ctr</a> (<a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *counter, uint64_t incr)</td></tr>
+<tr class="memdesc:abb5bdb093fb7a25dd88725ffe45a46ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for incrementing a AES256-CTR block counter.  <a href="namespacetc_1_1crypto.html#abb5bdb093fb7a25dd88725ffe45a46ad">More...</a><br /></td></tr>
+<tr class="separator:abb5bdb093fb7a25dd88725ffe45a46ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a04971055f6e2aebf43b4d5662b6762"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetc_1_1crypto.html#a1a04971055f6e2aebf43b4d5662b6762">EncryptAes256Ecb</a> (<a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *dst, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *src, size_t size, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *key, size_t key_size)</td></tr>
 <tr class="memdesc:a1a04971055f6e2aebf43b4d5662b6762"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for AES256-ECB encryption.  <a href="namespacetc_1_1crypto.html#a1a04971055f6e2aebf43b4d5662b6762">More...</a><br /></td></tr>
 <tr class="separator:a1a04971055f6e2aebf43b4d5662b6762"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5498,6 +5513,162 @@ Functions</h2></td></tr>
 </ul>
 </dd></dl>
 <p>This function calculates the hash value for input passed in the <code><em>data</em></code> array. To calculate the hash value for input split across multiple arrays, use the <a class="el" href="classtc_1_1crypto_1_1_sha512_generator.html">Sha512Generator</a> class. </p>
+
+</div>
+</div>
+<a id="adb8a9064a44707ee66fc554a3e6368ce" name="adb8a9064a44707ee66fc554a3e6368ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb8a9064a44707ee66fc554a3e6368ce">&#9670;&nbsp;</a></span>IncrementCounterAes128Ctr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tc::crypto::IncrementCounterAes128Ctr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *&#160;</td>
+          <td class="paramname"><em>counter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>incr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Utility function for incrementing a AES128-CTR block counter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">counter</td><td>Pointer to block counter to increment. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">incr</td><td>Value to increment the block counter with.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section pre"><dt>Precondition</dt><dd><ul>
+<li><code>counter</code> != nullptr</li>
+</ul>
+</dd></dl>
+<dl class="section post"><dt>Postcondition</dt><dd><ul>
+<li>Block counter <code>counter</code> is incremented by the value of <code>incr</code>.</li>
+</ul>
+</dd></dl>
+<p>This increments the block counter (<code>counter</code>) (used in CTR-Mode as the initialization vector) by the value of <code>incr</code>.</p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classtc_1_1_argument_null_exception.html" title="The exception that is thrown when a null reference is passed to a method that does not accept it as a...">tc::ArgumentNullException</a></td><td><code>counter</code> was null. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a57a394f22867002bbdd07a6000a4369b" name="a57a394f22867002bbdd07a6000a4369b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57a394f22867002bbdd07a6000a4369b">&#9670;&nbsp;</a></span>IncrementCounterAes192Ctr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tc::crypto::IncrementCounterAes192Ctr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *&#160;</td>
+          <td class="paramname"><em>counter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>incr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Utility function for incrementing a AES192-CTR block counter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">counter</td><td>Pointer to block counter to increment. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">incr</td><td>Value to increment the block counter with.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section pre"><dt>Precondition</dt><dd><ul>
+<li><code>counter</code> != nullptr</li>
+</ul>
+</dd></dl>
+<dl class="section post"><dt>Postcondition</dt><dd><ul>
+<li>Block counter <code>counter</code> is incremented by the value of <code>incr</code>.</li>
+</ul>
+</dd></dl>
+<p>This increments the block counter (<code>counter</code>) (used in CTR-Mode as the initialization vector) by the value of <code>incr</code>.</p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classtc_1_1_argument_null_exception.html" title="The exception that is thrown when a null reference is passed to a method that does not accept it as a...">tc::ArgumentNullException</a></td><td><code>counter</code> was null. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abb5bdb093fb7a25dd88725ffe45a46ad" name="abb5bdb093fb7a25dd88725ffe45a46ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb5bdb093fb7a25dd88725ffe45a46ad">&#9670;&nbsp;</a></span>IncrementCounterAes256Ctr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tc::crypto::IncrementCounterAes256Ctr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *&#160;</td>
+          <td class="paramname"><em>counter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>incr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Utility function for incrementing a AES256-CTR block counter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">counter</td><td>Pointer to block counter to increment. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">incr</td><td>Value to increment the block counter with.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section pre"><dt>Precondition</dt><dd><ul>
+<li><code>counter</code> != nullptr</li>
+</ul>
+</dd></dl>
+<dl class="section post"><dt>Postcondition</dt><dd><ul>
+<li>Block counter <code>counter</code> is incremented by the value of <code>incr</code>.</li>
+</ul>
+</dd></dl>
+<p>This increments the block counter (<code>counter</code>) (used in CTR-Mode as the initialization vector) by the value of <code>incr</code>.</p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classtc_1_1_argument_null_exception.html" title="The exception that is thrown when a null reference is passed to a method that does not accept it as a...">tc::ArgumentNullException</a></td><td><code>counter</code> was null. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

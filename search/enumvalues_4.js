@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['open_0',['Open',['../namespacetc_1_1io.html#a56ce7bbd3bfc8e28d4c297fefbe7daddac3bf447eabe632720a3aa1a7ce401274',1,'tc::io']]],
-  ['openorcreate_1',['OpenOrCreate',['../namespacetc_1_1io.html#a56ce7bbd3bfc8e28d4c297fefbe7dadda2e034baee96e72d88dc601ff77b8dd96',1,'tc::io']]]
+  ['native_0',['Native',['../classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7aba925641e0b76c28cc940e8f3ca178d826',1,'tc::io::Path']]]
 ];

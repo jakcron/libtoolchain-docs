@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['xtsencryptor_0',['XtsEncryptor',['../classtc_1_1crypto_1_1_xts_encryptor.html',1,'tc::crypto']]],
-  ['xtsmodeimpl_1',['XtsModeImpl',['../classtc_1_1crypto_1_1detail_1_1_xts_mode_impl.html',1,'tc::crypto::detail']]]
+  ['virtualfilesystem_0',['VirtualFileSystem',['../classtc_1_1io_1_1_virtual_file_system.html',1,'tc::io']]]
 ];

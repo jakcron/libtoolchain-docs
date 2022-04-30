@@ -1,0 +1,5 @@
+<map id="tc::io::IPathResolver" name="tc::io::IPathResolver">
+<area shape="rect" id="node1" title="This is an interface for a class that resolves relative paths to canonical paths." alt="" coords="16,5,185,112"/>
+<area shape="rect" id="node2" href="$classtc_1_1io_1_1_i_portable_path_resolver.html" title="This is an extension for the IPathResolver interface that specifies additional methods for setting th..." alt="" coords="5,160,196,267"/>
+<area shape="rect" id="node3" href="$classtc_1_1io_1_1_basic_path_resolver.html" title="This implementation of IPortablePathResolver resolves a path and current directory to canonical path,..." alt="" coords="15,315,186,509"/>
+</map>

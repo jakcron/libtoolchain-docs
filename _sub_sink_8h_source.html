@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.5.2</span>
    </div>
   </td>
  </tr>
@@ -78,40 +78,42 @@ $(function() {
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;<a class="code" href="_out_of_memory_exception_8h.html">tc/OutOfMemoryException.h</a>&gt;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;<a class="code" href="_object_disposed_exception_8h.html">tc/ObjectDisposedException.h</a>&gt;</span></div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;<a class="code" href="_not_supported_exception_8h.html">tc/NotSupportedException.h</a>&gt;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacetc.html">tc</a> { <span class="keyword">namespace </span>io {</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="classtc_1_1io_1_1_sub_sink.html">   23</a></span><span class="keyword">class </span><a class="code hl_class" href="classtc_1_1io_1_1_sub_sink.html">SubSink</a> : <span class="keyword">public</span> <a class="code hl_class" href="classtc_1_1io_1_1_i_sink.html">tc::io::ISink</a></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>{</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="classtc_1_1io_1_1_sub_sink.html#abc83da454ad2262352b98c742f7567c3">   30</a></span>    <a class="code hl_function" href="classtc_1_1io_1_1_sub_sink.html#abc83da454ad2262352b98c742f7567c3">SubSink</a>();</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno"><a class="line" href="classtc_1_1io_1_1_sub_sink.html#aae0003bbc65a3114d341b02f0b9aabe7">   44</a></span>    <a class="code hl_function" href="classtc_1_1io_1_1_sub_sink.html#aae0003bbc65a3114d341b02f0b9aabe7">SubSink</a>(<span class="keyword">const</span> std::shared_ptr&lt;tc::io::ISink&gt;&amp; sink, int64_t offset, int64_t <a class="code hl_function" href="classtc_1_1io_1_1_sub_sink.html#ae2e4d0693e169ee056981ef63a8e617a">length</a>);</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="classtc_1_1io_1_1_sub_sink.html#ae2e4d0693e169ee056981ef63a8e617a">   47</a></span>    int64_t <a class="code hl_function" href="classtc_1_1io_1_1_sub_sink.html#ae2e4d0693e169ee056981ef63a8e617a">length</a>();</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="classtc_1_1io_1_1_sub_sink.html#aefd85eea63ab0f8703145dd2840e97bf">   53</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classtc_1_1io_1_1_sub_sink.html#aefd85eea63ab0f8703145dd2840e97bf">setLength</a>(int64_t <a class="code hl_function" href="classtc_1_1io_1_1_sub_sink.html#ae2e4d0693e169ee056981ef63a8e617a">length</a>);</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="classtc_1_1io_1_1_sub_sink.html#acb2b06ac919c1c60f720cf980650f088">   66</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_function" href="classtc_1_1io_1_1_sub_sink.html#acb2b06ac919c1c60f720cf980650f088">pushData</a>(<span class="keyword">const</span> <a class="code hl_class" href="classtc_1_1_byte_data.html">tc::ByteData</a>&amp; data, int64_t offset);</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keyword">static</span> <span class="keyword">const</span> std::string kClassName;</div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>    std::shared_ptr&lt;tc::io::ISink&gt; mBaseSink;</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    int64_t mBaseSinkOffset;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    int64_t mSubSinkLength;</div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>};</div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>}} <span class="comment">// namespace tc::io</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;<a class="code" href="_not_implemented_exception_8h.html">tc/NotImplementedException.h</a>&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacetc.html">tc</a> { <span class="keyword">namespace </span>io {</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classtc_1_1io_1_1_sub_sink.html">   24</a></span><span class="keyword">class </span><a class="code hl_class" href="classtc_1_1io_1_1_sub_sink.html">SubSink</a> : <span class="keyword">public</span> <a class="code hl_class" href="classtc_1_1io_1_1_i_sink.html">tc::io::ISink</a></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>{</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="classtc_1_1io_1_1_sub_sink.html#abc83da454ad2262352b98c742f7567c3">   31</a></span>    <a class="code hl_function" href="classtc_1_1io_1_1_sub_sink.html#abc83da454ad2262352b98c742f7567c3">SubSink</a>();</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno"><a class="line" href="classtc_1_1io_1_1_sub_sink.html#aae0003bbc65a3114d341b02f0b9aabe7">   45</a></span>    <a class="code hl_function" href="classtc_1_1io_1_1_sub_sink.html#aae0003bbc65a3114d341b02f0b9aabe7">SubSink</a>(<span class="keyword">const</span> std::shared_ptr&lt;tc::io::ISink&gt;&amp; sink, int64_t offset, int64_t <a class="code hl_function" href="classtc_1_1io_1_1_sub_sink.html#ae2e4d0693e169ee056981ef63a8e617a">length</a>);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classtc_1_1io_1_1_sub_sink.html#ae2e4d0693e169ee056981ef63a8e617a">   48</a></span>    int64_t <a class="code hl_function" href="classtc_1_1io_1_1_sub_sink.html#ae2e4d0693e169ee056981ef63a8e617a">length</a>();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classtc_1_1io_1_1_sub_sink.html#aefd85eea63ab0f8703145dd2840e97bf">   54</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classtc_1_1io_1_1_sub_sink.html#aefd85eea63ab0f8703145dd2840e97bf">setLength</a>(int64_t <a class="code hl_function" href="classtc_1_1io_1_1_sub_sink.html#ae2e4d0693e169ee056981ef63a8e617a">length</a>);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno"><a class="line" href="classtc_1_1io_1_1_sub_sink.html#acb2b06ac919c1c60f720cf980650f088">   67</a></span>    <span class="keywordtype">size_t</span> <a class="code hl_function" href="classtc_1_1io_1_1_sub_sink.html#acb2b06ac919c1c60f720cf980650f088">pushData</a>(<span class="keyword">const</span> <a class="code hl_class" href="classtc_1_1_byte_data.html">tc::ByteData</a>&amp; data, int64_t offset);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <span class="keyword">static</span> <span class="keyword">const</span> std::string kClassName;</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    std::shared_ptr&lt;tc::io::ISink&gt; mBaseSink;</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    int64_t mBaseSinkOffset;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    int64_t mSubSinkLength;</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>};</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span> </div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>}} <span class="comment">// namespace tc::io</span></div>
 <div class="ttc" id="a_argument_null_exception_8h_html"><div class="ttname"><a href="_argument_null_exception_8h.html">ArgumentNullException.h</a></div><div class="ttdoc">Declaration of tc::ArgumentNullException.</div></div>
 <div class="ttc" id="a_argument_out_of_range_exception_8h_html"><div class="ttname"><a href="_argument_out_of_range_exception_8h.html">ArgumentOutOfRangeException.h</a></div><div class="ttdoc">Declaration of tc::ArgumentOutOfRangeException.</div></div>
 <div class="ttc" id="a_i_sink_8h_html"><div class="ttname"><a href="_i_sink_8h.html">ISink.h</a></div><div class="ttdoc">Declaration of tc::io::ISink.</div></div>
+<div class="ttc" id="a_not_implemented_exception_8h_html"><div class="ttname"><a href="_not_implemented_exception_8h.html">NotImplementedException.h</a></div><div class="ttdoc">Declaration of tc::NotImplementedException.</div></div>
 <div class="ttc" id="a_not_supported_exception_8h_html"><div class="ttname"><a href="_not_supported_exception_8h.html">NotSupportedException.h</a></div><div class="ttdoc">Declaration of tc::NotSupportedException.</div></div>
 <div class="ttc" id="a_object_disposed_exception_8h_html"><div class="ttname"><a href="_object_disposed_exception_8h.html">ObjectDisposedException.h</a></div><div class="ttdoc">Declaration of tc::ObjectDisposedException.</div></div>
 <div class="ttc" id="a_out_of_memory_exception_8h_html"><div class="ttname"><a href="_out_of_memory_exception_8h.html">OutOfMemoryException.h</a></div><div class="ttdoc">Declaration of tc::OutOfMemoryException.</div></div>
 <div class="ttc" id="aclasstc_1_1_byte_data_html"><div class="ttname"><a href="classtc_1_1_byte_data.html">tc::ByteData</a></div><div class="ttdoc">A container of linear memory, used to hold raw data.</div><div class="ttdef"><b>Definition:</b> <a href="_byte_data_8h_source.html#l00019">ByteData.h:20</a></div></div>
 <div class="ttc" id="aclasstc_1_1io_1_1_i_sink_html"><div class="ttname"><a href="classtc_1_1io_1_1_i_sink.html">tc::io::ISink</a></div><div class="ttdoc">An interface defining a byte data sink.</div><div class="ttdef"><b>Definition:</b> <a href="_i_sink_8h_source.html#l00019">ISink.h:20</a></div></div>
-<div class="ttc" id="aclasstc_1_1io_1_1_sub_sink_html"><div class="ttname"><a href="classtc_1_1io_1_1_sub_sink.html">tc::io::SubSink</a></div><div class="ttdoc">A ISink that exposes a subset of a base ISink.</div><div class="ttdef"><b>Definition:</b> <a href="_sub_sink_8h_source.html#l00023">SubSink.h:24</a></div></div>
+<div class="ttc" id="aclasstc_1_1io_1_1_sub_sink_html"><div class="ttname"><a href="classtc_1_1io_1_1_sub_sink.html">tc::io::SubSink</a></div><div class="ttdoc">A ISink that exposes a subset of a base ISink.</div><div class="ttdef"><b>Definition:</b> <a href="_sub_sink_8h_source.html#l00024">SubSink.h:25</a></div></div>
 <div class="ttc" id="aclasstc_1_1io_1_1_sub_sink_html_aae0003bbc65a3114d341b02f0b9aabe7"><div class="ttname"><a href="classtc_1_1io_1_1_sub_sink.html#aae0003bbc65a3114d341b02f0b9aabe7">tc::io::SubSink::SubSink</a></div><div class="ttdeci">SubSink(const std::shared_ptr&lt; tc::io::ISink &gt; &amp;sink, int64_t offset, int64_t length)</div><div class="ttdoc">Create SubSink.</div></div>
 <div class="ttc" id="aclasstc_1_1io_1_1_sub_sink_html_abc83da454ad2262352b98c742f7567c3"><div class="ttname"><a href="classtc_1_1io_1_1_sub_sink.html#abc83da454ad2262352b98c742f7567c3">tc::io::SubSink::SubSink</a></div><div class="ttdeci">SubSink()</div><div class="ttdoc">Default constructor.</div></div>
 <div class="ttc" id="aclasstc_1_1io_1_1_sub_sink_html_acb2b06ac919c1c60f720cf980650f088"><div class="ttname"><a href="classtc_1_1io_1_1_sub_sink.html#acb2b06ac919c1c60f720cf980650f088">tc::io::SubSink::pushData</a></div><div class="ttdeci">size_t pushData(const tc::ByteData &amp;data, int64_t offset)</div><div class="ttdoc">Push data to the sink.</div></div>

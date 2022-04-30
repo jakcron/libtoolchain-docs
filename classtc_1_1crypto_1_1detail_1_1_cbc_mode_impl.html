@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.5.2</span>
    </div>
   </td>
  </tr>
@@ -83,6 +83,8 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ad82946d5d4f643a7f8f2ca4dc0f4b8ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1crypto_1_1detail_1_1_cbc_mode_impl.html#ad82946d5d4f643a7f8f2ca4dc0f4b8ac">initialize</a> (const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *key, size_t key_size, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *iv, size_t iv_size)</td></tr>
 <tr class="separator:ad82946d5d4f643a7f8f2ca4dc0f4b8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25f5a1687f5e803891c50f0ac48347e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1crypto_1_1detail_1_1_cbc_mode_impl.html#a25f5a1687f5e803891c50f0ac48347e1">update_iv</a> (const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *iv, size_t iv_size)</td></tr>
+<tr class="separator:a25f5a1687f5e803891c50f0ac48347e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af67631ccd76682dc24a58bfe7de26e74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1crypto_1_1detail_1_1_cbc_mode_impl.html#af67631ccd76682dc24a58bfe7de26e74">encrypt</a> (<a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *dst, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *src, size_t size)</td></tr>
 <tr class="separator:af67631ccd76682dc24a58bfe7de26e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a336ffa576db559f6b90e52f4ed802cad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1crypto_1_1detail_1_1_cbc_mode_impl.html#a336ffa576db559f6b90e52f4ed802cad">decrypt</a> (<a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *dst, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *src, size_t size)</td></tr>
@@ -187,7 +189,7 @@ template&lt;class BlockCipher &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_cbc_mode_impl_8h_source.html#l00082">82</a> of file <a class="el" href="_cbc_mode_impl_8h_source.html">CbcModeImpl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cbc_mode_impl_8h_source.html#l00091">91</a> of file <a class="el" href="_cbc_mode_impl_8h_source.html">CbcModeImpl.h</a>.</p>
 
 </div>
 </div>
@@ -233,7 +235,7 @@ template&lt;class BlockCipher &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_cbc_mode_impl_8h_source.html#l00059">59</a> of file <a class="el" href="_cbc_mode_impl_8h_source.html">CbcModeImpl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cbc_mode_impl_8h_source.html#l00068">68</a> of file <a class="el" href="_cbc_mode_impl_8h_source.html">CbcModeImpl.h</a>.</p>
 
 </div>
 </div>
@@ -286,6 +288,46 @@ template&lt;class BlockCipher &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_cbc_mode_impl_8h_source.html#l00047">47</a> of file <a class="el" href="_cbc_mode_impl_8h_source.html">CbcModeImpl.h</a>.</p>
+
+</div>
+</div>
+<a id="a25f5a1687f5e803891c50f0ac48347e1" name="a25f5a1687f5e803891c50f0ac48347e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25f5a1687f5e803891c50f0ac48347e1">&#9670;&nbsp;</a></span>update_iv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class BlockCipher &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classtc_1_1crypto_1_1detail_1_1_cbc_mode_impl.html">tc::crypto::detail::CbcModeImpl</a>&lt; BlockCipher &gt;::update_iv </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *&#160;</td>
+          <td class="paramname"><em>iv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>iv_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_cbc_mode_impl_8h_source.html#l00059">59</a> of file <a class="el" href="_cbc_mode_impl_8h_source.html">CbcModeImpl.h</a>.</p>
 
 </div>
 </div>

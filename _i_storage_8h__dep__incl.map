@@ -1,7 +1,0 @@
-<map id="tc/io/IStorage.h" name="tc/io/IStorage.h">
-<area shape="rect" id="node1" title="Declaration of tc::io::IStorage." alt="" coords="35,5,146,32"/>
-<area shape="rect" id="node2" href="$io_8h.html" title="Declaration of the input/output library." alt="" coords="61,155,120,181"/>
-<area shape="rect" id="node4" href="$_local_storage_8h.html" title="Declaration of tc::io::LocalStorage." alt="" coords="21,80,160,107"/>
-<area shape="rect" id="node5" href="$_sub_storage_8h.html" title="Declaration of tc::io::SubStorage." alt="" coords="184,80,314,107"/>
-<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="68,229,112,256"/>
-</map>

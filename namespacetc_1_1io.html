@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.5.2</span>
    </div>
   </td>
  </tr>
@@ -78,6 +78,12 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_basic_path_resolver.html">BasicPathResolver</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This implementation of <a class="el" href="classtc_1_1io_1_1_i_portable_path_resolver.html" title="This is an extension for the IPathResolver interface that specifies additional methods for setting th...">IPortablePathResolver</a> resolves a path and current directory to canonical path, resolving only '<code>.</code>', '<code>..</code>' and empty path elements.  <a href="classtc_1_1io_1_1_basic_path_resolver.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_concatenated_stream.html">ConcatenatedStream</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A stream that concatenates multiple streams into a single stream.  <a href="classtc_1_1io_1_1_concatenated_stream.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_directory_not_empty_exception.html">DirectoryNotEmptyException</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The exception that is thrown when a directory is not empty.  <a href="classtc_1_1io_1_1_directory_not_empty_exception.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -93,11 +99,20 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_file_stream.html">FileStream</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An implementation of <a class="el" href="classtc_1_1io_1_1_i_stream.html" title="An interface for implementing a basic data stream handler.">IStream</a> as a wrapper to local OS file access functions.  <a href="classtc_1_1io_1_1_file_stream.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_i_file_system.html">IFileSystem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An interface for implementing a basic FileSystem handler.  <a href="classtc_1_1io_1_1_i_file_system.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_i_o_exception.html">IOException</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The exception that is thrown when an I/O error occurs.  <a href="classtc_1_1io_1_1_i_o_exception.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_i_o_util.html">IOUtil</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility functions for IO based classes.  <a href="classtc_1_1io_1_1_i_o_util.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_i_path_resolver.html">IPathResolver</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is an interface for a class that resolves relative paths to canonical paths.  <a href="classtc_1_1io_1_1_i_path_resolver.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_i_portable_path_resolver.html">IPortablePathResolver</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is an extension for the <a class="el" href="classtc_1_1io_1_1_i_path_resolver.html" title="This is an interface for a class that resolves relative paths to canonical paths.">IPathResolver</a> interface that specifies additional methods for setting the current directory. For more information see <a class="el" href="classtc_1_1io_1_1_i_path_resolver.html">tc::io::IPathResolver</a>.  <a href="classtc_1_1io_1_1_i_portable_path_resolver.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_i_readable_sink.html">IReadableSink</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An interface defining a byte data sink that can be also provide an <a class="el" href="classtc_1_1io_1_1_i_source.html" title="An interface defining a byte data source.">ISource</a>.  <a href="classtc_1_1io_1_1_i_readable_sink.html#details">More...</a><br /></td></tr>
@@ -108,14 +123,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_i_source.html">ISource</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An interface defining a byte data source.  <a href="classtc_1_1io_1_1_i_source.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_i_storage.html">IStorage</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An interface for implementing a basic FileSystem handler.  <a href="classtc_1_1io_1_1_i_storage.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_i_stream.html">IStream</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An interface for implementing a basic data stream handler.  <a href="classtc_1_1io_1_1_i_stream.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_local_storage.html">LocalStorage</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An <a class="el" href="classtc_1_1io_1_1_i_storage.html" title="An interface for implementing a basic FileSystem handler.">IStorage</a> wrapper around the existing OS FileSystem API.  <a href="classtc_1_1io_1_1_local_storage.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_local_file_system.html">LocalFileSystem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An <a class="el" href="classtc_1_1io_1_1_i_file_system.html" title="An interface for implementing a basic FileSystem handler.">IFileSystem</a> wrapper around the existing OS FileSystem API.  <a href="classtc_1_1io_1_1_local_file_system.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_memory_source.html">MemorySource</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A block of run-time memory wrapped as an <a class="el" href="classtc_1_1io_1_1_i_source.html" title="An interface defining a byte data source.">ISource</a> object.  <a href="classtc_1_1io_1_1_memory_source.html#details">More...</a><br /></td></tr>
@@ -150,17 +162,20 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_stream_util.html">StreamUtil</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility class for <a class="el" href="classtc_1_1io_1_1_i_stream.html" title="An interface for implementing a basic data stream handler.">IStream</a> objects.  <a href="classtc_1_1io_1_1_stream_util.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_sub_file_system.html">SubFileSystem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A wrapper around an existing <a class="el" href="classtc_1_1io_1_1_i_file_system.html" title="An interface for implementing a basic FileSystem handler.">IFileSystem</a> object that exposes a subset of the base <a class="el" href="classtc_1_1io_1_1_i_file_system.html" title="An interface for implementing a basic FileSystem handler.">IFileSystem</a> directory tree.  <a href="classtc_1_1io_1_1_sub_file_system.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_sub_sink.html">SubSink</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classtc_1_1io_1_1_i_sink.html" title="An interface defining a byte data sink.">ISink</a> that exposes a subset of a base <a class="el" href="classtc_1_1io_1_1_i_sink.html" title="An interface defining a byte data sink.">ISink</a>.  <a href="classtc_1_1io_1_1_sub_sink.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_sub_source.html">SubSource</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A <a class="el" href="classtc_1_1io_1_1_i_source.html" title="An interface defining a byte data source.">ISource</a> that exposes a subset of a base <a class="el" href="classtc_1_1io_1_1_i_source.html" title="An interface defining a byte data source.">ISource</a>.  <a href="classtc_1_1io_1_1_sub_source.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_sub_storage.html">SubStorage</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A wrapper around an existing <a class="el" href="classtc_1_1io_1_1_i_storage.html" title="An interface for implementing a basic FileSystem handler.">IStorage</a> object that exposes a subset of the base <a class="el" href="classtc_1_1io_1_1_i_storage.html" title="An interface for implementing a basic FileSystem handler.">IStorage</a> directory tree.  <a href="classtc_1_1io_1_1_sub_storage.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_sub_stream.html">SubStream</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A wrapper around an existing <a class="el" href="classtc_1_1io_1_1_i_stream.html" title="An interface for implementing a basic data stream handler.">IStream</a> object that exposes a subset of the base the <a class="el" href="classtc_1_1io_1_1_i_stream.html" title="An interface for implementing a basic data stream handler.">IStream</a> object.  <a href="classtc_1_1io_1_1_sub_stream.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_virtual_file_system.html">VirtualFileSystem</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A virtual read-only file-system created using a file-system snapshot.  <a href="classtc_1_1io_1_1_virtual_file_system.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>

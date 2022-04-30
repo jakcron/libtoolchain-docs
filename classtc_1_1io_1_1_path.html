@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.5.2</span>
    </div>
   </td>
  </tr>
@@ -82,6 +82,12 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
+<tr class="memitem:a4c991c35f27486a84dc0e8b8d438f7ab"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7ab">Format</a> { <a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7aba925641e0b76c28cc940e8f3ca178d826">Native</a> = 0
+, <a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7aba0028405011724c5677faba466637b1e5">POSIX</a> = 1
+, <a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7abaa99913111481b4f0bcb70e08e3e99405">Win32</a> = 2
+ }</td></tr>
+<tr class="memdesc:a4c991c35f27486a84dc0e8b8d438f7ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum defines the <a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a> format type, used for encoding to string.  <a href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7ab">More...</a><br /></td></tr>
+<tr class="separator:a4c991c35f27486a84dc0e8b8d438f7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8f670e9bb827872d65a4ec9ab4b3278"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_path.html#ae8f670e9bb827872d65a4ec9ab4b3278">const_iterator</a> = typename std::list&lt; std::string &gt;::const_iterator</td></tr>
 <tr class="memdesc:ae8f670e9bb827872d65a4ec9ab4b3278"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type of const_iterator for <a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a>.  <a href="classtc_1_1io_1_1_path.html#ae8f670e9bb827872d65a4ec9ab4b3278">More...</a><br /></td></tr>
 <tr class="separator:ae8f670e9bb827872d65a4ec9ab4b3278"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -95,6 +101,10 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>Path</b> ()</td></tr>
 <tr class="memdesc:a48475c68fbc03b5a147647acbd803dfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default Constructor. <br /></td></tr>
 <tr class="separator:a48475c68fbc03b5a147647acbd803dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6d3a3b0f602f7ead734e662bb5cdaae"><td class="memItemLeft" align="right" valign="top"><a id="aa6d3a3b0f602f7ead734e662bb5cdaae" name="aa6d3a3b0f602f7ead734e662bb5cdaae"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>Path</b> (std::initializer_list&lt; std::string &gt; list)</td></tr>
+<tr class="memdesc:aa6d3a3b0f602f7ead734e662bb5cdaae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalizer List Constructor. <br /></td></tr>
+<tr class="separator:aa6d3a3b0f602f7ead734e662bb5cdaae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1341d49a855b387a2017a058c168047"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_path.html#ab1341d49a855b387a2017a058c168047">Path</a> (const std::string &amp;path)</td></tr>
 <tr class="memdesc:ab1341d49a855b387a2017a058c168047"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create <a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a> from a literal UTF-8 encoded string.  <a href="classtc_1_1io_1_1_path.html#ab1341d49a855b387a2017a058c168047">More...</a><br /></td></tr>
 <tr class="separator:ab1341d49a855b387a2017a058c168047"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,6 +130,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (const
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const <a class="el" href="classtc_1_1io_1_1_path.html">Path</a> &amp;other) const</td></tr>
 <tr class="memdesc:ae7a76caf86c8688ec9e6266420bdb608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality operator. <br /></td></tr>
 <tr class="separator:ae7a76caf86c8688ec9e6266420bdb608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef521338d8e80fa1d24fcbc7c5bea904"><td class="memItemLeft" align="right" valign="top"><a id="aef521338d8e80fa1d24fcbc7c5bea904" name="aef521338d8e80fa1d24fcbc7c5bea904"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;</b> (const <a class="el" href="classtc_1_1io_1_1_path.html">Path</a> &amp;other) const</td></tr>
+<tr class="memdesc:aef521338d8e80fa1d24fcbc7c5bea904"><td class="mdescLeft">&#160;</td><td class="mdescRight">Comparison operator. <br /></td></tr>
+<tr class="separator:aef521338d8e80fa1d24fcbc7c5bea904"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73681d459051c8241e9bcb1ab21681cf"><td class="memItemLeft" align="right" valign="top">std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_path.html#a73681d459051c8241e9bcb1ab21681cf">front</a> ()</td></tr>
 <tr class="memdesc:a73681d459051c8241e9bcb1ab21681cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the first element in the container.  <a href="classtc_1_1io_1_1_path.html#a73681d459051c8241e9bcb1ab21681cf">More...</a><br /></td></tr>
 <tr class="separator:a73681d459051c8241e9bcb1ab21681cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,13 +162,11 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (const
 <a class="el" href="classtc_1_1io_1_1_path.html#ae8f670e9bb827872d65a4ec9ab4b3278">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>end</b> () const</td></tr>
 <tr class="memdesc:a5db6e70d957e749290d8d60182066003"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const End Iterator, points to after the last element. <br /></td></tr>
 <tr class="separator:a5db6e70d957e749290d8d60182066003"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5865d040213e143c6dd856ed76a1a82a"><td class="memItemLeft" align="right" valign="top"><a id="a5865d040213e143c6dd856ed76a1a82a" name="a5865d040213e143c6dd856ed76a1a82a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>pop_front</b> ()</td></tr>
-<tr class="memdesc:a5865d040213e143c6dd856ed76a1a82a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove element at the front of the path. <br /></td></tr>
+<tr class="memitem:a5865d040213e143c6dd856ed76a1a82a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_path.html#a5865d040213e143c6dd856ed76a1a82a">pop_front</a> ()</td></tr>
+<tr class="memdesc:a5865d040213e143c6dd856ed76a1a82a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove element at the front of the path.  <a href="classtc_1_1io_1_1_path.html#a5865d040213e143c6dd856ed76a1a82a">More...</a><br /></td></tr>
 <tr class="separator:a5865d040213e143c6dd856ed76a1a82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b620530940e6c36c8e14032fda49b0a"><td class="memItemLeft" align="right" valign="top"><a id="a6b620530940e6c36c8e14032fda49b0a" name="a6b620530940e6c36c8e14032fda49b0a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>pop_back</b> ()</td></tr>
-<tr class="memdesc:a6b620530940e6c36c8e14032fda49b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove element at the back of the path. <br /></td></tr>
+<tr class="memitem:a6b620530940e6c36c8e14032fda49b0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_path.html#a6b620530940e6c36c8e14032fda49b0a">pop_back</a> ()</td></tr>
+<tr class="memdesc:a6b620530940e6c36c8e14032fda49b0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove element at the back of the path.  <a href="classtc_1_1io_1_1_path.html#a6b620530940e6c36c8e14032fda49b0a">More...</a><br /></td></tr>
 <tr class="separator:a6b620530940e6c36c8e14032fda49b0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6631eeedd4fee213f2a60b0a2783f5da"><td class="memItemLeft" align="right" valign="top"><a id="a6631eeedd4fee213f2a60b0a2783f5da" name="a6631eeedd4fee213f2a60b0a2783f5da"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>push_front</b> (const std::string &amp;str)</td></tr>
@@ -172,19 +184,49 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> () const</td></tr>
 <tr class="memdesc:af50eae6252e24ebfff2f8905b450e9d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get number of path elements. <br /></td></tr>
 <tr class="separator:af50eae6252e24ebfff2f8905b450e9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75b85670fc9438579e5d0491c4a393a1"><td class="memItemLeft" align="right" valign="top"><a id="a75b85670fc9438579e5d0491c4a393a1" name="a75b85670fc9438579e5d0491c4a393a1"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>empty</b> () const</td></tr>
+<tr class="memdesc:a75b85670fc9438579e5d0491c4a393a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the path is empty. <br /></td></tr>
+<tr class="separator:a75b85670fc9438579e5d0491c4a393a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76d118935f39c6d49c4864ed9ce6c606"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtc_1_1io_1_1_path.html">tc::io::Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_path.html#a76d118935f39c6d49c4864ed9ce6c606">subpath</a> (size_t pos, size_t len=<a class="el" href="classtc_1_1io_1_1_path.html#a7479ebe3e98ba982fede65ed156837b1">npos</a>) const</td></tr>
+<tr class="memdesc:a76d118935f39c6d49c4864ed9ce6c606"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a path from a subset of this path.  <a href="classtc_1_1io_1_1_path.html#a76d118935f39c6d49c4864ed9ce6c606">More...</a><br /></td></tr>
+<tr class="separator:a76d118935f39c6d49c4864ed9ce6c606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b6478f7a3c9dbf33bfe66c998dda95d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classtc_1_1io_1_1_path.html">tc::io::Path</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_path.html#a7b6478f7a3c9dbf33bfe66c998dda95d">subpath</a> (<a class="el" href="classtc_1_1io_1_1_path.html#ae8f670e9bb827872d65a4ec9ab4b3278">const_iterator</a> <a class="el" href="classtc_1_1io_1_1_path.html#a3877ff0e3c32c76b2ef4ee638cb11a53">begin</a>, <a class="el" href="classtc_1_1io_1_1_path.html#ae8f670e9bb827872d65a4ec9ab4b3278">const_iterator</a> <a class="el" href="classtc_1_1io_1_1_path.html#a1991d1a48aa441d72a61ba7f40efdddc">end</a>) const</td></tr>
+<tr class="memdesc:a7b6478f7a3c9dbf33bfe66c998dda95d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a path from a subset of this path.  <a href="classtc_1_1io_1_1_path.html#a7b6478f7a3c9dbf33bfe66c998dda95d">More...</a><br /></td></tr>
+<tr class="separator:a7b6478f7a3c9dbf33bfe66c998dda95d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41605a51d0e5425dd1bfceeea76913ff"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_path.html#a41605a51d0e5425dd1bfceeea76913ff">to_string</a> (<a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7ab">Format</a> format=<a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7aba925641e0b76c28cc940e8f3ca178d826">Format::Native</a>) const</td></tr>
+<tr class="memdesc:a41605a51d0e5425dd1bfceeea76913ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert path to std::string.  <a href="classtc_1_1io_1_1_path.html#a41605a51d0e5425dd1bfceeea76913ff">More...</a><br /></td></tr>
+<tr class="separator:a41605a51d0e5425dd1bfceeea76913ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa924dcccf5734868e915638ab7da404a"><td class="memItemLeft" align="right" valign="top">std::u16string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_path.html#aa924dcccf5734868e915638ab7da404a">to_u16string</a> (<a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7ab">Format</a> format=<a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7aba925641e0b76c28cc940e8f3ca178d826">Format::Native</a>) const</td></tr>
+<tr class="memdesc:aa924dcccf5734868e915638ab7da404a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert path to std::u16string.  <a href="classtc_1_1io_1_1_path.html#aa924dcccf5734868e915638ab7da404a">More...</a><br /></td></tr>
+<tr class="separator:aa924dcccf5734868e915638ab7da404a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15c0618f73e836c410e45cfd077a7eab"><td class="memItemLeft" align="right" valign="top">std::u32string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_path.html#a15c0618f73e836c410e45cfd077a7eab">to_u32string</a> (<a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7ab">Format</a> format=<a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7aba925641e0b76c28cc940e8f3ca178d826">Format::Native</a>) const</td></tr>
+<tr class="memdesc:a15c0618f73e836c410e45cfd077a7eab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert path to std::u32string.  <a href="classtc_1_1io_1_1_path.html#a15c0618f73e836c410e45cfd077a7eab">More...</a><br /></td></tr>
+<tr class="separator:a15c0618f73e836c410e45cfd077a7eab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5417e9211d3896a28b12b3216285ac99"><td class="memItemLeft" align="right" valign="top"><a id="a5417e9211d3896a28b12b3216285ac99" name="a5417e9211d3896a28b12b3216285ac99"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator std::string</b> () const</td></tr>
+<tr class="memdesc:a5417e9211d3896a28b12b3216285ac99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implicit conversion to a natively formatted std::string. <br /></td></tr>
+<tr class="separator:a5417e9211d3896a28b12b3216285ac99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3bba4c75358617b4481fabf64afe830"><td class="memItemLeft" align="right" valign="top"><a id="ae3bba4c75358617b4481fabf64afe830" name="ae3bba4c75358617b4481fabf64afe830"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator std::u16string</b> () const</td></tr>
+<tr class="memdesc:ae3bba4c75358617b4481fabf64afe830"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implicit conversion to a natively formatted std::u16string. <br /></td></tr>
+<tr class="separator:ae3bba4c75358617b4481fabf64afe830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6db2a845daf2c47e1e14a3eea5a5ee51"><td class="memItemLeft" align="right" valign="top"><a id="a6db2a845daf2c47e1e14a3eea5a5ee51" name="a6db2a845daf2c47e1e14a3eea5a5ee51"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>operator std::u32string</b> () const</td></tr>
+<tr class="memdesc:a6db2a845daf2c47e1e14a3eea5a5ee51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implicit conversion to a natively formatted std::u32string. <br /></td></tr>
+<tr class="separator:a6db2a845daf2c47e1e14a3eea5a5ee51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a0020f1dab69a2866f8cfaed9b6e63526"><td class="memItemLeft" align="right" valign="top">static const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_path.html#a0020f1dab69a2866f8cfaed9b6e63526">kWindowsPathDelimiter</a> = '\\'</td></tr>
-<tr class="separator:a0020f1dab69a2866f8cfaed9b6e63526"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d2690c75ef4a26ecc718406ed9b4715"><td class="memItemLeft" align="right" valign="top">static const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_path.html#a9d2690c75ef4a26ecc718406ed9b4715">kUnixPathDelimiter</a> = '/'</td></tr>
-<tr class="separator:a9d2690c75ef4a26ecc718406ed9b4715"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7479ebe3e98ba982fede65ed156837b1"><td class="memItemLeft" align="right" valign="top">static const size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1io_1_1_path.html#a7479ebe3e98ba982fede65ed156837b1">npos</a> = -1</td></tr>
+<tr class="memdesc:a7479ebe3e98ba982fede65ed156837b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum value for size_t, used to indicated unbounded length for <a class="el" href="classtc_1_1io_1_1_path.html#a76d118935f39c6d49c4864ed9ce6c606">subpath()</a>  <a href="classtc_1_1io_1_1_path.html#a7479ebe3e98ba982fede65ed156837b1">More...</a><br /></td></tr>
+<tr class="separator:a7479ebe3e98ba982fede65ed156837b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Represents a unicode path for a filesystem. </p>
 <p >This stores a path as a list of path elements. </p>
 
-<p class="definition">Definition at line <a class="el" href="_path_8h_source.html#l00020">20</a> of file <a class="el" href="_path_8h_source.html">Path.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_path_8h_source.html#l00022">22</a> of file <a class="el" href="_path_8h_source.html">Path.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ae8f670e9bb827872d65a4ec9ab4b3278" name="ae8f670e9bb827872d65a4ec9ab4b3278"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae8f670e9bb827872d65a4ec9ab4b3278">&#9670;&nbsp;</a></span>const_iterator</h2>
@@ -200,7 +242,7 @@ Static Public Attributes</h2></td></tr>
 
 <p>Type of const_iterator for <a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_path_8h_source.html#l00027">27</a> of file <a class="el" href="_path_8h_source.html">Path.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_path_8h_source.html#l00040">40</a> of file <a class="el" href="_path_8h_source.html">Path.h</a>.</p>
 
 </div>
 </div>
@@ -218,7 +260,43 @@ Static Public Attributes</h2></td></tr>
 
 <p>Type of iterator for <a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_path_8h_source.html#l00030">30</a> of file <a class="el" href="_path_8h_source.html">Path.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_path_8h_source.html#l00043">43</a> of file <a class="el" href="_path_8h_source.html">Path.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a4c991c35f27486a84dc0e8b8d438f7ab" name="a4c991c35f27486a84dc0e8b8d438f7ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c991c35f27486a84dc0e8b8d438f7ab">&#9670;&nbsp;</a></span>Format</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum class <a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7ab">tc::io::Path::Format</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This enum defines the <a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a> format type, used for encoding to string. </p>
+<p >This defines the encoding type used when encoding <a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a> as a string. See <a class="el" href="classtc_1_1io_1_1_path.html#a41605a51d0e5425dd1bfceeea76913ff">to_string()</a>, <a class="el" href="classtc_1_1io_1_1_path.html#aa924dcccf5734868e915638ab7da404a">to_u16string()</a> and <a class="el" href="classtc_1_1io_1_1_path.html#a15c0618f73e836c410e45cfd077a7eab">to_u32string()</a> for more info. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4c991c35f27486a84dc0e8b8d438f7aba925641e0b76c28cc940e8f3ca178d826" name="a4c991c35f27486a84dc0e8b8d438f7aba925641e0b76c28cc940e8f3ca178d826"></a>Native&#160;</td><td class="fielddoc"><p ><a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a> format for the native environment </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4c991c35f27486a84dc0e8b8d438f7aba0028405011724c5677faba466637b1e5" name="a4c991c35f27486a84dc0e8b8d438f7aba0028405011724c5677faba466637b1e5"></a>POSIX&#160;</td><td class="fielddoc"><p ><a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a> format for POSIX based environments (Unix, Linux, macOS, WSL, etc) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a4c991c35f27486a84dc0e8b8d438f7abaa99913111481b4f0bcb70e08e3e99405" name="a4c991c35f27486a84dc0e8b8d438f7abaa99913111481b4f0bcb70e08e3e99405"></a>Win32&#160;</td><td class="fielddoc"><p ><a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a> format for Microsoft Windows based environments </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="_path_8h_source.html#l00032">32</a> of file <a class="el" href="_path_8h_source.html">Path.h</a>.</p>
 
 </div>
 </div>
@@ -247,9 +325,15 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section pre"><dt>Precondition</dt><dd><ul>
-<li>path can have either forward or backward slash path delimiters ('/' or '\') but not both</li>
+<li><code>path</code> can have either forward or backward slash path separators ('/' or '\') but not both</li>
 </ul>
 </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classtc_1_1_argument_exception.html" title="The exception that is thrown when one of the arguments provided to a method is not valid.">tc::ArgumentException</a></td><td><a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a> literal has both forward ('/') and backward ('\') path separators.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section note"><dt>Note</dt><dd>No filtering or processing of special characters is done (e.g. '.', '~') </dd></dl>
 
 </div>
@@ -278,9 +362,15 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section pre"><dt>Precondition</dt><dd><ul>
-<li>path can have either forward or backward slash path delimiters ('/' or '\') but not both</li>
+<li><code>path</code> can have either forward or backward slash path separators ('/' or '\') but not both</li>
 </ul>
 </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classtc_1_1_argument_exception.html" title="The exception that is thrown when one of the arguments provided to a method is not valid.">tc::ArgumentException</a></td><td><a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a> literal has both forward ('/') and backward ('\') path separators.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section note"><dt>Note</dt><dd>No filtering or processing of special characters is done (e.g. '.', '~') </dd></dl>
 
 </div>
@@ -309,9 +399,15 @@ Static Public Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section pre"><dt>Precondition</dt><dd><ul>
-<li>path can have either forward or backward slash path delimiters ('/' or '\') but not both</li>
+<li><code>path</code> can have either forward or backward slash path separators ('/' or '\') but not both</li>
 </ul>
 </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classtc_1_1_argument_exception.html" title="The exception that is thrown when one of the arguments provided to a method is not valid.">tc::ArgumentException</a></td><td><a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a> literal has both forward ('/') and backward ('\') path separators.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section note"><dt>Note</dt><dd>No filtering or processing of special characters is done (e.g. '.', '~') </dd></dl>
 
 </div>
@@ -409,9 +505,206 @@ For a <a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unico
 
 </div>
 </div>
+<a id="a6b620530940e6c36c8e14032fda49b0a" name="a6b620530940e6c36c8e14032fda49b0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b620530940e6c36c8e14032fda49b0a">&#9670;&nbsp;</a></span>pop_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tc::io::Path::pop_back </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove element at the back of the path. </p>
+<dl class="section note"><dt>Note</dt><dd>Calling pop_back on an empty container is undefined. </dd></dl>
+
+</div>
+</div>
+<a id="a5865d040213e143c6dd856ed76a1a82a" name="a5865d040213e143c6dd856ed76a1a82a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5865d040213e143c6dd856ed76a1a82a">&#9670;&nbsp;</a></span>pop_front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void tc::io::Path::pop_front </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove element at the front of the path. </p>
+<dl class="section note"><dt>Note</dt><dd>Calling pop_front on an empty container is undefined. </dd></dl>
+
+</div>
+</div>
+<a id="a7b6478f7a3c9dbf33bfe66c998dda95d" name="a7b6478f7a3c9dbf33bfe66c998dda95d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b6478f7a3c9dbf33bfe66c998dda95d">&#9670;&nbsp;</a></span>subpath() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtc_1_1io_1_1_path.html">tc::io::Path</a> tc::io::Path::subpath </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtc_1_1io_1_1_path.html#ae8f670e9bb827872d65a4ec9ab4b3278">const_iterator</a>&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtc_1_1io_1_1_path.html#ae8f670e9bb827872d65a4ec9ab4b3278">const_iterator</a>&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a path from a subset of this path. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">begin</td><td>Iterator pointing to the first element </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">end</td><td>Iterator </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">tc::io::Path</a> Sub-path created from this path. </dd></dl>
+
+</div>
+</div>
+<a id="a76d118935f39c6d49c4864ed9ce6c606" name="a76d118935f39c6d49c4864ed9ce6c606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76d118935f39c6d49c4864ed9ce6c606">&#9670;&nbsp;</a></span>subpath() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtc_1_1io_1_1_path.html">tc::io::Path</a> tc::io::Path::subpath </td>
+          <td>(</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>len</em> = <code><a class="el" href="classtc_1_1io_1_1_path.html#a7479ebe3e98ba982fede65ed156837b1">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a path from a subset of this path. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>Position of first path element </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">len</td><td>Number of path elements. Default value is <a class="el" href="classtc_1_1io_1_1_path.html#a7479ebe3e98ba982fede65ed156837b1">npos</a>, indicating include all path elements after <code>pos</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">tc::io::Path</a> Sub-path created from this path. </dd></dl>
+
+</div>
+</div>
+<a id="a41605a51d0e5425dd1bfceeea76913ff" name="a41605a51d0e5425dd1bfceeea76913ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41605a51d0e5425dd1bfceeea76913ff">&#9670;&nbsp;</a></span>to_string()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string tc::io::Path::to_string </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7ab">Format</a>&#160;</td>
+          <td class="paramname"><em>format</em> = <code><a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7aba925641e0b76c28cc940e8f3ca178d826">Format::Native</a></code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert path to std::string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">format</td><td><a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7ab">tc::io::Path::Format</a> format to encode path as string. Default is <a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7aba925641e0b76c28cc940e8f3ca178d826">tc::io::Path::Format::Native</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::string UTF-8 encoded path string </dd></dl>
+
+</div>
+</div>
+<a id="aa924dcccf5734868e915638ab7da404a" name="aa924dcccf5734868e915638ab7da404a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa924dcccf5734868e915638ab7da404a">&#9670;&nbsp;</a></span>to_u16string()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::u16string tc::io::Path::to_u16string </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7ab">Format</a>&#160;</td>
+          <td class="paramname"><em>format</em> = <code><a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7aba925641e0b76c28cc940e8f3ca178d826">Format::Native</a></code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert path to std::u16string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">format</td><td><a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7ab">tc::io::Path::Format</a> format to encode path as string. Default is <a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7aba925641e0b76c28cc940e8f3ca178d826">tc::io::Path::Format::Native</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::u16string UTF-16 encoded path string </dd></dl>
+
+</div>
+</div>
+<a id="a15c0618f73e836c410e45cfd077a7eab" name="a15c0618f73e836c410e45cfd077a7eab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15c0618f73e836c410e45cfd077a7eab">&#9670;&nbsp;</a></span>to_u32string()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::u32string tc::io::Path::to_u32string </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7ab">Format</a>&#160;</td>
+          <td class="paramname"><em>format</em> = <code><a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7aba925641e0b76c28cc940e8f3ca178d826">Format::Native</a></code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Convert path to std::u32string. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">format</td><td><a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7ab">tc::io::Path::Format</a> format to encode path as string. Default is <a class="el" href="classtc_1_1io_1_1_path.html#a4c991c35f27486a84dc0e8b8d438f7aba925641e0b76c28cc940e8f3ca178d826">tc::io::Path::Format::Native</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::u32string UTF-32 encoded path string </dd></dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a9d2690c75ef4a26ecc718406ed9b4715" name="a9d2690c75ef4a26ecc718406ed9b4715"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d2690c75ef4a26ecc718406ed9b4715">&#9670;&nbsp;</a></span>kUnixPathDelimiter</h2>
+<a id="a7479ebe3e98ba982fede65ed156837b1" name="a7479ebe3e98ba982fede65ed156837b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7479ebe3e98ba982fede65ed156837b1">&#9670;&nbsp;</a></span>npos</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -420,7 +713,7 @@ For a <a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unico
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const char tc::io::Path::kUnixPathDelimiter = '/'</td>
+          <td class="memname">const size_t tc::io::Path::npos = -1</td>
         </tr>
       </table>
   </td>
@@ -429,34 +722,10 @@ For a <a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unico
   </tr>
 </table>
 </div><div class="memdoc">
-<p ><a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a> delimiter used on Linux/Unix based systems </p>
 
-<p class="definition">Definition at line <a class="el" href="_path_8h_source.html#l00024">24</a> of file <a class="el" href="_path_8h_source.html">Path.h</a>.</p>
+<p>Maximum value for size_t, used to indicated unbounded length for <a class="el" href="classtc_1_1io_1_1_path.html#a76d118935f39c6d49c4864ed9ce6c606">subpath()</a> </p>
 
-</div>
-</div>
-<a id="a0020f1dab69a2866f8cfaed9b6e63526" name="a0020f1dab69a2866f8cfaed9b6e63526"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0020f1dab69a2866f8cfaed9b6e63526">&#9670;&nbsp;</a></span>kWindowsPathDelimiter</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const char tc::io::Path::kWindowsPathDelimiter = '\\'</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p ><a class="el" href="classtc_1_1io_1_1_path.html" title="Represents a unicode path for a filesystem.">Path</a> delimiter used on Microsoft Windows based systems </p>
-
-<p class="definition">Definition at line <a class="el" href="_path_8h_source.html#l00023">23</a> of file <a class="el" href="_path_8h_source.html">Path.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_path_8h_source.html#l00046">46</a> of file <a class="el" href="_path_8h_source.html">Path.h</a>.</p>
 
 </div>
 </div>

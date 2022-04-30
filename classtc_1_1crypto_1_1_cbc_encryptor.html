@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.5.2</span>
    </div>
   </td>
  </tr>
@@ -87,6 +87,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a35624bb9407ee1b361d0c86d10004910"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1crypto_1_1_cbc_encryptor.html#a35624bb9407ee1b361d0c86d10004910">initialize</a> (const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *key, size_t key_size, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *iv, size_t iv_size)</td></tr>
 <tr class="memdesc:a35624bb9407ee1b361d0c86d10004910"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the CBC encryption state.  <a href="classtc_1_1crypto_1_1_cbc_encryptor.html#a35624bb9407ee1b361d0c86d10004910">More...</a><br /></td></tr>
 <tr class="separator:a35624bb9407ee1b361d0c86d10004910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eeea3d38996525ab56ae95456cf3b22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1crypto_1_1_cbc_encryptor.html#a3eeea3d38996525ab56ae95456cf3b22">update_iv</a> (const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *iv, size_t iv_size)</td></tr>
+<tr class="memdesc:a3eeea3d38996525ab56ae95456cf3b22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the CBC initialization vector.  <a href="classtc_1_1crypto_1_1_cbc_encryptor.html#a3eeea3d38996525ab56ae95456cf3b22">More...</a><br /></td></tr>
+<tr class="separator:a3eeea3d38996525ab56ae95456cf3b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a869505c0d7ef15442c104c50e4d729b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1crypto_1_1_cbc_encryptor.html#a869505c0d7ef15442c104c50e4d729b5">encrypt</a> (<a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *dst, const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *src, size_t size)</td></tr>
 <tr class="memdesc:a869505c0d7ef15442c104c50e4d729b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encrypt data.  <a href="classtc_1_1crypto_1_1_cbc_encryptor.html#a869505c0d7ef15442c104c50e4d729b5">More...</a><br /></td></tr>
 <tr class="separator:a869505c0d7ef15442c104c50e4d729b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,7 +243,7 @@ template&lt;class BlockCipher &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_cbc_encryptor_8h_source.html#l00142">142</a> of file <a class="el" href="_cbc_encryptor_8h_source.html">CbcEncryptor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cbc_encryptor_8h_source.html#l00168">168</a> of file <a class="el" href="_cbc_encryptor_8h_source.html">CbcEncryptor.h</a>.</p>
 
 </div>
 </div>
@@ -317,7 +320,7 @@ template&lt;class BlockCipher &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_cbc_encryptor_8h_source.html#l00114">114</a> of file <a class="el" href="_cbc_encryptor_8h_source.html">CbcEncryptor.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cbc_encryptor_8h_source.html#l00140">140</a> of file <a class="el" href="_cbc_encryptor_8h_source.html">CbcEncryptor.h</a>.</p>
 
 </div>
 </div>
@@ -404,6 +407,74 @@ template&lt;class BlockCipher &gt; </div>
 </dl>
 
 <p class="definition">Definition at line <a class="el" href="_cbc_encryptor_8h_source.html#l00086">86</a> of file <a class="el" href="_cbc_encryptor_8h_source.html">CbcEncryptor.h</a>.</p>
+
+</div>
+</div>
+<a id="a3eeea3d38996525ab56ae95456cf3b22" name="a3eeea3d38996525ab56ae95456cf3b22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eeea3d38996525ab56ae95456cf3b22">&#9670;&nbsp;</a></span>update_iv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class BlockCipher &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classtc_1_1crypto_1_1_cbc_encryptor.html">tc::crypto::CbcEncryptor</a>&lt; BlockCipher &gt;::update_iv </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *&#160;</td>
+          <td class="paramname"><em>iv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>iv_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates the CBC initialization vector. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">iv</td><td>Pointer to initialization vector. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iv_size</td><td>Size in bytes of initialization vector.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section pre"><dt>Precondition</dt><dd><ul>
+<li><code>iv_size</code> == <a class="el" href="classtc_1_1crypto_1_1_cbc_encryptor.html#a6bf75a724f6d3b6bac104de2e63fc28e">kBlockSize</a>.</li>
+<li>Instance is in a Initialized state.</li>
+</ul>
+</dd></dl>
+<dl class="section post"><dt>Postcondition</dt><dd><ul>
+<li>Initialization vector is updated.</li>
+</ul>
+</dd></dl>
+<p>This updates the CBC state, initializing the initialization vector. The intended use is when data is encrypted/decrypted out of order, so the initialization vector needs to be updated manually.</p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classtc_1_1_argument_null_exception.html" title="The exception that is thrown when a null reference is passed to a method that does not accept it as a...">tc::ArgumentNullException</a></td><td><code>key</code> was null. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classtc_1_1_argument_out_of_range_exception.html" title="The exception that is thrown when the value of an argument is outside the allowable range of values a...">tc::ArgumentOutOfRangeException</a></td><td><code>key_size</code> did not equal kKeySize. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classtc_1_1_argument_null_exception.html" title="The exception that is thrown when a null reference is passed to a method that does not accept it as a...">tc::ArgumentNullException</a></td><td><code>iv</code> was null. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classtc_1_1_argument_out_of_range_exception.html" title="The exception that is thrown when the value of an argument is outside the allowable range of values a...">tc::ArgumentOutOfRangeException</a></td><td><code>iv_size</code> did not equal kBlockSize. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_cbc_encryptor_8h_source.html#l00112">112</a> of file <a class="el" href="_cbc_encryptor_8h_source.html">CbcEncryptor.h</a>.</p>
 
 </div>
 </div>

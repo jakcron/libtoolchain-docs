@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.5.2</span>
    </div>
   </td>
  </tr>
@@ -180,7 +180,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IStream</b> ()=de
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >An implementation of <a class="el" href="classtc_1_1io_1_1_i_stream.html" title="An interface for implementing a basic data stream handler.">IStream</a> as a wrapper to local OS file access functions. </p>
 
-<p class="definition">Definition at line <a class="el" href="_file_stream_8h_source.html#l00039">39</a> of file <a class="el" href="_file_stream_8h_source.html">FileStream.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_file_stream_8h_source.html#l00040">40</a> of file <a class="el" href="_file_stream_8h_source.html">FileStream.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a010a0b5052fe24a6c0b5463729cc984d" name="a010a0b5052fe24a6c0b5463729cc984d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a010a0b5052fe24a6c0b5463729cc984d">&#9670;&nbsp;</a></span>FileStream()</h2>
@@ -228,7 +228,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IStream</b> ()=de
     <tr><td class="paramname"><a class="el" href="classtc_1_1_argument_exception.html" title="The exception that is thrown when one of the arguments provided to a method is not valid.">tc::ArgumentException</a></td><td><code>path</code> contains invalid characters or is empty. </td></tr>
     <tr><td class="paramname"><a class="el" href="classtc_1_1_not_supported_exception.html" title="The exception that is thrown when an invoked method is not supported, or when there is an attempt to ...">tc::NotSupportedException</a></td><td><code>path</code> refers to an unsupported non-file device. </td></tr>
     <tr><td class="paramname"><a class="el" href="classtc_1_1io_1_1_i_o_exception.html" title="The exception that is thrown when an I/O error occurs.">tc::io::IOException</a></td><td>An I/O error, such as specifying <code>mode</code> <em>CreateNew</em> when the file specified by <code>path</code> already exists, occurred. Or the stream has been closed. </td></tr>
-    <tr><td class="paramname">tc::SecurityException</td><td>The caller does not have the required permission. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classtc_1_1_security_exception.html" title="The exception that is thrown when a security error is detected.">tc::SecurityException</a></td><td>The caller does not have the required permission. </td></tr>
     <tr><td class="paramname"><a class="el" href="classtc_1_1io_1_1_directory_not_found_exception.html" title="The exception that is thrown when part of a file or directory cannot be found.">tc::io::DirectoryNotFoundException</a></td><td>The specified path is invalid, such as being on an unmapped drive. </td></tr>
     <tr><td class="paramname"><a class="el" href="classtc_1_1_unauthorised_access_exception.html" title="The exception that is thrown when the operating system denies access because of an I/O error or a spe...">tc::UnauthorisedAccessException</a></td><td>The <code>access</code> requested is not permitted by the operating system for the specified <code>path</code>, such as when <code>access</code> is <em>Write</em> or <em>ReadWrite</em> and the file or directory is set for read-only access. </td></tr>
     <tr><td class="paramname"><a class="el" href="classtc_1_1io_1_1_path_too_long_exception.html" title="The exception that is thrown when a path or fully qualified file name is longer than the system-defin...">tc::io::PathTooLongException</a></td><td>The specified <code>path</code>, file name, or both exceed the system-defined maximum length. </td></tr>
@@ -616,7 +616,6 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IStream</b> ()=de
 Use <a class="el" href="classtc_1_1io_1_1_file_stream.html#afd7ec7d8c1bddb9fadb8bf295695e925">canSeek</a> to determine if this stream supports seeking.</dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classtc_1_1_not_implemented_exception.html" title="The exception that is thrown when a requested method or operation is not implemented.">tc::NotImplementedException</a></td><td><a class="el" href="classtc_1_1io_1_1_file_stream.html#a325eefbae022b34630e739fc22597ad8">setLength</a> is not implemented for <a class="el" href="classtc_1_1io_1_1_file_stream.html">FileStream</a> </td></tr>
     <tr><td class="paramname"><a class="el" href="classtc_1_1_not_supported_exception.html" title="The exception that is thrown when an invoked method is not supported, or when there is an attempt to ...">tc::NotSupportedException</a></td><td>The stream does not support both writing and seeking, such as if the stream is constructed from a pipe or console output. </td></tr>
     <tr><td class="paramname"><a class="el" href="classtc_1_1_object_disposed_exception.html" title="The exception that is thrown when an operation is performed on a disposed object.">tc::ObjectDisposedException</a></td><td>Methods were called after the stream was closed. </td></tr>
   </table>

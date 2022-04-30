@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.5.2</span>
    </div>
   </td>
  </tr>
@@ -83,15 +83,18 @@ $(function() {
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00094" name="l00094"></a><span class="lineno"><a class="line" href="namespacetc_1_1crypto.html#ae485ae8c562ece236bb4fde3866ab38e">   94</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacetc_1_1crypto.html#ae485ae8c562ece236bb4fde3866ab38e">DecryptAes128Ctr</a>(<a class="code hl_typedef" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a>* dst, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a>* src, <span class="keywordtype">size_t</span> size, uint64_t block_number, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a>* key, <span class="keywordtype">size_t</span> key_size, <span class="keyword">const</span> <a class="code hl_typedef" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a>* iv, <span class="keywordtype">size_t</span> iv_size);</div>
 <div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span> </div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>}} <span class="comment">// namespace tc::crypto</span></div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno"><a class="line" href="namespacetc_1_1crypto.html#adb8a9064a44707ee66fc554a3e6368ce">  113</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="namespacetc_1_1crypto.html#adb8a9064a44707ee66fc554a3e6368ce">IncrementCounterAes128Ctr</a>(<a class="code hl_typedef" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a>* counter, uint64_t incr);</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>}} <span class="comment">// namespace tc::crypto</span></div>
 <div class="ttc" id="a_aes_encryptor_8h_html"><div class="ttname"><a href="_aes_encryptor_8h.html">AesEncryptor.h</a></div><div class="ttdoc">Declarations for API resources related to AES block encryption.</div></div>
 <div class="ttc" id="a_ctr_encryptor_8h_html"><div class="ttname"><a href="_ctr_encryptor_8h.html">CtrEncryptor.h</a></div><div class="ttdoc">Declaration of tc::crypto::CtrEncryptor.</div></div>
 <div class="ttc" id="aclasstc_1_1crypto_1_1_ctr_encryptor_html"><div class="ttname"><a href="classtc_1_1crypto_1_1_ctr_encryptor.html">tc::crypto::CtrEncryptor</a></div><div class="ttdoc">Class for CTR mode encryption/decryption.</div><div class="ttdef"><b>Definition:</b> <a href="_ctr_encryptor_8h_source.html#l00045">CtrEncryptor.h:46</a></div></div>
 <div class="ttc" id="anamespacetc_1_1crypto_html_a0d84e3be83b1151b0a65ca3a4df37fb4"><div class="ttname"><a href="namespacetc_1_1crypto.html#a0d84e3be83b1151b0a65ca3a4df37fb4">tc::crypto::EncryptAes128Ctr</a></div><div class="ttdeci">void EncryptAes128Ctr(byte_t *dst, const byte_t *src, size_t size, uint64_t block_number, const byte_t *key, size_t key_size, const byte_t *iv, size_t iv_size)</div><div class="ttdoc">Utility function for AES128-CTR encryption.</div></div>
+<div class="ttc" id="anamespacetc_1_1crypto_html_adb8a9064a44707ee66fc554a3e6368ce"><div class="ttname"><a href="namespacetc_1_1crypto.html#adb8a9064a44707ee66fc554a3e6368ce">tc::crypto::IncrementCounterAes128Ctr</a></div><div class="ttdeci">void IncrementCounterAes128Ctr(byte_t *counter, uint64_t incr)</div><div class="ttdoc">Utility function for incrementing a AES128-CTR block counter.</div></div>
 <div class="ttc" id="anamespacetc_1_1crypto_html_ae485ae8c562ece236bb4fde3866ab38e"><div class="ttname"><a href="namespacetc_1_1crypto.html#ae485ae8c562ece236bb4fde3866ab38e">tc::crypto::DecryptAes128Ctr</a></div><div class="ttdeci">void DecryptAes128Ctr(byte_t *dst, const byte_t *src, size_t size, uint64_t block_number, const byte_t *key, size_t key_size, const byte_t *iv, size_t iv_size)</div><div class="ttdoc">Utility function for AES128-CTR decryption.</div></div>
 <div class="ttc" id="anamespacetc_html"><div class="ttname"><a href="namespacetc.html">tc</a></div><div class="ttdoc">Root namespace for libtoolchain.</div></div>
 <div class="ttc" id="atypes_8h_html"><div class="ttname"><a href="types_8h.html">types.h</a></div><div class="ttdoc">Declaration of generic types used by libtoolchain.</div></div>
-<div class="ttc" id="atypes_8h_html_a11f018d226b5517a1b05e065843af7ae"><div class="ttname"><a href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a></div><div class="ttdeci">uint8_t byte_t</div><div class="ttdoc">Alias uint8_t to byte_t to more explicity indicate its role in memory related contexts.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00026">types.h:26</a></div></div>
+<div class="ttc" id="atypes_8h_html_a11f018d226b5517a1b05e065843af7ae"><div class="ttname"><a href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a></div><div class="ttdeci">uint8_t byte_t</div><div class="ttdoc">Alias uint8_t to byte_t to more explicity indicate its role in memory related contexts.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00027">types.h:27</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

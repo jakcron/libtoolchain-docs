@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.5.2</span>
    </div>
   </td>
  </tr>
@@ -82,10 +82,13 @@ Inheritance diagram for tc::io::IStream:</div>
 <div class="dyncontent">
 <div class="center"><img src="classtc_1_1io_1_1_i_stream__inherit__graph.png" border="0" usemap="#atc_1_1io_1_1_i_stream_inherit__map" alt="Inheritance graph"/></div>
 <map name="atc_1_1io_1_1_i_stream_inherit__map" id="atc_1_1io_1_1_i_stream_inherit__map">
-<area shape="rect" title="An interface for implementing a basic data stream handler." alt="" coords="174,5,279,244"/>
-<area shape="rect" href="classtc_1_1io_1_1_file_stream.html" title="An implementation of IStream as a wrapper to local OS file access functions." alt="" coords="5,292,128,575"/>
-<area shape="rect" href="classtc_1_1io_1_1_memory_stream.html" title="A block of run&#45;time memory wrapped as an IStream object." alt="" coords="153,292,301,575"/>
-<area shape="rect" href="classtc_1_1io_1_1_sub_stream.html" title="A wrapper around an existing IStream object that exposes a subset of the base the IStream object." alt="" coords="325,307,449,560"/>
+<area shape="rect" title="An interface for implementing a basic data stream handler." alt="" coords="599,5,704,244"/>
+<area shape="rect" href="classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html" title="Class for reading from a stream that is encrypted with AES128&#45;CBC." alt="" coords="5,299,217,567"/>
+<area shape="rect" href="classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html" title="Class for reading from a stream that is encrypted with AES128&#45;CTR." alt="" coords="241,299,448,567"/>
+<area shape="rect" href="classtc_1_1io_1_1_concatenated_stream.html" title="A stream that concatenates multiple streams into a single stream." alt="" coords="472,321,655,545"/>
+<area shape="rect" href="classtc_1_1io_1_1_file_stream.html" title="An implementation of IStream as a wrapper to local OS file access functions." alt="" coords="679,292,802,575"/>
+<area shape="rect" href="classtc_1_1io_1_1_memory_stream.html" title="A block of run&#45;time memory wrapped as an IStream object." alt="" coords="827,321,975,545"/>
+<area shape="rect" href="classtc_1_1io_1_1_sub_stream.html" title="A wrapper around an existing IStream object that exposes a subset of the base the IStream object." alt="" coords="999,307,1123,560"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -161,7 +164,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IStream</b> ()=de
 
 <p>Indicates whether the current stream supports reading. </p>
 
-<p>Implemented in <a class="el" href="classtc_1_1io_1_1_file_stream.html#a207ce9ac0b0ce74cf0ab61da92d7eb7d">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#a9eaae72bb6a1452688650f141c155524">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#aae10cfb93cf78654530afe9a51679f05">tc::io::SubStream</a>.</p>
+<p>Implemented in <a class="el" href="classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html#a882e24398bfdd5f1950df7bd94415c83">tc::crypto::Aes128CbcEncryptedStream</a>, <a class="el" href="classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html#a3c8e934209e42c93ab8bb874ae8f7ea2">tc::crypto::Aes128CtrEncryptedStream</a>, <a class="el" href="classtc_1_1io_1_1_concatenated_stream.html#a25bd7221513c59c0fadc870350b64293">tc::io::ConcatenatedStream</a>, <a class="el" href="classtc_1_1io_1_1_file_stream.html#a207ce9ac0b0ce74cf0ab61da92d7eb7d">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#a9eaae72bb6a1452688650f141c155524">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#aae10cfb93cf78654530afe9a51679f05">tc::io::SubStream</a>.</p>
 
 </div>
 </div>
@@ -190,7 +193,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IStream</b> ()=de
 
 <p>Indicates whether the current stream supports seeking. </p>
 
-<p>Implemented in <a class="el" href="classtc_1_1io_1_1_file_stream.html#afd7ec7d8c1bddb9fadb8bf295695e925">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#ac653020a78f72991b4c8746118cb3f60">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a2ac4df0f1789f8f8ef216a769c424086">tc::io::SubStream</a>.</p>
+<p>Implemented in <a class="el" href="classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html#a672e41f30fb0b71b2611a46d50181512">tc::crypto::Aes128CbcEncryptedStream</a>, <a class="el" href="classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html#a1818f5b57b9a408e56a45573301a7a3c">tc::crypto::Aes128CtrEncryptedStream</a>, <a class="el" href="classtc_1_1io_1_1_concatenated_stream.html#a1f6421f2b8c7c62a5b8d2fab4280ab6c">tc::io::ConcatenatedStream</a>, <a class="el" href="classtc_1_1io_1_1_file_stream.html#afd7ec7d8c1bddb9fadb8bf295695e925">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#ac653020a78f72991b4c8746118cb3f60">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a2ac4df0f1789f8f8ef216a769c424086">tc::io::SubStream</a>.</p>
 
 </div>
 </div>
@@ -219,7 +222,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IStream</b> ()=de
 
 <p>Indicates whether the current stream supports writing. </p>
 
-<p>Implemented in <a class="el" href="classtc_1_1io_1_1_file_stream.html#a92336176edab21407f66648a986af39f">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#a1fc8be26533d3b474213bb839612b4d6">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a8a3d9b1e85f28838e3c2f16fdae165c1">tc::io::SubStream</a>.</p>
+<p>Implemented in <a class="el" href="classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html#ab9a91ff9fc657c142e6646a96a4d7fb8">tc::crypto::Aes128CbcEncryptedStream</a>, <a class="el" href="classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html#a323197b6fa1c21763ca06ccbe9d17890">tc::crypto::Aes128CtrEncryptedStream</a>, <a class="el" href="classtc_1_1io_1_1_concatenated_stream.html#af24849b4d163a06078336551021b2d9a">tc::io::ConcatenatedStream</a>, <a class="el" href="classtc_1_1io_1_1_file_stream.html#a92336176edab21407f66648a986af39f">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#a1fc8be26533d3b474213bb839612b4d6">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a8a3d9b1e85f28838e3c2f16fdae165c1">tc::io::SubStream</a>.</p>
 
 </div>
 </div>
@@ -248,7 +251,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IStream</b> ()=de
 
 <p>Releases all resources used by the Stream. </p>
 
-<p>Implemented in <a class="el" href="classtc_1_1io_1_1_file_stream.html#a44533a8112b9db7047f5581392766774">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#a815b43b3e5d828d02bd22cb5035d85ac">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a1b0f8a0f3798e9610df754448f992b3d">tc::io::SubStream</a>.</p>
+<p>Implemented in <a class="el" href="classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html#a72e1a01b49c0ae7e780d860e41aecdf6">tc::crypto::Aes128CbcEncryptedStream</a>, <a class="el" href="classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html#a97b7ed9760a2eeb9da68903d3b7c4887">tc::crypto::Aes128CtrEncryptedStream</a>, <a class="el" href="classtc_1_1io_1_1_concatenated_stream.html#a395b2e6f5a1a25259b4d830dc5e8f7b8">tc::io::ConcatenatedStream</a>, <a class="el" href="classtc_1_1io_1_1_file_stream.html#a44533a8112b9db7047f5581392766774">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#a815b43b3e5d828d02bd22cb5035d85ac">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a1b0f8a0f3798e9610df754448f992b3d">tc::io::SubStream</a>.</p>
 
 </div>
 </div>
@@ -277,7 +280,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IStream</b> ()=de
 
 <p>Clears all buffers for this stream and causes any buffered data to be written to the underlying device. </p>
 
-<p>Implemented in <a class="el" href="classtc_1_1io_1_1_file_stream.html#adc62e3083fd12650202aa8c4c8870367">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#af9896e697149f80dee594675a9713f22">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a44832e9ef7f678b5935f73f3ddfb2516">tc::io::SubStream</a>.</p>
+<p>Implemented in <a class="el" href="classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html#aad9378eb66979526fe8e94af699e1a98">tc::crypto::Aes128CbcEncryptedStream</a>, <a class="el" href="classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html#abcf3726c7817b54e4234f7574f4a0138">tc::crypto::Aes128CtrEncryptedStream</a>, <a class="el" href="classtc_1_1io_1_1_concatenated_stream.html#ac809cc58feeb670d0d828ec0ff2a3338">tc::io::ConcatenatedStream</a>, <a class="el" href="classtc_1_1io_1_1_file_stream.html#adc62e3083fd12650202aa8c4c8870367">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#af9896e697149f80dee594675a9713f22">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a44832e9ef7f678b5935f73f3ddfb2516">tc::io::SubStream</a>.</p>
 
 </div>
 </div>
@@ -306,7 +309,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IStream</b> ()=de
 
 <p>Gets the length in bytes of the stream. </p>
 
-<p>Implemented in <a class="el" href="classtc_1_1io_1_1_file_stream.html#acbfe0976ca3bb460cfc1669e6d608d00">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#ac16e37ea9dd7cd09d16a3c7c57b077e9">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a37023f47de54e21323c99171a58e413e">tc::io::SubStream</a>.</p>
+<p>Implemented in <a class="el" href="classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html#a84b3dd954ec74ca7409ca1226edd4264">tc::crypto::Aes128CbcEncryptedStream</a>, <a class="el" href="classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html#a123233a414a9f567d76583df957da2aa">tc::crypto::Aes128CtrEncryptedStream</a>, <a class="el" href="classtc_1_1io_1_1_concatenated_stream.html#af6eccd36face48339d9bd3b19b4abf99">tc::io::ConcatenatedStream</a>, <a class="el" href="classtc_1_1io_1_1_file_stream.html#acbfe0976ca3bb460cfc1669e6d608d00">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#ac16e37ea9dd7cd09d16a3c7c57b077e9">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a37023f47de54e21323c99171a58e413e">tc::io::SubStream</a>.</p>
 
 </div>
 </div>
@@ -335,7 +338,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IStream</b> ()=de
 
 <p>Gets the position within the current stream. </p>
 
-<p>Implemented in <a class="el" href="classtc_1_1io_1_1_file_stream.html#a72e98a6a57b331dd361ed8e0d4a90015">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#addf45f8a77d2a98248eceeb8d2cc390c">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a684f0b8a949b4d4de7e6e2081e3f2f9d">tc::io::SubStream</a>.</p>
+<p>Implemented in <a class="el" href="classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html#a5460f6bad475a37d2f05668d4cac1e2f">tc::crypto::Aes128CbcEncryptedStream</a>, <a class="el" href="classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html#a02fac392253c09136ae273f5e7212174">tc::crypto::Aes128CtrEncryptedStream</a>, <a class="el" href="classtc_1_1io_1_1_concatenated_stream.html#a39813f20ea8798bdc3a7e49300e163d3">tc::io::ConcatenatedStream</a>, <a class="el" href="classtc_1_1io_1_1_file_stream.html#a72e98a6a57b331dd361ed8e0d4a90015">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#addf45f8a77d2a98248eceeb8d2cc390c">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a684f0b8a949b4d4de7e6e2081e3f2f9d">tc::io::SubStream</a>.</p>
 
 </div>
 </div>
@@ -385,7 +388,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IStream</b> ()=de
 <dl class="section pre"><dt>Precondition</dt><dd>A stream must support reading for <a class="el" href="classtc_1_1io_1_1_i_stream.html#aebd5c6d74cd2dc285e1efded9c44b7b8">read</a> to work. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Use <a class="el" href="classtc_1_1io_1_1_i_stream.html#a135ea1661ceddb7a4dd1a627e76850f8">canRead</a> to determine if this stream supports reading. </dd></dl>
 
-<p>Implemented in <a class="el" href="classtc_1_1io_1_1_file_stream.html#afb88d1c7d33673f338148706ba20e56c">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#a8701a05722582237841339e9efd425a1">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a9e840513eb838732b0b25ada58741ea0">tc::io::SubStream</a>.</p>
+<p>Implemented in <a class="el" href="classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html#a04fb5c7673d1b7cf1122425b28182e44">tc::crypto::Aes128CbcEncryptedStream</a>, <a class="el" href="classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html#a58c8c2a2a6a5af94f11236d22a024386">tc::crypto::Aes128CtrEncryptedStream</a>, <a class="el" href="classtc_1_1io_1_1_concatenated_stream.html#ab7310c08bb96a1cce61621af7f01104c">tc::io::ConcatenatedStream</a>, <a class="el" href="classtc_1_1io_1_1_file_stream.html#afb88d1c7d33673f338148706ba20e56c">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#a8701a05722582237841339e9efd425a1">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a9e840513eb838732b0b25ada58741ea0">tc::io::SubStream</a>.</p>
 
 </div>
 </div>
@@ -435,7 +438,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IStream</b> ()=de
 <dl class="section pre"><dt>Precondition</dt><dd>A stream must support seeking for <a class="el" href="classtc_1_1io_1_1_i_stream.html#afaa5fbd4a45a6772908ab2c2d2d0ca74">seek</a> to work. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Use <a class="el" href="classtc_1_1io_1_1_i_stream.html#a249adddb4cad50ee26a3c26836e5e966">canSeek</a> to determine if this stream supports seeking. </dd></dl>
 
-<p>Implemented in <a class="el" href="classtc_1_1io_1_1_file_stream.html#a130b153d119d8a511b65d13f20148c11">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#a4a3b38a8dd5e65b257ac5e4a1d9fb4b0">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#abba83f38c4558c1efc73420bc0da07ca">tc::io::SubStream</a>.</p>
+<p>Implemented in <a class="el" href="classtc_1_1io_1_1_concatenated_stream.html#a2af2a47f47bd518a88d40942ba41f57d">tc::io::ConcatenatedStream</a>, <a class="el" href="classtc_1_1io_1_1_file_stream.html#a130b153d119d8a511b65d13f20148c11">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#a4a3b38a8dd5e65b257ac5e4a1d9fb4b0">tc::io::MemoryStream</a>, <a class="el" href="classtc_1_1io_1_1_sub_stream.html#abba83f38c4558c1efc73420bc0da07ca">tc::io::SubStream</a>, <a class="el" href="classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html#a66b8758759d14c2fc68017289d3bcf60">tc::crypto::Aes128CbcEncryptedStream</a>, and <a class="el" href="classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html#a61117e2f43ae0f47cec3285cc42834e6">tc::crypto::Aes128CtrEncryptedStream</a>.</p>
 
 </div>
 </div>
@@ -475,7 +478,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~IStream</b> ()=de
 <dd>
 Use <a class="el" href="classtc_1_1io_1_1_i_stream.html#a249adddb4cad50ee26a3c26836e5e966">canSeek</a> to determine if this stream supports seeking. </dd></dl>
 
-<p>Implemented in <a class="el" href="classtc_1_1io_1_1_file_stream.html#a325eefbae022b34630e739fc22597ad8">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#a5c7744702653133616cb91499d30eaf3">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a7d2a60c2df510740d5f96ccc7c62ae2e">tc::io::SubStream</a>.</p>
+<p>Implemented in <a class="el" href="classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html#ace36b911eab2acf3b805374c477e8633">tc::crypto::Aes128CbcEncryptedStream</a>, <a class="el" href="classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html#abb1460b3e9804e9d38d150b5d58c4c00">tc::crypto::Aes128CtrEncryptedStream</a>, <a class="el" href="classtc_1_1io_1_1_concatenated_stream.html#a657bf55855d755c68474ae396750776b">tc::io::ConcatenatedStream</a>, <a class="el" href="classtc_1_1io_1_1_file_stream.html#a325eefbae022b34630e739fc22597ad8">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#a5c7744702653133616cb91499d30eaf3">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#a7d2a60c2df510740d5f96ccc7c62ae2e">tc::io::SubStream</a>.</p>
 
 </div>
 </div>
@@ -525,7 +528,7 @@ Use <a class="el" href="classtc_1_1io_1_1_i_stream.html#a249adddb4cad50ee26a3c26
 <dl class="section pre"><dt>Precondition</dt><dd>A stream must support writing for <a class="el" href="classtc_1_1io_1_1_i_stream.html#a49f5100f8312a5f9c416108e5eae0e1e">write</a> to work. </dd></dl>
 <dl class="section note"><dt>Note</dt><dd>Use <a class="el" href="classtc_1_1io_1_1_i_stream.html#ac3f7722b8237988aa8cc41cf2cedd3be">canWrite</a> to determine if this stream supports writing. </dd></dl>
 
-<p>Implemented in <a class="el" href="classtc_1_1io_1_1_file_stream.html#a57c0a9acc9616e575c52e2bc84d3e61b">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#a97e19ace83b56f7f74d2fd20614a7e23">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#ab933f46ba10d78995fae7ad3f4e1552b">tc::io::SubStream</a>.</p>
+<p>Implemented in <a class="el" href="classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html#ac5da45c1d09de4538e0b8a071b621f27">tc::crypto::Aes128CbcEncryptedStream</a>, <a class="el" href="classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html#a2efbfd217de7825b8438e0bc3868ae79">tc::crypto::Aes128CtrEncryptedStream</a>, <a class="el" href="classtc_1_1io_1_1_concatenated_stream.html#a791143ccb6f904be4f812129ff75f3a8">tc::io::ConcatenatedStream</a>, <a class="el" href="classtc_1_1io_1_1_file_stream.html#a57c0a9acc9616e575c52e2bc84d3e61b">tc::io::FileStream</a>, <a class="el" href="classtc_1_1io_1_1_memory_stream.html#a97e19ace83b56f7f74d2fd20614a7e23">tc::io::MemoryStream</a>, and <a class="el" href="classtc_1_1io_1_1_sub_stream.html#ab933f46ba10d78995fae7ad3f4e1552b">tc::io::SubStream</a>.</p>
 
 </div>
 </div>

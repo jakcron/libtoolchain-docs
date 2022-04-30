@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.5.2</span>
    </div>
   </td>
  </tr>
@@ -66,7 +66,8 @@ $(function() {
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">tc Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -76,6 +77,9 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
+<tr class="memitem:namespacetc_1_1bn"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetc_1_1bn.html">bn</a></td></tr>
+<tr class="memdesc:namespacetc_1_1bn"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace of the binary literals library. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacetc_1_1cli"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetc_1_1cli.html">cli</a></td></tr>
 <tr class="memdesc:namespacetc_1_1cli"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace of the command-line interface (CLI) library. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -109,17 +113,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1_arithmetic_exception.html">ArithmeticException</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The exception that is thrown for errors in an arithmetic, casting, or conversion operation.  <a href="classtc_1_1_arithmetic_exception.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtc_1_1be16.html">be16</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper that allows accessing a big-endian 16-bit POD regardless of processor endianness.  <a href="structtc_1_1be16.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtc_1_1be32.html">be32</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper that allows accessing a big-endian 32-bit POD regardless of processor endianness.  <a href="structtc_1_1be32.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtc_1_1be64.html">be64</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper that allows accessing a big-endian 64-bit POD regardless of processor endianness.  <a href="structtc_1_1be64.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtc_1_1bitfield.html">bitfield</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1_byte_data.html">ByteData</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A container of linear memory, used to hold raw data.  <a href="classtc_1_1_byte_data.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,15 +121,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1_invalid_operation_exception.html">InvalidOperationException</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The exception that is thrown when a method call is invalid for the object's current state.  <a href="classtc_1_1_invalid_operation_exception.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtc_1_1le16.html">le16</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper that allows accessing a little-endian 16-bit POD regardless of processor endianness.  <a href="structtc_1_1le16.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtc_1_1le32.html">le32</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper that allows accessing a little-endian 32-bit POD regardless of processor endianness.  <a href="structtc_1_1le32.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtc_1_1le64.html">le64</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper that allows accessing a little-endian 64-bit POD regardless of processor endianness.  <a href="structtc_1_1le64.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1_not_implemented_exception.html">NotImplementedException</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The exception that is thrown when a requested method or operation is not implemented.  <a href="classtc_1_1_not_implemented_exception.html#details">More...</a><br /></td></tr>
@@ -159,6 +143,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1_platform_error_handling_util.html">PlatformErrorHandlingUtil</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Platform specific error handling utilities.  <a href="classtc_1_1_platform_error_handling_util.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1_security_exception.html">SecurityException</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The exception that is thrown when a security error is detected.  <a href="classtc_1_1_security_exception.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1_unauthorised_access_exception.html">UnauthorisedAccessException</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The exception that is thrown when the operating system denies access because of an I/O error or a specific type of security error.  <a href="classtc_1_1_unauthorised_access_exception.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,6 +164,29 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a0a8a3928f6e4e5af75634b38e1af242e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags for ResourceStatus.  <a href="namespacetc.html#a0a8a3928f6e4e5af75634b38e1af242e">More...</a><br /></td></tr>
 <tr class="separator:a0a8a3928f6e4e5af75634b38e1af242e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aa3675ad7596f96e5146908a77f7952c3"><td class="memItemLeft" align="right" valign="top"><a id="aa3675ad7596f96e5146908a77f7952c3" name="aa3675ad7596f96e5146908a77f7952c3"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_size_t_not_64bit</b> ()</td></tr>
+<tr class="memdesc:aa3675ad7596f96e5146908a77f7952c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if type size_t is not 64bit. <br /></td></tr>
+<tr class="separator:aa3675ad7596f96e5146908a77f7952c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93307b7778cbb6870e1f7e247f0d874f"><td class="memItemLeft" align="right" valign="top"><a id="a93307b7778cbb6870e1f7e247f0d874f" name="a93307b7778cbb6870e1f7e247f0d874f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_size_t_too_large_for_int64_t</b> (size_t val)</td></tr>
+<tr class="memdesc:a93307b7778cbb6870e1f7e247f0d874f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if a value of type size_t is too large to be stored as int64_t. <br /></td></tr>
+<tr class="separator:a93307b7778cbb6870e1f7e247f0d874f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addbeb73d625e4854da428965185ce9c8"><td class="memItemLeft" align="right" valign="top"><a id="addbeb73d625e4854da428965185ce9c8" name="addbeb73d625e4854da428965185ce9c8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_uint64_t_too_large_for_int64_t</b> (uint64_t val)</td></tr>
+<tr class="memdesc:addbeb73d625e4854da428965185ce9c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if a value of type uint64_t is too large to be stored as int64_t. <br /></td></tr>
+<tr class="separator:addbeb73d625e4854da428965185ce9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ff3cb1802ddfd8478ad3233414b5576"><td class="memItemLeft" align="right" valign="top"><a id="a0ff3cb1802ddfd8478ad3233414b5576" name="a0ff3cb1802ddfd8478ad3233414b5576"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_int64_t_too_large_for_size_t</b> (int64_t val)</td></tr>
+<tr class="memdesc:a0ff3cb1802ddfd8478ad3233414b5576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if a value of type int64_t is too large to be stored as size_t. <br /></td></tr>
+<tr class="separator:a0ff3cb1802ddfd8478ad3233414b5576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17c4707f6d73dd2e75e876ea1d8e6729"><td class="memItemLeft" align="right" valign="top"><a id="a17c4707f6d73dd2e75e876ea1d8e6729" name="a17c4707f6d73dd2e75e876ea1d8e6729"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>is_uint64_t_too_large_for_size_t</b> (uint64_t val)</td></tr>
+<tr class="memdesc:a17c4707f6d73dd2e75e876ea1d8e6729"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if a value of type uint64_t is too large to be stored as size_t. <br /></td></tr>
+<tr class="separator:a17c4707f6d73dd2e75e876ea1d8e6729"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Root namespace for libtoolchain. </p>
@@ -218,7 +228,7 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="a0a8a3928f6e4e5af75634b38e1af242ea1eee4d145cc93d32e68b8ac19c76de23" name="a0a8a3928f6e4e5af75634b38e1af242ea1eee4d145cc93d32e68b8ac19c76de23"></a>RESFLAG_ERROR&#160;</td><td class="fielddoc"><p >Resource encountered an error </p>
 </td></tr>
-<tr><td class="fieldname"><a id="a0a8a3928f6e4e5af75634b38e1af242eadecf6606c778f2f84c20cba2486bf728" name="a0a8a3928f6e4e5af75634b38e1af242eadecf6606c778f2f84c20cba2486bf728"></a>RESFLAG_NOINIT&#160;</td><td class="fielddoc"><p >Resource is not initialised </p>
+<tr><td class="fieldname"><a id="a0a8a3928f6e4e5af75634b38e1af242eadecf6606c778f2f84c20cba2486bf728" name="a0a8a3928f6e4e5af75634b38e1af242eadecf6606c778f2f84c20cba2486bf728"></a>RESFLAG_NOINIT&#160;</td><td class="fielddoc"><p >Resource is not initialized </p>
 </td></tr>
 </table>
 

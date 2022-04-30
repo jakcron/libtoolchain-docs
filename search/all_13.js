@@ -18,5 +18,7 @@ var searchData=
   ['verifyrsa4096pkcs1sha256_15',['VerifyRsa4096Pkcs1Sha256',['../namespacetc_1_1crypto.html#a4785dc93dfad9021fbd883983e78ed85',1,'tc::crypto']]],
   ['verifyrsa4096pkcs1sha512_16',['VerifyRsa4096Pkcs1Sha512',['../namespacetc_1_1crypto.html#a9f8dfb055d93d1b6fd48c3c6e2374641',1,'tc::crypto']]],
   ['verifyrsa4096psssha256_17',['VerifyRsa4096PssSha256',['../namespacetc_1_1crypto.html#af8f39c87b5987be6083ae1f0565e46e9',1,'tc::crypto']]],
-  ['verifyrsa4096psssha512_18',['VerifyRsa4096PssSha512',['../namespacetc_1_1crypto.html#ae4e8bddfe1330d8dcdc5643b68d191f2',1,'tc::crypto']]]
+  ['verifyrsa4096psssha512_18',['VerifyRsa4096PssSha512',['../namespacetc_1_1crypto.html#ae4e8bddfe1330d8dcdc5643b68d191f2',1,'tc::crypto']]],
+  ['virtualfilesystem_19',['VirtualFileSystem',['../classtc_1_1io_1_1_virtual_file_system.html',1,'tc::io::VirtualFileSystem'],['../classtc_1_1io_1_1_virtual_file_system.html#af0d6be8894995fcd78f948352a168bb8',1,'tc::io::VirtualFileSystem::VirtualFileSystem()'],['../classtc_1_1io_1_1_virtual_file_system.html#affd5ce0962b892cb8a45b2ee95714fd2',1,'tc::io::VirtualFileSystem::VirtualFileSystem(const FileSystemSnapshot &amp;fs_snapshot, const std::shared_ptr&lt; tc::io::IPortablePathResolver &gt; &amp;path_resolver=nullptr)']]],
+  ['virtualfilesystem_2eh_20',['VirtualFileSystem.h',['../_virtual_file_system_8h.html',1,'']]]
 ];

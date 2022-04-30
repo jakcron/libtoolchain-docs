@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.5.2</span>
    </div>
   </td>
  </tr>
@@ -122,7 +122,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ISink</b> ()=defa
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A <a class="el" href="classtc_1_1io_1_1_i_sink.html" title="An interface defining a byte data sink.">ISink</a> that exposes a subset of a base <a class="el" href="classtc_1_1io_1_1_i_sink.html" title="An interface defining a byte data sink.">ISink</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_sub_sink_8h_source.html#l00023">23</a> of file <a class="el" href="_sub_sink_8h_source.html">SubSink.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_sub_sink_8h_source.html#l00024">24</a> of file <a class="el" href="_sub_sink_8h_source.html">SubSink.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="abc83da454ad2262352b98c742f7567c3" name="abc83da454ad2262352b98c742f7567c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abc83da454ad2262352b98c742f7567c3">&#9670;&nbsp;</a></span>SubSink() <span class="overload">[1/2]</span></h2>
@@ -271,7 +271,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ISink</b> ()=defa
 <dl class="section return"><dt>Returns</dt><dd>Number of bytes pushed to sink.</dd></dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classtc_1_1_object_disposed_exception.html" title="The exception that is thrown when an operation is performed on a disposed object.">tc::ObjectDisposedException</a></td><td>The base sink was not initialised. </td></tr>
+    <tr><td class="paramname"><a class="el" href="classtc_1_1_object_disposed_exception.html" title="The exception that is thrown when an operation is performed on a disposed object.">tc::ObjectDisposedException</a></td><td>The base sink was not initialized. </td></tr>
     <tr><td class="paramname"><a class="el" href="classtc_1_1_argument_out_of_range_exception.html" title="The exception that is thrown when the value of an argument is outside the allowable range of values a...">tc::ArgumentOutOfRangeException</a></td><td><code>data</code> was too large to be pushed to the sink. </td></tr>
   </table>
   </dd>
@@ -308,7 +308,7 @@ virtual&#160;</td><td class="memItemRight" valign="bottom"><b>~ISink</b> ()=defa
 <p>Sets the length of the sink. This is not supported for <a class="el" href="classtc_1_1io_1_1_sub_sink.html" title="A ISink that exposes a subset of a base ISink.">SubSink</a>. </p>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname"><a class="el" href="classtc_1_1_not_supported_exception.html" title="The exception that is thrown when an invoked method is not supported, or when there is an attempt to ...">tc::NotSupportedException</a></td><td><a class="el" href="classtc_1_1io_1_1_sub_sink.html" title="A ISink that exposes a subset of a base ISink.">SubSink</a> does not support setting the length of the sub sink. </td></tr>
+    <tr><td class="paramname">tc::NotImplemented</td><td>setLength is not implemented for <a class="el" href="classtc_1_1io_1_1_sub_sink.html" title="A ISink that exposes a subset of a base ISink.">SubSink</a>. </td></tr>
   </table>
   </dd>
 </dl>

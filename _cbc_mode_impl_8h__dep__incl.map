@@ -1,9 +1,10 @@
 <map id="tc/crypto/detail/CbcModeImpl.h" name="tc/crypto/detail/CbcModeImpl.h">
-<area shape="rect" id="node1" title="Declaration of tc::crypto::detail::CbcModeImpl." alt="" coords="166,5,334,47"/>
-<area shape="rect" id="node2" href="$_cbc_encryptor_8h.html" title="Declaration of tc::crypto::CbcEncryptor." alt="" coords="167,95,333,121"/>
-<area shape="rect" id="node3" href="$crypto_8h.html" title="Declaration of the cryptography library." alt="" coords="208,244,292,271"/>
-<area shape="rect" id="node5" href="$_aes128_cbc_encryptor_8h.html" title="Declarations for API resources for related to AES128&#45;CBC mode encryption/decryption." alt="" coords="27,169,238,196"/>
-<area shape="rect" id="node6" href="$_aes192_cbc_encryptor_8h.html" title="Declarations for API resources for related to AES192&#45;CBC mode encryption/decryption." alt="" coords="262,169,473,196"/>
-<area shape="rect" id="node7" href="$_aes256_cbc_encryptor_8h.html" title="Declarations for API resources for related to AES256&#45;CBC mode encryption/decryption." alt="" coords="497,169,707,196"/>
-<area shape="rect" id="node4" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="228,319,272,345"/>
+<area shape="rect" id="node1" title="Declaration of tc::crypto::detail::CbcModeImpl." alt="" coords="169,5,337,47"/>
+<area shape="rect" id="node2" href="$_cbc_encryptor_8h.html" title="Declaration of tc::crypto::CbcEncryptor." alt="" coords="170,95,337,121"/>
+<area shape="rect" id="node3" href="$crypto_8h.html" title="Declaration of the cryptography library." alt="" coords="189,333,273,360"/>
+<area shape="rect" id="node5" href="$_aes128_cbc_encryptor_8h.html" title="Declarations for API resources for related to AES128&#45;CBC mode encryption/decryption." alt="" coords="31,169,241,196"/>
+<area shape="rect" id="node7" href="$_aes192_cbc_encryptor_8h.html" title="Declarations for API resources for related to AES192&#45;CBC mode encryption/decryption." alt="" coords="265,169,476,196"/>
+<area shape="rect" id="node8" href="$_aes256_cbc_encryptor_8h.html" title="Declarations for API resources for related to AES256&#45;CBC mode encryption/decryption." alt="" coords="408,251,619,278"/>
+<area shape="rect" id="node4" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="209,408,253,435"/>
+<area shape="rect" id="node6" href="$_aes128_cbc_encrypted_stream_8h.html" title="Declaration of tc::crypto::Aes128CbcEncryptedStream." alt="" coords="129,244,333,285"/>
 </map>

@@ -1,0 +1,4 @@
+<map id="tc::bn::string::size" name="tc::bn::string::size">
+<area shape="rect" id="node1" title="Returns length of string." alt="" coords="199,5,325,32"/>
+<area shape="rect" id="node2" href="$classtc_1_1bn_1_1string.html#af629fb1fd3f8b9be91dfe76fe9e8fcf6" title="Returns a std::string created from the underlying char array." alt="" coords="5,5,151,32"/>
+</map>

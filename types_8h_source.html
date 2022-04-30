@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.5.2</span>
    </div>
   </td>
  </tr>
@@ -77,20 +77,55 @@ $(function() {
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;map&gt;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;cstdint&gt;</span></div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;cstring&gt;</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;algorithm&gt;</span></div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;type_traits&gt;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;<a class="code" href="endian__types_8h.html">tc/endian_types.h</a>&gt;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;<a class="code" href="bitwise__types_8h.html">tc/bitwise_types.h</a>&gt;</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="preprocessor">#ifdef _WIN32</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#define NOMINMAX</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#endif</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">   26</a></span><span class="keyword">using</span> <a class="code hl_typedef" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> = uint8_t;</div>
-<div class="ttc" id="abitwise__types_8h_html"><div class="ttname"><a href="bitwise__types_8h.html">bitwise_types.h</a></div><div class="ttdoc">Declaration of macros and classes to handle literal bit-fields and bit-masks/bit-shifting.</div></div>
-<div class="ttc" id="aendian__types_8h_html"><div class="ttname"><a href="endian__types_8h.html">endian_types.h</a></div><div class="ttdoc">Declaration of macros and classes to unwrap primatives in an endian agnostic way.</div></div>
-<div class="ttc" id="atypes_8h_html_a11f018d226b5517a1b05e065843af7ae"><div class="ttname"><a href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a></div><div class="ttdeci">uint8_t byte_t</div><div class="ttdoc">Alias uint8_t to byte_t to more explicity indicate its role in memory related contexts.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00026">types.h:26</a></div></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;limits&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#include &lt;algorithm&gt;</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#include &lt;type_traits&gt;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;limits&gt;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;<a class="code" href="bn_8h.html">tc/bn.h</a>&gt;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="preprocessor">#ifdef _WIN32</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="preprocessor">#define NOMINMAX</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">   27</a></span><span class="keyword">using</span> <a class="code hl_typedef" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> = uint8_t;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="types_8h.html#a8cd43a7d656fb1a8d3ca34d6ab8d4f29">   33</a></span><span class="keyword">inline</span> T <a class="code hl_function" href="types_8h.html#a8cd43a7d656fb1a8d3ca34d6ab8d4f29">roundup</a>(T value, T alignment)</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>{</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    <span class="keywordflow">return</span> value + alignment - value % alignment;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>}</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T&gt;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="types_8h.html#aa604df6a8fa0d6022c749d02a9c102fc">   42</a></span><span class="keyword">inline</span> T <a class="code hl_function" href="types_8h.html#aa604df6a8fa0d6022c749d02a9c102fc">align</a>(T value, T alignment)</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>{</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    <span class="keywordflow">if</span>(value % alignment != 0)</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="types_8h.html#a8cd43a7d656fb1a8d3ca34d6ab8d4f29">roundup</a>(value,alignment);</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        <span class="keywordflow">return</span> value;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>}</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacetc.html">tc</a> {</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="namespacetc.html#aa3675ad7596f96e5146908a77f7952c3">   52</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="namespacetc.html#aa3675ad7596f96e5146908a77f7952c3">is_size_t_not_64bit</a>();</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span> </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno"><a class="line" href="namespacetc.html#a93307b7778cbb6870e1f7e247f0d874f">   55</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="namespacetc.html#a93307b7778cbb6870e1f7e247f0d874f">is_size_t_too_large_for_int64_t</a>(<span class="keywordtype">size_t</span> val);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno"><a class="line" href="namespacetc.html#addbeb73d625e4854da428965185ce9c8">   58</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="namespacetc.html#addbeb73d625e4854da428965185ce9c8">is_uint64_t_too_large_for_int64_t</a>(uint64_t val);</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno"><a class="line" href="namespacetc.html#a0ff3cb1802ddfd8478ad3233414b5576">   61</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="namespacetc.html#a0ff3cb1802ddfd8478ad3233414b5576">is_int64_t_too_large_for_size_t</a>(int64_t val);</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno"><a class="line" href="namespacetc.html#a17c4707f6d73dd2e75e876ea1d8e6729">   64</a></span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="namespacetc.html#a17c4707f6d73dd2e75e876ea1d8e6729">is_uint64_t_too_large_for_size_t</a>(uint64_t val);</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>}</div>
+<div class="ttc" id="abn_8h_html"><div class="ttname"><a href="bn_8h.html">bn.h</a></div><div class="ttdoc">Declaration of the binary literals library.</div></div>
+<div class="ttc" id="anamespacetc_html"><div class="ttname"><a href="namespacetc.html">tc</a></div><div class="ttdoc">Root namespace for libtoolchain.</div></div>
+<div class="ttc" id="anamespacetc_html_a0ff3cb1802ddfd8478ad3233414b5576"><div class="ttname"><a href="namespacetc.html#a0ff3cb1802ddfd8478ad3233414b5576">tc::is_int64_t_too_large_for_size_t</a></div><div class="ttdeci">bool is_int64_t_too_large_for_size_t(int64_t val)</div><div class="ttdoc">Returns if a value of type int64_t is too large to be stored as size_t.</div></div>
+<div class="ttc" id="anamespacetc_html_a17c4707f6d73dd2e75e876ea1d8e6729"><div class="ttname"><a href="namespacetc.html#a17c4707f6d73dd2e75e876ea1d8e6729">tc::is_uint64_t_too_large_for_size_t</a></div><div class="ttdeci">bool is_uint64_t_too_large_for_size_t(uint64_t val)</div><div class="ttdoc">Returns if a value of type uint64_t is too large to be stored as size_t.</div></div>
+<div class="ttc" id="anamespacetc_html_a93307b7778cbb6870e1f7e247f0d874f"><div class="ttname"><a href="namespacetc.html#a93307b7778cbb6870e1f7e247f0d874f">tc::is_size_t_too_large_for_int64_t</a></div><div class="ttdeci">bool is_size_t_too_large_for_int64_t(size_t val)</div><div class="ttdoc">Returns if a value of type size_t is too large to be stored as int64_t.</div></div>
+<div class="ttc" id="anamespacetc_html_aa3675ad7596f96e5146908a77f7952c3"><div class="ttname"><a href="namespacetc.html#aa3675ad7596f96e5146908a77f7952c3">tc::is_size_t_not_64bit</a></div><div class="ttdeci">bool is_size_t_not_64bit()</div><div class="ttdoc">Returns if type size_t is not 64bit.</div></div>
+<div class="ttc" id="anamespacetc_html_addbeb73d625e4854da428965185ce9c8"><div class="ttname"><a href="namespacetc.html#addbeb73d625e4854da428965185ce9c8">tc::is_uint64_t_too_large_for_int64_t</a></div><div class="ttdeci">bool is_uint64_t_too_large_for_int64_t(uint64_t val)</div><div class="ttdoc">Returns if a value of type uint64_t is too large to be stored as int64_t.</div></div>
+<div class="ttc" id="atypes_8h_html_a11f018d226b5517a1b05e065843af7ae"><div class="ttname"><a href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a></div><div class="ttdeci">uint8_t byte_t</div><div class="ttdoc">Alias uint8_t to byte_t to more explicity indicate its role in memory related contexts.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00027">types.h:27</a></div></div>
+<div class="ttc" id="atypes_8h_html_a8cd43a7d656fb1a8d3ca34d6ab8d4f29"><div class="ttname"><a href="types_8h.html#a8cd43a7d656fb1a8d3ca34d6ab8d4f29">roundup</a></div><div class="ttdeci">T roundup(T value, T alignment)</div><div class="ttdoc">Round a value up to an alignment value.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00033">types.h:33</a></div></div>
+<div class="ttc" id="atypes_8h_html_aa604df6a8fa0d6022c749d02a9c102fc"><div class="ttname"><a href="types_8h.html#aa604df6a8fa0d6022c749d02a9c102fc">align</a></div><div class="ttdeci">T align(T value, T alignment)</div><div class="ttdoc">Align a value to an alignment value.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00042">types.h:42</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

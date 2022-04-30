@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.5.2</span>
    </div>
   </td>
  </tr>
@@ -89,27 +89,18 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a3d7aab40f375960f4ea8a1c90e8e7b73"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1cli_1_1_format_util.html#a3d7aab40f375960f4ea8a1c90e8e7b73">formatBytesAsString</a> (const <a class="el" href="classtc_1_1_byte_data.html">tc::ByteData</a> &amp;data, bool is_upper_case, const std::string &amp;delimiter)</td></tr>
 <tr class="memdesc:a3d7aab40f375960f4ea8a1c90e8e7b73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format <a class="el" href="classtc_1_1_byte_data.html" title="A container of linear memory, used to hold raw data.">tc::ByteData</a> as a hexadecimal string.  <a href="classtc_1_1cli_1_1_format_util.html#a3d7aab40f375960f4ea8a1c90e8e7b73">More...</a><br /></td></tr>
 <tr class="separator:a3d7aab40f375960f4ea8a1c90e8e7b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd465e1bae2d5355204eebf0cbf6a41d"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1cli_1_1_format_util.html#acd465e1bae2d5355204eebf0cbf6a41d">formatBytesAsStringWithLineLimit</a> (const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *data, size_t size, bool is_upper_case, const std::string &amp;delimiter, size_t row_len, size_t indent_len)</td></tr>
-<tr class="memdesc:acd465e1bae2d5355204eebf0cbf6a41d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format raw bytes as a hexadecimal string. Introducing a new-line to keep each row within a certain size.  <a href="classtc_1_1cli_1_1_format_util.html#acd465e1bae2d5355204eebf0cbf6a41d">More...</a><br /></td></tr>
-<tr class="separator:acd465e1bae2d5355204eebf0cbf6a41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accb87733bcf86f080a3b090c61c44113"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1cli_1_1_format_util.html#accb87733bcf86f080a3b090c61c44113">formatBytesAsStringWithLineLimit</a> (const <a class="el" href="classtc_1_1_byte_data.html">tc::ByteData</a> &amp;data, bool is_upper_case, const std::string &amp;delimiter, size_t row_len, size_t indent_len)</td></tr>
-<tr class="memdesc:accb87733bcf86f080a3b090c61c44113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format <a class="el" href="classtc_1_1_byte_data.html" title="A container of linear memory, used to hold raw data.">tc::ByteData</a> as a hexadecimal string. Introducing a new-line to keep each row within a certain size.  <a href="classtc_1_1cli_1_1_format_util.html#accb87733bcf86f080a3b090c61c44113">More...</a><br /></td></tr>
-<tr class="separator:accb87733bcf86f080a3b090c61c44113"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f99595cb1aed2920969efffcffb3100"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1cli_1_1_format_util.html#a2f99595cb1aed2920969efffcffb3100">formatListWithLineLimit</a> (const std::vector&lt; std::string &gt; &amp;str_list, size_t row_len, size_t indent_len)</td></tr>
-<tr class="memdesc:a2f99595cb1aed2920969efffcffb3100"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a list of strings as comma delimited. Introducing a new-line to keep each row within a certain size.  <a href="classtc_1_1cli_1_1_format_util.html#a2f99595cb1aed2920969efffcffb3100">More...</a><br /></td></tr>
-<tr class="separator:a2f99595cb1aed2920969efffcffb3100"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ac29aaf0bbd4d55383cbd6ebe53ac7"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1cli_1_1_format_util.html#af5ac29aaf0bbd4d55383cbd6ebe53ac7">formatBytesAsStringWithLineLimit</a> (const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *data, size_t size, bool is_upper_case, const std::string &amp;delimiter, size_t row_len, size_t indent_len, bool print_first_indent=true)</td></tr>
+<tr class="memdesc:af5ac29aaf0bbd4d55383cbd6ebe53ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format raw bytes as a hexadecimal string. Introducing a new-line to keep each row within a certain size.  <a href="classtc_1_1cli_1_1_format_util.html#af5ac29aaf0bbd4d55383cbd6ebe53ac7">More...</a><br /></td></tr>
+<tr class="separator:af5ac29aaf0bbd4d55383cbd6ebe53ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7517c32c3c6aeff37ba89888c3907700"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1cli_1_1_format_util.html#a7517c32c3c6aeff37ba89888c3907700">formatListWithLineLimit</a> (const std::vector&lt; std::string &gt; &amp;str_list, size_t row_len, size_t indent_len, bool print_first_indent=true)</td></tr>
+<tr class="memdesc:a7517c32c3c6aeff37ba89888c3907700"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format a list of strings as comma delimited. Introducing a new-line to keep each row within a certain size.  <a href="classtc_1_1cli_1_1_format_util.html#a7517c32c3c6aeff37ba89888c3907700">More...</a><br /></td></tr>
+<tr class="separator:a7517c32c3c6aeff37ba89888c3907700"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21f0b11eafcca9cef543dbe34a2c122e"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1cli_1_1_format_util.html#a21f0b11eafcca9cef543dbe34a2c122e">formatBytesAsHxdHexString</a> (const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *data, size_t size, size_t bytes_per_row, size_t byte_group_size)</td></tr>
 <tr class="memdesc:a21f0b11eafcca9cef543dbe34a2c122e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format raw bytes in the style of HxD editor hex view.  <a href="classtc_1_1cli_1_1_format_util.html#a21f0b11eafcca9cef543dbe34a2c122e">More...</a><br /></td></tr>
 <tr class="separator:a21f0b11eafcca9cef543dbe34a2c122e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dc5343bcaf7a2550e0b4abb5783218c"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1cli_1_1_format_util.html#a7dc5343bcaf7a2550e0b4abb5783218c">formatBytesAsHxdHexString</a> (const <a class="el" href="classtc_1_1_byte_data.html">tc::ByteData</a> &amp;data, size_t bytes_per_row, size_t byte_group_size)</td></tr>
-<tr class="memdesc:a7dc5343bcaf7a2550e0b4abb5783218c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format <a class="el" href="classtc_1_1_byte_data.html" title="A container of linear memory, used to hold raw data.">tc::ByteData</a> in the style of HxD editor hex view.  <a href="classtc_1_1cli_1_1_format_util.html#a7dc5343bcaf7a2550e0b4abb5783218c">More...</a><br /></td></tr>
-<tr class="separator:a7dc5343bcaf7a2550e0b4abb5783218c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a825998ba30f6e418537dcad39ee2f4db"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1cli_1_1_format_util.html#a825998ba30f6e418537dcad39ee2f4db">formatBytesAsHxdHexString</a> (const <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> *data, size_t size)</td></tr>
 <tr class="memdesc:a825998ba30f6e418537dcad39ee2f4db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format raw bytes in the style of HxD editor hex view.  <a href="classtc_1_1cli_1_1_format_util.html#a825998ba30f6e418537dcad39ee2f4db">More...</a><br /></td></tr>
 <tr class="separator:a825998ba30f6e418537dcad39ee2f4db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a126257e46aee713c34e195ced4651a23"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1cli_1_1_format_util.html#a126257e46aee713c34e195ced4651a23">formatBytesAsHxdHexString</a> (const <a class="el" href="classtc_1_1_byte_data.html">tc::ByteData</a> &amp;data)</td></tr>
-<tr class="memdesc:a126257e46aee713c34e195ced4651a23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format <a class="el" href="classtc_1_1_byte_data.html" title="A container of linear memory, used to hold raw data.">tc::ByteData</a> in the style of HxD editor hex view.  <a href="classtc_1_1cli_1_1_format_util.html#a126257e46aee713c34e195ced4651a23">More...</a><br /></td></tr>
-<tr class="separator:a126257e46aee713c34e195ced4651a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >A collection of utilities to format binary data as strings and vice-versa. </p>
@@ -117,7 +108,7 @@ Static Public Member Functions</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="_format_util_8h_source.html#l00018">18</a> of file <a class="el" href="_format_util_8h_source.html">FormatUtil.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a825998ba30f6e418537dcad39ee2f4db" name="a825998ba30f6e418537dcad39ee2f4db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a825998ba30f6e418537dcad39ee2f4db">&#9670;&nbsp;</a></span>formatBytesAsHxdHexString() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a825998ba30f6e418537dcad39ee2f4db">&#9670;&nbsp;</a></span>formatBytesAsHxdHexString() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -163,7 +154,7 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a21f0b11eafcca9cef543dbe34a2c122e" name="a21f0b11eafcca9cef543dbe34a2c122e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21f0b11eafcca9cef543dbe34a2c122e">&#9670;&nbsp;</a></span>formatBytesAsHxdHexString() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a21f0b11eafcca9cef543dbe34a2c122e">&#9670;&nbsp;</a></span>formatBytesAsHxdHexString() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -213,94 +204,6 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Pointer to bytes to format. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">size</td><td>Size of data to format. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">bytes_per_row</td><td>Number of bytes to print on each row. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">byte_group_size</td><td>Size of each byte group.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Formatted string </dd></dl>
-
-</div>
-</div>
-<a id="a126257e46aee713c34e195ced4651a23" name="a126257e46aee713c34e195ced4651a23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a126257e46aee713c34e195ced4651a23">&#9670;&nbsp;</a></span>formatBytesAsHxdHexString() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static std::string tc::cli::FormatUtil::formatBytesAsHxdHexString </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtc_1_1_byte_data.html">tc::ByteData</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Format <a class="el" href="classtc_1_1_byte_data.html" title="A container of linear memory, used to hold raw data.">tc::ByteData</a> in the style of HxD editor hex view. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td><a class="el" href="classtc_1_1_byte_data.html" title="A container of linear memory, used to hold raw data.">ByteData</a> to format.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Formatted string </dd></dl>
-
-</div>
-</div>
-<a id="a7dc5343bcaf7a2550e0b4abb5783218c" name="a7dc5343bcaf7a2550e0b4abb5783218c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dc5343bcaf7a2550e0b4abb5783218c">&#9670;&nbsp;</a></span>formatBytesAsHxdHexString() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static std::string tc::cli::FormatUtil::formatBytesAsHxdHexString </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtc_1_1_byte_data.html">tc::ByteData</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>bytes_per_row</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>byte_group_size</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Format <a class="el" href="classtc_1_1_byte_data.html" title="A container of linear memory, used to hold raw data.">tc::ByteData</a> in the style of HxD editor hex view. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td><a class="el" href="classtc_1_1_byte_data.html" title="A container of linear memory, used to hold raw data.">ByteData</a> to format. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">bytes_per_row</td><td>Number of bytes to print on each row. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">byte_group_size</td><td>Size of each byte group.</td></tr>
   </table>
@@ -413,7 +316,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Format <a class="el" href="classtc_1_1_byte_data.html" title="A container of linear memory, used to hold raw data.">tc::ByteData</a> as a hexadecimal string. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Data to format. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Reference to <a class="el" href="classtc_1_1_byte_data.html" title="A container of linear memory, used to hold raw data.">tc::ByteData</a> object to format. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">is_upper_case</td><td>Format bytes in upper case. If false the bytes will be formatted in lower case. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">delimiter</td><td>String to separate formated bytes with.</td></tr>
   </table>
@@ -423,8 +326,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="acd465e1bae2d5355204eebf0cbf6a41d" name="acd465e1bae2d5355204eebf0cbf6a41d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd465e1bae2d5355204eebf0cbf6a41d">&#9670;&nbsp;</a></span>formatBytesAsStringWithLineLimit() <span class="overload">[1/2]</span></h2>
+<a id="af5ac29aaf0bbd4d55383cbd6ebe53ac7" name="af5ac29aaf0bbd4d55383cbd6ebe53ac7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5ac29aaf0bbd4d55383cbd6ebe53ac7">&#9670;&nbsp;</a></span>formatBytesAsStringWithLineLimit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -466,7 +369,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>indent_len</em>&#160;</td>
+          <td class="paramname"><em>indent_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>print_first_indent</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -489,7 +398,8 @@ Static Public Member Functions</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">is_upper_case</td><td>Format bytes in upper case. If false the bytes will be formatted in lower case. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">delimiter</td><td>String to separate formated bytes with. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">row_len</td><td>Maximum length each row can be before a newline is introduced. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">indent_len</td><td>Length of spaces each new line should be indented.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent_len</td><td>Length of spaces each new line should be indented. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">print_first_indent</td><td>Print the indent for the first line, default is true.</td></tr>
   </table>
   </dd>
 </dl>
@@ -497,75 +407,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="accb87733bcf86f080a3b090c61c44113" name="accb87733bcf86f080a3b090c61c44113"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accb87733bcf86f080a3b090c61c44113">&#9670;&nbsp;</a></span>formatBytesAsStringWithLineLimit() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static std::string tc::cli::FormatUtil::formatBytesAsStringWithLineLimit </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classtc_1_1_byte_data.html">tc::ByteData</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>is_upper_case</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>delimiter</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>row_len</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>indent_len</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Format <a class="el" href="classtc_1_1_byte_data.html" title="A container of linear memory, used to hold raw data.">tc::ByteData</a> as a hexadecimal string. Introducing a new-line to keep each row within a certain size. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Data to format. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">is_upper_case</td><td>Format bytes in upper case. If false the bytes will be formatted in lower case. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">delimiter</td><td>String to separate formated bytes with. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">row_len</td><td>Maximum length each row can be before a newline is introduced. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">indent_len</td><td>Length of spaces each new line should be indented.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Formatted string </dd></dl>
-
-</div>
-</div>
-<a id="a2f99595cb1aed2920969efffcffb3100" name="a2f99595cb1aed2920969efffcffb3100"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f99595cb1aed2920969efffcffb3100">&#9670;&nbsp;</a></span>formatListWithLineLimit()</h2>
+<a id="a7517c32c3c6aeff37ba89888c3907700" name="a7517c32c3c6aeff37ba89888c3907700"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7517c32c3c6aeff37ba89888c3907700">&#9670;&nbsp;</a></span>formatListWithLineLimit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -589,7 +432,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>indent_len</em>&#160;</td>
+          <td class="paramname"><em>indent_len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>print_first_indent</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -609,7 +458,8 @@ Static Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">str_list</td><td>List of strings to print. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">row_len</td><td>Maximum length each row can be before a newline is introduced. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">indent_len</td><td>Length of spaces each new line should be indented.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">indent_len</td><td>Length of spaces each new line should be indented. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">print_first_indent</td><td>Print the indent for the first line, default is true.</td></tr>
   </table>
   </dd>
 </dl>
