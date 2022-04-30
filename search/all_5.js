@@ -1,10 +1,15 @@
 var searchData=
 [
-  ['file_5flist_0',['file_list',['../structtc_1_1fs_1_1s_directory_listing.html#a0adc08b3eab83694d8f92dacf1653c81',1,'tc::fs::sDirectoryListing']]],
-  ['fileaccess_5fcreate_1',['FILEACCESS_CREATE',['../namespacetc_1_1fs.html#a1d1ada056f216d2ed93459999aa70243aea30d329773e6ee4183e2a5df9051f20',1,'tc::fs']]],
-  ['fileaccess_5fedit_2',['FILEACCESS_EDIT',['../namespacetc_1_1fs.html#a1d1ada056f216d2ed93459999aa70243adb80c63d27a04be3aea355f89d809c7d',1,'tc::fs']]],
-  ['fileaccess_5fread_3',['FILEACCESS_READ',['../namespacetc_1_1fs.html#a1d1ada056f216d2ed93459999aa70243ad0fcf06d689f3cad83a08ec8e21eacfb',1,'tc::fs']]],
-  ['fileaccessmode_4',['FileAccessMode',['../namespacetc_1_1fs.html#a1d1ada056f216d2ed93459999aa70243',1,'tc::fs']]],
-  ['front_5',['front',['../classtc_1_1fs_1_1_path.html#aaa34de18d4a389da8fd495d314b4be2c',1,'tc::fs::Path::front()'],['../classtc_1_1fs_1_1_path.html#a2f92eea9b54370d8a919961d743dc0e4',1,'tc::fs::Path::front() const']]],
-  ['fs_2eh_6',['fs.h',['../fs_8h.html',1,'']]]
+  ['file_5flist_0',['file_list',['../structtc_1_1io_1_1s_directory_listing.html#a340e486186766e83ffd93fc1beeb06eb',1,'tc::io::sDirectoryListing']]],
+  ['fileaccess_1',['FileAccess',['../namespacetc_1_1io.html#a835b094bc25b407e842bb0dc0bcd1b4e',1,'tc::io']]],
+  ['fileexistsexception_2',['FileExistsException',['../classtc_1_1io_1_1_file_exists_exception.html#afefe10ff3b17062a335e95bca92a1bd5',1,'tc::io::FileExistsException::FileExistsException() noexcept'],['../classtc_1_1io_1_1_file_exists_exception.html#ad052eb30a7913dd5faf82e519d656da5',1,'tc::io::FileExistsException::FileExistsException(const std::string &amp;what) noexcept'],['../classtc_1_1io_1_1_file_exists_exception.html#a83356452235e0721f897f499d659b4a9',1,'tc::io::FileExistsException::FileExistsException(const std::string &amp;module, const std::string &amp;what) noexcept'],['../classtc_1_1io_1_1_file_exists_exception.html',1,'tc::io::FileExistsException']]],
+  ['fileexistsexception_2eh_3',['FileExistsException.h',['../_file_exists_exception_8h.html',1,'']]],
+  ['filemode_4',['FileMode',['../namespacetc_1_1io.html#a56ce7bbd3bfc8e28d4c297fefbe7dadd',1,'tc::io']]],
+  ['filemode_2eh_5',['FileMode.h',['../_file_mode_8h.html',1,'']]],
+  ['filenotfoundexception_6',['FileNotFoundException',['../classtc_1_1io_1_1_file_not_found_exception.html#adc48152423c41d6146cc68334cdddda1',1,'tc::io::FileNotFoundException::FileNotFoundException() noexcept'],['../classtc_1_1io_1_1_file_not_found_exception.html#a1df014ad25f75506ba60313f45b1a313',1,'tc::io::FileNotFoundException::FileNotFoundException(const std::string &amp;what) noexcept'],['../classtc_1_1io_1_1_file_not_found_exception.html#a8033d4ee5ad203ae02b0cea369ff80a6',1,'tc::io::FileNotFoundException::FileNotFoundException(const std::string &amp;module, const std::string &amp;what) noexcept'],['../classtc_1_1io_1_1_file_not_found_exception.html',1,'tc::io::FileNotFoundException']]],
+  ['filenotfoundexception_2eh_7',['FileNotFoundException.h',['../_file_not_found_exception_8h.html',1,'']]],
+  ['filestream_8',['FileStream',['../classtc_1_1io_1_1_file_stream.html#a2f501f65b9eeaa1b149e03c8733aedc8',1,'tc::io::FileStream::FileStream()'],['../classtc_1_1io_1_1_file_stream.html#a3a12412f6b36541a00d090f68bcac67e',1,'tc::io::FileStream::FileStream(FileStream &amp;&amp;other)'],['../classtc_1_1io_1_1_file_stream.html#a010a0b5052fe24a6c0b5463729cc984d',1,'tc::io::FileStream::FileStream(const tc::io::Path &amp;path, FileMode mode, FileAccess access)'],['../classtc_1_1io_1_1_file_stream.html',1,'tc::io::FileStream']]],
+  ['filestream_2eh_9',['FileStream.h',['../_file_stream_8h.html',1,'']]],
+  ['flush_10',['flush',['../classtc_1_1io_1_1_file_stream.html#adc62e3083fd12650202aa8c4c8870367',1,'tc::io::FileStream::flush()'],['../classtc_1_1io_1_1_i_stream.html#a24822427bdde1f4ec7b6ffc8ef2fe0af',1,'tc::io::IStream::flush()'],['../classtc_1_1io_1_1_memory_stream.html#af9896e697149f80dee594675a9713f22',1,'tc::io::MemoryStream::flush()'],['../classtc_1_1io_1_1_sub_stream.html#a44832e9ef7f678b5935f73f3ddfb2516',1,'tc::io::SubStream::flush()']]],
+  ['front_11',['front',['../classtc_1_1io_1_1_path.html#a73681d459051c8241e9bcb1ab21681cf',1,'tc::io::Path::front()'],['../classtc_1_1io_1_1_path.html#a06a1c2dd9568f784facb63fceb52fff6',1,'tc::io::Path::front() const']]]
 ];

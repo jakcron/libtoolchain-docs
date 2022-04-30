@@ -1,0 +1,13 @@
+<map id="tc/io/IOException.h" name="tc/io/IOException.h">
+<area shape="rect" id="node1" title="Declaration of tc::io::IOException." alt="" coords="623,5,757,32"/>
+<area shape="rect" id="node2" href="$io_8h.html" title="Declaration of the input/output library." alt="" coords="661,229,719,256"/>
+<area shape="rect" id="node4" href="$_directory_not_empty_exception_8h.html" title="Declaration of tc::io::DirectoryNotEmptyException." alt="" coords="27,80,259,107"/>
+<area shape="rect" id="node5" href="$_local_storage_8h.html" title="Declaration of tc::io::LocalStorage." alt="" coords="499,155,638,181"/>
+<area shape="rect" id="node6" href="$_directory_not_found_exception_8h.html" title="Declaration of tc::io::DirectoryNotFoundException." alt="" coords="284,80,515,107"/>
+<area shape="rect" id="node7" href="$_file_exists_exception_8h.html" title="Declaration of tc::io::FileExistsException." alt="" coords="814,80,993,107"/>
+<area shape="rect" id="node8" href="$_file_stream_8h.html" title="Declaration of tc::io::FileStream." alt="" coords="841,155,966,181"/>
+<area shape="rect" id="node9" href="$_file_not_found_exception_8h.html" title="Declaration of tc::io::FileNotFoundException." alt="" coords="591,80,789,107"/>
+<area shape="rect" id="node10" href="$_path_too_long_exception_8h.html" title="Declaration of tc::io::PathTooLongException." alt="" coords="1068,80,1264,107"/>
+<area shape="rect" id="node11" href="$_stream_sink_8h.html" title="Declaration of tc::io::StreamSink." alt="" coords="1179,155,1310,181"/>
+<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="668,304,712,331"/>
+</map>

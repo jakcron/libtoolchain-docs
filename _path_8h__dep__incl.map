@@ -1,11 +1,10 @@
-<map id="tc/fs/Path.h" name="tc/fs/Path.h">
-<area shape="rect" id="node1" title="Declaration of tc::fs::Path." alt="" coords="184,5,275,32"/>
-<area shape="rect" id="node2" href="$fs_8h.html" title="Declaration of the filesystem library." alt="" coords="125,304,184,331"/>
-<area shape="rect" id="node4" href="$_i_file_system_8h.html" title="Declaration of tc::fs::IFileSystem." alt="" coords="163,80,296,107"/>
-<area shape="rect" id="node9" href="$_path_utils_8h.html" title="Declaration of utilities related to tc::fs::Path." alt="" coords="505,229,623,256"/>
-<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="125,379,184,405"/>
-<area shape="rect" id="node5" href="$_generic_file_system_8h.html" title="Declaration of tc::fs::GenericFileSystem." alt="" coords="67,155,242,181"/>
-<area shape="rect" id="node7" href="$_local_file_object_8h.html" title="Declaration of tc::fs::LocalFileObject." alt="" coords="277,229,430,256"/>
-<area shape="rect" id="node8" href="$_local_file_system_8h.html" title="Declaration of tc::fs::LocalFileSystem." alt="" coords="353,155,513,181"/>
-<area shape="rect" id="node6" href="$_sandboxed_file_system_8h.html" title="Declaration of tc::fs::SandboxedFileSystem." alt="" coords="57,229,252,256"/>
+<map id="tc/io/Path.h" name="tc/io/Path.h">
+<area shape="rect" id="node1" title="Declaration of tc::io::Path." alt="" coords="116,5,205,32"/>
+<area shape="rect" id="node2" href="$io_8h.html" title="Declaration of the input/output library." alt="" coords="132,229,191,256"/>
+<area shape="rect" id="node4" href="$_file_stream_8h.html" title="Declaration of tc::io::FileStream." alt="" coords="27,80,152,107"/>
+<area shape="rect" id="node5" href="$_i_storage_8h.html" title="Declaration of tc::io::IStorage." alt="" coords="177,80,288,107"/>
+<area shape="rect" id="node8" href="$_path_util_8h.html" title="Declaration of tc::io::PathUtil." alt="" coords="463,155,572,181"/>
+<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="140,304,184,331"/>
+<area shape="rect" id="node6" href="$_local_storage_8h.html" title="Declaration of tc::io::LocalStorage." alt="" coords="146,155,284,181"/>
+<area shape="rect" id="node7" href="$_sub_storage_8h.html" title="Declaration of tc::io::SubStorage." alt="" coords="308,155,439,181"/>
 </map>

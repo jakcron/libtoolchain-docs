@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['localfileobject_2eh_0',['LocalFileObject.h',['../_local_file_object_8h.html',1,'']]],
-  ['localfilesystem_2eh_1',['LocalFileSystem.h',['../_local_file_system_8h.html',1,'']]]
+  ['fileexistsexception_2eh_0',['FileExistsException.h',['../_file_exists_exception_8h.html',1,'']]],
+  ['filemode_2eh_1',['FileMode.h',['../_file_mode_8h.html',1,'']]],
+  ['filenotfoundexception_2eh_2',['FileNotFoundException.h',['../_file_not_found_exception_8h.html',1,'']]],
+  ['filestream_2eh_3',['FileStream.h',['../_file_stream_8h.html',1,'']]]
 ];

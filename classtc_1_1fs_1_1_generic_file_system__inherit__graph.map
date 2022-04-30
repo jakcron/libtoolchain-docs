@@ -1,4 +1,0 @@
-<map id="tc::fs::GenericFileSystem" name="tc::fs::GenericFileSystem">
-<area shape="rect" id="node1" title="A realisation of IFileSystem that can be assigned (copy or move) the value of another IFileSystem obj..." alt="" coords="5,307,176,589"/>
-<area shape="rect" id="node2" href="$classtc_1_1fs_1_1_i_file_system.html" title="An interface for implementing a basic FileSystem handler." alt="" coords="11,5,171,259"/>
-</map>

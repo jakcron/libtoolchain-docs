@@ -1,4 +1,12 @@
 var searchData=
 [
-  ['unwrap_0',['unwrap',['../structle__uint16__t.html#a619d501185283b9eddae8d3df0f15ed4',1,'le_uint16_t::unwrap()'],['../structbe__uint16__t.html#a25c39d2d422feb839343ff8e109c229e',1,'be_uint16_t::unwrap()'],['../structle__uint32__t.html#a6ae9ae0b1b912afa6c64711330ad398a',1,'le_uint32_t::unwrap()'],['../structbe__uint32__t.html#a9bc8fd06e8a42d29b8c3a295612e1130',1,'be_uint32_t::unwrap()'],['../structle__uint64__t.html#a2d2d412c4bf672e378a42fdd1cf885ce',1,'le_uint64_t::unwrap()'],['../structbe__uint64__t.html#a9b271f889a1f91de708230d9394fb039',1,'be_uint64_t::unwrap()']]]
+  ['io_0',['io',['../namespacetc_1_1io.html',1,'tc']]],
+  ['string_1',['string',['../namespacetc_1_1string.html',1,'tc']]],
+  ['tc_2',['tc',['../namespacetc.html',1,'']]],
+  ['tc_2eh_3',['tc.h',['../tc_8h.html',1,'']]],
+  ['tosource_4',['toSource',['../classtc_1_1io_1_1_i_readable_sink.html#ac764c67128e282e0327848ced7c19dad',1,'tc::io::IReadableSink']]],
+  ['transcodeutil_5',['TranscodeUtil',['../classtc_1_1string_1_1_transcode_util.html',1,'tc::string']]],
+  ['transcodeutil_2eh_6',['TranscodeUtil.h',['../_transcode_util_8h.html',1,'']]],
+  ['truncate_7',['Truncate',['../namespacetc_1_1io.html#a56ce7bbd3bfc8e28d4c297fefbe7daddaa8156810bfee2bd2b44765b9e91db3bd',1,'tc::io']]],
+  ['types_2eh_8',['types.h',['../types_8h.html',1,'']]]
 ];

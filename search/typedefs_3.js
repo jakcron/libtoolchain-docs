@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['resourcestate_0',['ResourceState',['../namespacetc.html#a582ca0836f34465fa8eb0b09d7deb49e',1,'tc']]]
+  ['resourcestatus_0',['ResourceStatus',['../namespacetc.html#afeaccfc985ed3438ea5e172d4fe4f535',1,'tc']]]
 ];

@@ -1,0 +1,16 @@
+<map id="tc/ByteData.h" name="tc/ByteData.h">
+<area shape="rect" id="node1" title="Declaration of tc::ByteData." alt="" coords="392,5,495,32"/>
+<area shape="rect" id="node2" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="272,304,316,331"/>
+<area shape="rect" id="node3" href="$_i_sink_8h.html" title="Declaration of tc::io::ISink." alt="" coords="210,80,302,107"/>
+<area shape="rect" id="node8" href="$_i_source_8h.html" title="Declaration of tc::io::ISource." alt="" coords="670,80,777,107"/>
+<area shape="rect" id="node14" href="$_memory_stream_8h.html" title="Declaration of tc::io::MemoryStream." alt="" coords="1123,80,1274,107"/>
+<area shape="rect" id="node4" href="$io_8h.html" title="Declaration of the input/output library." alt="" coords="604,229,662,256"/>
+<area shape="rect" id="node5" href="$_i_readable_sink_8h.html" title="Declaration of tc::io::IReadableSink." alt="" coords="336,155,482,181"/>
+<area shape="rect" id="node6" href="$_stream_sink_8h.html" title="Declaration of tc::io::StreamSink." alt="" coords="45,155,176,181"/>
+<area shape="rect" id="node7" href="$_sub_sink_8h.html" title="Declaration of tc::io::SubSink." alt="" coords="200,155,311,181"/>
+<area shape="rect" id="node9" href="$_memory_source_8h.html" title="Declaration of tc::io::MemorySource." alt="" coords="558,155,708,181"/>
+<area shape="rect" id="node10" href="$_overlayed_source_8h.html" title="Declaration of tc::io::OverlayedSource." alt="" coords="733,155,896,181"/>
+<area shape="rect" id="node11" href="$_padding_source_8h.html" title="Declaration of tc::io::PaddingSource." alt="" coords="920,155,1071,181"/>
+<area shape="rect" id="node12" href="$_stream_source_8h.html" title="Declaration of tc::io::StreamSource." alt="" coords="1095,155,1240,181"/>
+<area shape="rect" id="node13" href="$_sub_source_8h.html" title="Declaration of tc::io::SubSource." alt="" coords="1264,155,1391,181"/>
+</map>

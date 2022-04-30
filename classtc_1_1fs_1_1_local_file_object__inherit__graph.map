@@ -1,4 +1,0 @@
-<map id="tc::fs::LocalFileObject" name="tc::fs::LocalFileObject">
-<area shape="rect" id="node1" title="An implementation of IFileObject as a wrapper to local OS file access functions." alt="" coords="5,263,156,501"/>
-<area shape="rect" id="node2" href="$classtc_1_1fs_1_1_i_file_object.html" title="An interface for implementing a basic File handler." alt="" coords="19,5,143,215"/>
-</map>

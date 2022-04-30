@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.2.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.3.0</span>
    </div>
   </td>
  </tr>
@@ -94,19 +94,23 @@ $(document).ready(function(){initNavTree('types_8h.html',''); initResizable(); }
 <code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;cstdint&gt;</code><br />
 <code>#include &lt;cstring&gt;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;algorithm&gt;</code><br />
 <code>#include &lt;<a class="el" href="endian_8h_source.html">tc/endian.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for types.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="types_8h__incl.png" border="0" usemap="#atc_2types_8h" alt=""/></div>
 <map name="atc_2types_8h" id="atc_2types_8h">
-<area shape="rect" title="Declaration of generic types used by libtoolchain." alt="" coords="158,5,238,32"/>
+<area shape="rect" title="Declaration of generic types used by libtoolchain." alt="" coords="243,5,323,32"/>
 <area shape="rect" title=" " alt="" coords="5,80,60,107"/>
 <area shape="rect" title=" " alt="" coords="85,80,143,107"/>
 <area shape="rect" title=" " alt="" coords="167,80,229,107"/>
 <area shape="rect" title=" " alt="" coords="253,80,314,107"/>
-<area shape="rect" href="endian_8h.html" title="Declaration of macros and classes to unwrap primatives in an endian agnostic way." alt="" coords="339,80,425,107"/>
-<area shape="rect" title=" " alt="" coords="345,155,419,181"/>
+<area shape="rect" title=" " alt="" coords="338,80,407,107"/>
+<area shape="rect" title=" " alt="" coords="431,80,506,107"/>
+<area shape="rect" href="endian_8h.html" title="Declaration of macros and classes to unwrap primatives in an endian agnostic way." alt="" coords="531,80,617,107"/>
+<area shape="rect" title=" " alt="" coords="537,155,611,181"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -114,22 +118,34 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="types_8h__dep__incl.png" border="0" usemap="#atc_2types_8hdep" alt=""/></div>
 <map name="atc_2types_8hdep" id="atc_2types_8hdep">
-<area shape="rect" title="Declaration of generic types used by libtoolchain." alt="" coords="731,5,811,32"/>
-<area shape="rect" href="_optional_8h.html" title="Declaration of tc::Optional." alt="" coords="43,155,139,181"/>
-<area shape="rect" href="tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="95,528,153,555"/>
-<area shape="rect" href="_shared_ptr_8h.html" title="Declaration of tc::SharedPtr." alt="" coords="278,80,383,107"/>
-<area shape="rect" href="fs_8h.html" title="Declaration of the filesystem library." alt="" coords="675,453,733,480"/>
-<area shape="rect" href="_i_file_system_8h.html" title="Declaration of tc::fs::IFileSystem." alt="" coords="360,229,493,256"/>
-<area shape="rect" href="_i_file_object_8h.html" title="Declaration of tc::fs::IFileObject." alt="" coords="707,80,834,107"/>
-<area shape="rect" href="_path_8h.html" title="Declaration of tc::fs::Path." alt="" coords="827,155,917,181"/>
-<area shape="rect" href="_path_utils_8h.html" title="Declaration of utilities related to tc::fs::Path." alt="" coords="905,229,1023,256"/>
-<area shape="rect" href="string_8h.html" title="Declaration of the string library." alt="" coords="1148,379,1228,405"/>
-<area shape="rect" href="_generic_file_object_8h.html" title="Declaration of tc::fs::GenericFileObject." alt="" coords="526,155,693,181"/>
-<area shape="rect" href="_generic_file_system_8h.html" title="Declaration of tc::fs::GenericFileSystem." alt="" coords="298,304,473,331"/>
-<area shape="rect" href="_sandboxed_file_system_8h.html" title="Declaration of tc::fs::SandboxedFileSystem." alt="" coords="161,379,356,405"/>
-<area shape="rect" href="_partitioned_file_object_8h.html" title="Declaration of tc::fs::PartitionedFileObject." alt="" coords="517,229,701,256"/>
-<area shape="rect" href="_local_file_object_8h.html" title="Declaration of tc::fs::LocalFileObject." alt="" coords="767,304,921,331"/>
-<area shape="rect" href="_local_file_system_8h.html" title="Declaration of tc::fs::LocalFileSystem." alt="" coords="431,379,591,405"/>
+<area shape="rect" title="Declaration of generic types used by libtoolchain." alt="" coords="1904,5,1984,32"/>
+<area shape="rect" href="tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="1455,393,1499,420"/>
+<area shape="rect" href="_byte_data_8h.html" title="Declaration of tc::ByteData." alt="" coords="922,87,1025,114"/>
+<area shape="rect" href="_i_sink_8h.html" title="Declaration of tc::io::ISink." alt="" coords="1201,169,1293,196"/>
+<area shape="rect" href="io_8h.html" title="Declaration of the input/output library." alt="" coords="1448,319,1507,345"/>
+<area shape="rect" href="_i_source_8h.html" title="Declaration of tc::io::ISource." alt="" coords="692,169,799,196"/>
+<area shape="rect" href="_optional_8h.html" title="Declaration of tc::Optional." alt="" coords="1836,319,1932,345"/>
+<area shape="rect" href="_platform_error_handling_util_8h.html" title="Declaration of tc::PlatformErrorHandlingUtil." alt="" coords="2340,80,2505,121"/>
+<area shape="rect" href="_i_o_util_8h.html" title="Declaration of tc::io::IOUtil." alt="" coords="2529,87,2625,114"/>
+<area shape="rect" href="_i_storage_8h.html" title="Declaration of tc::io::IStorage." alt="" coords="1719,169,1830,196"/>
+<area shape="rect" href="_i_stream_8h.html" title="Declaration of tc::io::IStream." alt="" coords="1527,87,1635,114"/>
+<area shape="rect" href="_path_8h.html" title="Declaration of tc::io::Path." alt="" coords="1899,87,1989,114"/>
+<area shape="rect" href="_path_util_8h.html" title="Declaration of tc::io::PathUtil." alt="" coords="2055,169,2164,196"/>
+<area shape="rect" href="string_8h.html" title="Declaration of the string library." alt="" coords="2109,319,2189,345"/>
+<area shape="rect" href="_memory_stream_8h.html" title="Declaration of tc::io::MemoryStream." alt="" coords="898,169,1049,196"/>
+<area shape="rect" href="_i_readable_sink_8h.html" title="Declaration of tc::io::IReadableSink." alt="" coords="1055,244,1201,271"/>
+<area shape="rect" href="_stream_sink_8h.html" title="Declaration of tc::io::StreamSink." alt="" coords="1412,244,1543,271"/>
+<area shape="rect" href="_sub_sink_8h.html" title="Declaration of tc::io::SubSink." alt="" coords="1226,244,1337,271"/>
+<area shape="rect" href="_memory_source_8h.html" title="Declaration of tc::io::MemorySource." alt="" coords="145,244,295,271"/>
+<area shape="rect" href="_overlayed_source_8h.html" title="Declaration of tc::io::OverlayedSource." alt="" coords="320,244,483,271"/>
+<area shape="rect" href="_padding_source_8h.html" title="Declaration of tc::io::PaddingSource." alt="" coords="507,244,658,271"/>
+<area shape="rect" href="_stream_source_8h.html" title="Declaration of tc::io::StreamSource." alt="" coords="885,244,1030,271"/>
+<area shape="rect" href="_sub_source_8h.html" title="Declaration of tc::io::SubSource." alt="" coords="682,244,809,271"/>
+<area shape="rect" href="_local_storage_8h.html" title="Declaration of tc::io::LocalStorage." alt="" coords="1719,244,1857,271"/>
+<area shape="rect" href="_sub_storage_8h.html" title="Declaration of tc::io::SubStorage." alt="" coords="1881,244,2012,271"/>
+<area shape="rect" href="_file_stream_8h.html" title="Declaration of tc::io::FileStream." alt="" coords="1855,169,1980,196"/>
+<area shape="rect" href="_stream_util_8h.html" title="Declaration of tc::io::StreamUtil." alt="" coords="1519,169,1643,196"/>
+<area shape="rect" href="_sub_stream_8h.html" title="Declaration of tc::io::SubStream." alt="" coords="1369,169,1495,196"/>
 </map>
 </div>
 </div>
@@ -137,33 +153,33 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a5f2bd8130655730e7899c385aca6a2b1"><td class="memItemLeft" align="right" valign="top">typedef uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a5f2bd8130655730e7899c385aca6a2b1">byte_t</a></td></tr>
-<tr class="memdesc:a5f2bd8130655730e7899c385aca6a2b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedef uint8_t to byte_t to more explicity indicate its role in memory related contexts.  <a href="types_8h.html#a5f2bd8130655730e7899c385aca6a2b1">More...</a><br /></td></tr>
-<tr class="separator:a5f2bd8130655730e7899c385aca6a2b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11f018d226b5517a1b05e065843af7ae"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> = uint8_t</td></tr>
+<tr class="memdesc:a11f018d226b5517a1b05e065843af7ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Alias uint8_t to byte_t to more explicity indicate its role in memory related contexts.  <a href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">More...</a><br /></td></tr>
+<tr class="separator:a11f018d226b5517a1b05e065843af7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Declaration of generic types used by libtoolchain. </p>
 <dl class="section author"><dt>Author</dt><dd>Jack (jakcron) </dd></dl>
-<dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2019/01/15 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.2 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2020/04/05 </dd></dl>
 
 <p class="definition">Definition in file <a class="el" href="types_8h_source.html">types.h</a>.</p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
-<a id="a5f2bd8130655730e7899c385aca6a2b1" name="a5f2bd8130655730e7899c385aca6a2b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f2bd8130655730e7899c385aca6a2b1">&#9670;&nbsp;</a></span>byte_t</h2>
+<a id="a11f018d226b5517a1b05e065843af7ae" name="a11f018d226b5517a1b05e065843af7ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11f018d226b5517a1b05e065843af7ae">&#9670;&nbsp;</a></span>byte_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="types_8h.html#a5f2bd8130655730e7899c385aca6a2b1">byte_t</a></td>
+          <td class="memname">using <a class="el" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> =  uint8_t</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Typedef uint8_t to byte_t to more explicity indicate its role in memory related contexts. </p>
+<p>Alias uint8_t to byte_t to more explicity indicate its role in memory related contexts. </p>
 
-<p class="definition">Definition at line <a class="el" href="types_8h_source.html#l00019">19</a> of file <a class="el" href="types_8h_source.html">types.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="types_8h_source.html#l00022">22</a> of file <a class="el" href="types_8h_source.html">types.h</a>.</p>
 
 </div>
 </div>

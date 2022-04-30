@@ -1,4 +1,0 @@
-<map id="tc::fs::SandboxedFileSystem" name="tc::fs::SandboxedFileSystem">
-<area shape="rect" id="node1" title="A wrapper around an existing IFileSystem object that exposes a subset of the wrapped IFileSystem dire..." alt="" coords="5,307,196,531"/>
-<area shape="rect" id="node2" href="$classtc_1_1fs_1_1_i_file_system.html" title="An interface for implementing a basic FileSystem handler." alt="" coords="21,5,181,259"/>
-</map>

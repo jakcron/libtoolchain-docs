@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.2.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.3.0</span>
    </div>
   </td>
  </tr>
@@ -86,16 +86,22 @@ $(document).ready(function(){initNavTree('types_8h_source.html',''); initResizab
 </div><!--header-->
 <div class="contents">
 <a href="types_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">    #pragma once</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &lt;vector&gt;</span></div>
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &lt;cstdint&gt;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;cstring&gt;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;<a class="code" href="endian_8h.html">tc/endian.h</a>&gt;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="types_8h.html#a5f2bd8130655730e7899c385aca6a2b1">   19</a></span><span class="keyword">typedef</span> uint8_t <a class="code hl_typedef" href="types_8h.html#a5f2bd8130655730e7899c385aca6a2b1">byte_t</a>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &lt;algorithm&gt;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="preprocessor">#include &lt;<a class="code" href="endian_8h.html">tc/endian.h</a>&gt;</span></div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#ifdef _WIN32</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#define NOMINMAX</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#endif</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">   22</a></span><span class="keyword">using</span> <a class="code hl_typedef" href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a> = uint8_t;</div>
 <div class="ttc" id="aendian_8h_html"><div class="ttname"><a href="endian_8h.html">endian.h</a></div><div class="ttdoc">Declaration of macros and classes to unwrap primatives in an endian agnostic way.</div></div>
-<div class="ttc" id="atypes_8h_html_a5f2bd8130655730e7899c385aca6a2b1"><div class="ttname"><a href="types_8h.html#a5f2bd8130655730e7899c385aca6a2b1">byte_t</a></div><div class="ttdeci">uint8_t byte_t</div><div class="ttdoc">Typedef uint8_t to byte_t to more explicity indicate its role in memory related contexts.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00019">types.h:19</a></div></div>
+<div class="ttc" id="atypes_8h_html_a11f018d226b5517a1b05e065843af7ae"><div class="ttname"><a href="types_8h.html#a11f018d226b5517a1b05e065843af7ae">byte_t</a></div><div class="ttdeci">uint8_t byte_t</div><div class="ttdoc">Alias uint8_t to byte_t to more explicity indicate its role in memory related contexts.</div><div class="ttdef"><b>Definition:</b> <a href="types_8h_source.html#l00022">types.h:22</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
