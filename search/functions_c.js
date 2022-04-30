@@ -1,5 +1,9 @@
 var searchData=
 [
-  ['what_0',['what',['../classtc_1_1_exception.html#a0ccfa61385f83b9b1e62b5532c5703a2',1,'tc::Exception']]],
-  ['write_1',['write',['../classtc_1_1fs_1_1_i_file.html#a00ee588bac3fe64122b3fe22a1bd7d07',1,'tc::fs::IFile::write()'],['../classtc_1_1fs_1_1_sandboxed_i_file.html#a6871ce2257d3bf15516a482181e11f52',1,'tc::fs::SandboxedIFile::write()']]]
+  ['transcodeutf16toutf32_0',['transcodeUTF16ToUTF32',['../namespacetc_1_1string.html#a681a2266e627c99459c0630ad6caac7d',1,'tc::string']]],
+  ['transcodeutf16toutf8_1',['transcodeUTF16ToUTF8',['../namespacetc_1_1string.html#a209fa80f383eebc6e4646143ed2a5b43',1,'tc::string']]],
+  ['transcodeutf32toutf16_2',['transcodeUTF32ToUTF16',['../namespacetc_1_1string.html#ae9b114fbc613439c7bbea86a30ced250',1,'tc::string']]],
+  ['transcodeutf32toutf8_3',['transcodeUTF32ToUTF8',['../namespacetc_1_1string.html#a801623aee47479983330076175988691',1,'tc::string']]],
+  ['transcodeutf8toutf16_4',['transcodeUTF8ToUTF16',['../namespacetc_1_1string.html#a05a310e56be7811d17e2c246dcf917b5',1,'tc::string']]],
+  ['transcodeutf8toutf32_5',['transcodeUTF8ToUTF32',['../namespacetc_1_1string.html#ae5ec735ee7d2f24629ce3c9e8bb0d9f1',1,'tc::string']]]
 ];

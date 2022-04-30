@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['_7eifile_0',['~IFile',['../classtc_1_1fs_1_1_i_file.html#a7dbf28208c6da2cc60fddd8031068893',1,'tc::fs::IFile']]],
-  ['_7esharedptr_1',['~SharedPtr',['../classtc_1_1_shared_ptr.html#a21f49a9897a7a039f42204f581f5c3fb',1,'tc::SharedPtr']]]
+  ['unwrap_0',['unwrap',['../structle__uint16__t.html#a619d501185283b9eddae8d3df0f15ed4',1,'le_uint16_t::unwrap()'],['../structbe__uint16__t.html#a25c39d2d422feb839343ff8e109c229e',1,'be_uint16_t::unwrap()'],['../structle__uint32__t.html#a6ae9ae0b1b912afa6c64711330ad398a',1,'le_uint32_t::unwrap()'],['../structbe__uint32__t.html#a9bc8fd06e8a42d29b8c3a295612e1130',1,'be_uint32_t::unwrap()'],['../structle__uint64__t.html#a2d2d412c4bf672e378a42fdd1cf885ce',1,'le_uint64_t::unwrap()'],['../structbe__uint64__t.html#a9b271f889a1f91de708230d9394fb039',1,'be_uint64_t::unwrap()']]]
 ];

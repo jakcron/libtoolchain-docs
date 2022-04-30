@@ -1,9 +1,11 @@
 <map id="tc/fs/Path.h" name="tc/fs/Path.h">
-<area shape="rect" id="node1" title="Declaration of tc::fs::Path." alt="" coords="5,5,96,32"/>
-<area shape="rect" id="node2" href="$fs_8h.html" title="Declaration of the filesystem library." alt="" coords="69,304,128,331"/>
-<area shape="rect" id="node4" href="$_directory_info_8h.html" title="Declaration of tc::fs::DirectoryInfo." alt="" coords="35,80,173,107"/>
-<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="69,379,128,405"/>
-<area shape="rect" id="node5" href="$_i_file_system_8h.html" title="Declaration of tc::fs::IFileSystem." alt="" coords="117,155,251,181"/>
-<area shape="rect" id="node6" href="$_local_file_system_8h.html" title="Declaration of tc::fs::LocalFileSystem." alt="" coords="136,229,296,256"/>
-<area shape="rect" id="node7" href="$_sandboxed_i_file_system_8h.html" title="Declaration of tc::fs::SandboxedIFileSystem." alt="" coords="321,229,519,256"/>
+<area shape="rect" id="node1" title="Declaration of tc::fs::Path." alt="" coords="184,5,275,32"/>
+<area shape="rect" id="node2" href="$fs_8h.html" title="Declaration of the filesystem library." alt="" coords="125,304,184,331"/>
+<area shape="rect" id="node4" href="$_i_file_system_8h.html" title="Declaration of tc::fs::IFileSystem." alt="" coords="163,80,296,107"/>
+<area shape="rect" id="node9" href="$_path_utils_8h.html" title="Declaration of utilities related to tc::fs::Path." alt="" coords="505,229,623,256"/>
+<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="125,379,184,405"/>
+<area shape="rect" id="node5" href="$_generic_file_system_8h.html" title="Declaration of tc::fs::GenericFileSystem." alt="" coords="67,155,242,181"/>
+<area shape="rect" id="node7" href="$_local_file_object_8h.html" title="Declaration of tc::fs::LocalFileObject." alt="" coords="277,229,430,256"/>
+<area shape="rect" id="node8" href="$_local_file_system_8h.html" title="Declaration of tc::fs::LocalFileSystem." alt="" coords="353,155,513,181"/>
+<area shape="rect" id="node6" href="$_sandboxed_file_system_8h.html" title="Declaration of tc::fs::SandboxedFileSystem." alt="" coords="57,229,252,256"/>
 </map>

@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.1.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.2.0</span>
    </div>
   </td>
  </tr>
@@ -84,7 +84,9 @@ $(document).ready(function(){initNavTree('namespacetc.html',''); initResizable()
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">tc Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -112,10 +114,71 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtc_1_1_shared_ptr.html">SharedPtr</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A smart pointer which auto-deletes the embedded ptr when all references are gone.  <a href="classtc_1_1_shared_ptr.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a582ca0836f34465fa8eb0b09d7deb49e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetc.html#a582ca0836f34465fa8eb0b09d7deb49e">ResourceState</a> = std::bitset&lt; 32 &gt;</td></tr>
+<tr class="memdesc:a582ca0836f34465fa8eb0b09d7deb49e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bitset indicating resource state information (see <a class="el" href="namespacetc.html#a8543955320926015251dc33c80101f68">ResourceStateFlag</a>)  <a href="namespacetc.html#a582ca0836f34465fa8eb0b09d7deb49e">More...</a><br /></td></tr>
+<tr class="separator:a582ca0836f34465fa8eb0b09d7deb49e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a8543955320926015251dc33c80101f68"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetc.html#a8543955320926015251dc33c80101f68">ResourceStateFlag</a> { <a class="el" href="namespacetc.html#a8543955320926015251dc33c80101f68a927af2e6757bac6dec1894cfa1a5bd73">RESFLAG_READY</a>
+, <a class="el" href="namespacetc.html#a8543955320926015251dc33c80101f68a1eee4d145cc93d32e68b8ac19c76de23">RESFLAG_ERROR</a>
+, <a class="el" href="namespacetc.html#a8543955320926015251dc33c80101f68adecf6606c778f2f84c20cba2486bf728">RESFLAG_NOINIT</a>
+ }</td></tr>
+<tr class="memdesc:a8543955320926015251dc33c80101f68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flags for ResourceState.  <a href="namespacetc.html#a8543955320926015251dc33c80101f68">More...</a><br /></td></tr>
+<tr class="separator:a8543955320926015251dc33c80101f68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Root namespace for libtoolchain. </p>
-</div></div><!-- contents -->
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="a582ca0836f34465fa8eb0b09d7deb49e" name="a582ca0836f34465fa8eb0b09d7deb49e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a582ca0836f34465fa8eb0b09d7deb49e">&#9670;&nbsp;</a></span>ResourceState</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacetc.html#a582ca0836f34465fa8eb0b09d7deb49e">tc::ResourceState</a> = typedef std::bitset&lt;32&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Bitset indicating resource state information (see <a class="el" href="namespacetc.html#a8543955320926015251dc33c80101f68">ResourceStateFlag</a>) </p>
+
+<p class="definition">Definition at line <a class="el" href="_resource_state_8h_source.html#l00027">27</a> of file <a class="el" href="_resource_state_8h_source.html">ResourceState.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a8543955320926015251dc33c80101f68" name="a8543955320926015251dc33c80101f68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8543955320926015251dc33c80101f68">&#9670;&nbsp;</a></span>ResourceStateFlag</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacetc.html#a8543955320926015251dc33c80101f68">tc::ResourceStateFlag</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Flags for ResourceState. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8543955320926015251dc33c80101f68a927af2e6757bac6dec1894cfa1a5bd73" name="a8543955320926015251dc33c80101f68a927af2e6757bac6dec1894cfa1a5bd73"></a>RESFLAG_READY&#160;</td><td class="fielddoc"><p >Resource is ready for use </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8543955320926015251dc33c80101f68a1eee4d145cc93d32e68b8ac19c76de23" name="a8543955320926015251dc33c80101f68a1eee4d145cc93d32e68b8ac19c76de23"></a>RESFLAG_ERROR&#160;</td><td class="fielddoc"><p >Resource encountered an error </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a8543955320926015251dc33c80101f68adecf6606c778f2f84c20cba2486bf728" name="a8543955320926015251dc33c80101f68adecf6606c778f2f84c20cba2486bf728"></a>RESFLAG_NOINIT&#160;</td><td class="fielddoc"><p >Resource is not initialised </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="_resource_state_8h_source.html#l00017">17</a> of file <a class="el" href="_resource_state_8h_source.html">ResourceState.h</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

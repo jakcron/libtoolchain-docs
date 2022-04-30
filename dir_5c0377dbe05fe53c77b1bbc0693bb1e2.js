@@ -10,6 +10,7 @@ var dir_5c0377dbe05fe53c77b1bbc0693bb1e2 =
     [ "Optional.h", "_optional_8h.html", [
       [ "tc::Optional< T >", "classtc_1_1_optional.html", "classtc_1_1_optional" ]
     ] ],
+    [ "ResourceState.h", "_resource_state_8h.html", "_resource_state_8h" ],
     [ "SharedPtr.h", "_shared_ptr_8h.html", [
       [ "tc::SharedPtr< T >", "classtc_1_1_shared_ptr.html", "classtc_1_1_shared_ptr" ]
     ] ],

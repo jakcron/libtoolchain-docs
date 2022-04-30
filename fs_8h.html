@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.1.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.2.0</span>
    </div>
   </td>
  </tr>
@@ -93,35 +93,45 @@ $(document).ready(function(){initNavTree('fs_8h.html',''); initResizable(); });
 <div class="textblock"><code>#include &lt;<a class="el" href="types_8h_source.html">tc/types.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_exception_8h_source.html">tc/Exception.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_path_8h_source.html">tc/fs/Path.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_directory_info_8h_source.html">tc/fs/DirectoryInfo.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_i_file_8h_source.html">tc/fs/IFile.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_path_utils_8h_source.html">tc/fs/PathUtils.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_i_file_object_8h_source.html">tc/fs/IFileObject.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_i_file_system_8h_source.html">tc/fs/IFileSystem.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_sandboxed_i_file_8h_source.html">tc/fs/SandboxedIFile.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_sandboxed_i_file_system_8h_source.html">tc/fs/SandboxedIFileSystem.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_generic_file_object_8h_source.html">tc/fs/GenericFileObject.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_generic_file_system_8h_source.html">tc/fs/GenericFileSystem.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_local_file_object_8h_source.html">tc/fs/LocalFileObject.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_local_file_system_8h_source.html">tc/fs/LocalFileSystem.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_partitioned_file_object_8h_source.html">tc/fs/PartitionedFileObject.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_sandboxed_file_system_8h_source.html">tc/fs/SandboxedFileSystem.h</a>&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for fs.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="fs_8h__incl.png" border="0" usemap="#atc_2fs_8h" alt=""/></div>
 <map name="atc_2fs_8h" id="atc_2fs_8h">
-<area shape="rect" title="Declaration of the filesystem library." alt="" coords="319,5,378,32"/>
-<area shape="rect" href="types_8h.html" title="Declaration of generic types used by libtoolchain." alt="" coords="358,379,438,405"/>
-<area shape="rect" href="_exception_8h.html" title="Declaration of tc::Exception." alt="" coords="752,80,859,107"/>
-<area shape="rect" href="_path_8h.html" title="Declaration of tc::fs::Path." alt="" coords="168,304,259,331"/>
-<area shape="rect" href="_directory_info_8h.html" title="Declaration of tc::fs::DirectoryInfo." alt="" coords="152,229,291,256"/>
-<area shape="rect" href="_i_file_8h.html" title="Declaration of tc::fs::IFile." alt="" coords="439,229,527,256"/>
-<area shape="rect" href="_i_file_system_8h.html" title="Declaration of tc::fs::IFileSystem." alt="" coords="170,155,303,181"/>
-<area shape="rect" href="_sandboxed_i_file_8h.html" title="Declaration of tc::fs::SandboxedIFile." alt="" coords="524,80,677,107"/>
-<area shape="rect" href="_sandboxed_i_file_system_8h.html" title="Declaration of tc::fs::SandboxedIFileSystem." alt="" coords="249,80,448,107"/>
-<area shape="rect" href="_local_file_system_8h.html" title="Declaration of tc::fs::LocalFileSystem." alt="" coords="64,80,224,107"/>
-<area shape="rect" title=" " alt="" coords="664,453,718,480"/>
-<area shape="rect" title=" " alt="" coords="418,453,476,480"/>
-<area shape="rect" title=" " alt="" coords="500,453,562,480"/>
-<area shape="rect" title=" " alt="" coords="220,453,282,480"/>
-<area shape="rect" href="endian_8h.html" title="Declaration of macros and classes to unwrap primatives in an endian agnostic way." alt="" coords="306,453,393,480"/>
-<area shape="rect" title=" " alt="" coords="312,528,387,555"/>
-<area shape="rect" title=" " alt="" coords="804,155,882,181"/>
-<area shape="rect" href="_shared_ptr_8h.html" title="Declaration of tc::SharedPtr." alt="" coords="342,155,448,181"/>
+<area shape="rect" title="Declaration of the filesystem library." alt="" coords="484,5,543,32"/>
+<area shape="rect" href="types_8h.html" title="Declaration of generic types used by libtoolchain." alt="" coords="240,453,320,480"/>
+<area shape="rect" href="_exception_8h.html" title="Declaration of tc::Exception." alt="" coords="16,80,123,107"/>
+<area shape="rect" href="_path_8h.html" title="Declaration of tc::fs::Path." alt="" coords="152,304,243,331"/>
+<area shape="rect" href="_path_utils_8h.html" title="Declaration of utilities related to tc::fs::Path." alt="" coords="56,229,173,256"/>
+<area shape="rect" href="_i_file_object_8h.html" title="Declaration of tc::fs::IFileObject." alt="" coords="717,379,843,405"/>
+<area shape="rect" href="_i_file_system_8h.html" title="Declaration of tc::fs::IFileSystem." alt="" coords="437,229,571,256"/>
+<area shape="rect" href="_generic_file_object_8h.html" title="Declaration of tc::fs::GenericFileObject." alt="" coords="697,304,863,331"/>
+<area shape="rect" href="_generic_file_system_8h.html" title="Declaration of tc::fs::GenericFileSystem." alt="" coords="305,155,479,181"/>
+<area shape="rect" href="_local_file_object_8h.html" title="Declaration of tc::fs::LocalFileObject." alt="" coords="905,155,1058,181"/>
+<area shape="rect" href="_local_file_system_8h.html" title="Declaration of tc::fs::LocalFileSystem." alt="" coords="619,80,779,107"/>
+<area shape="rect" href="_partitioned_file_object_8h.html" title="Declaration of tc::fs::PartitionedFileObject." alt="" coords="645,229,829,256"/>
+<area shape="rect" href="_sandboxed_file_system_8h.html" title="Declaration of tc::fs::SandboxedFileSystem." alt="" coords="349,80,544,107"/>
+<area shape="rect" title=" " alt="" coords="18,528,73,555"/>
+<area shape="rect" title=" " alt="" coords="321,528,380,555"/>
+<area shape="rect" title=" " alt="" coords="404,528,465,555"/>
+<area shape="rect" title=" " alt="" coords="124,528,185,555"/>
+<area shape="rect" href="endian_8h.html" title="Declaration of macros and classes to unwrap primatives in an endian agnostic way." alt="" coords="210,528,297,555"/>
+<area shape="rect" title=" " alt="" coords="216,603,291,629"/>
+<area shape="rect" title=" " alt="" coords="43,155,122,181"/>
+<area shape="rect" title=" " alt="" coords="127,379,166,405"/>
+<area shape="rect" href="_resource_state_8h.html" title="Declaration of tc::ResourceState." alt="" coords="463,453,598,480"/>
+<area shape="rect" title=" " alt="" coords="503,528,558,555"/>
+<area shape="rect" href="_shared_ptr_8h.html" title="Declaration of tc::SharedPtr." alt="" coords="549,379,654,405"/>
+<area shape="rect" title=" " alt="" coords="905,229,962,256"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">

@@ -1,0 +1,12 @@
+<map id="tc/fs/IFileObject.h" name="tc/fs/IFileObject.h">
+<area shape="rect" id="node1" title="Declaration of tc::fs::IFileObject." alt="" coords="202,5,329,32"/>
+<area shape="rect" id="node2" href="$fs_8h.html" title="Declaration of the filesystem library." alt="" coords="437,379,496,405"/>
+<area shape="rect" id="node4" href="$_generic_file_object_8h.html" title="Declaration of tc::fs::GenericFileObject." alt="" coords="182,80,349,107"/>
+<area shape="rect" id="node8" href="$_local_file_object_8h.html" title="Declaration of tc::fs::LocalFileObject." alt="" coords="674,229,827,256"/>
+<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="437,453,496,480"/>
+<area shape="rect" id="node5" href="$_i_file_system_8h.html" title="Declaration of tc::fs::IFileSystem." alt="" coords="519,155,652,181"/>
+<area shape="rect" id="node10" href="$_partitioned_file_object_8h.html" title="Declaration of tc::fs::PartitionedFileObject." alt="" coords="44,304,228,331"/>
+<area shape="rect" id="node6" href="$_generic_file_system_8h.html" title="Declaration of tc::fs::GenericFileSystem." alt="" coords="373,229,547,256"/>
+<area shape="rect" id="node9" href="$_local_file_system_8h.html" title="Declaration of tc::fs::LocalFileSystem." alt="" coords="623,304,783,331"/>
+<area shape="rect" id="node7" href="$_sandboxed_file_system_8h.html" title="Declaration of tc::fs::SandboxedFileSystem." alt="" coords="303,304,497,331"/>
+</map>
