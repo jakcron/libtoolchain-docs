@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['kunixpathdelimiter_0',['kUnixPathDelimiter',['../classtc_1_1io_1_1_path.html#a9d2690c75ef4a26ecc718406ed9b4715',1,'tc::io::Path']]],
-  ['kwindowspathdelimiter_1',['kWindowsPathDelimiter',['../classtc_1_1io_1_1_path.html#a0020f1dab69a2866f8cfaed9b6e63526',1,'tc::io::Path']]]
+  ['file_5flist_0',['file_list',['../structtc_1_1io_1_1s_directory_listing.html#a340e486186766e83ffd93fc1beeb06eb',1,'tc::io::sDirectoryListing']]]
 ];

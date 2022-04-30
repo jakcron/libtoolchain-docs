@@ -1,6 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" title=" " alt="" coords="5,208,109,235"/>
-<area shape="rect" id="node2" href="$classtc_1_1_exception.html" title="An extension of std::exception that allows optionally specifying a module name." alt="" coords="157,208,256,235"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,233,109,260"/>
+<area shape="rect" id="node2" href="$classtc_1_1_exception.html" title="An extension of std::exception that allows optionally specifying a module name." alt="" coords="157,233,256,260"/>
 <area shape="rect" id="node3" href="$classtc_1_1_access_violation_exception.html" title="The exception that is thrown when there is an attempt to read or write protected memory." alt="" coords="317,5,511,32"/>
 <area shape="rect" id="node4" href="$classtc_1_1_argument_exception.html" title="The exception that is thrown when one of the arguments provided to a method is not valid." alt="" coords="337,56,491,83"/>
 <area shape="rect" id="node7" href="$classtc_1_1_arithmetic_exception.html" title="The exception that is thrown for errors in an arithmetic, casting, or conversion operation." alt="" coords="335,107,493,133"/>
@@ -9,14 +9,15 @@
 <area shape="rect" id="node12" href="$classtc_1_1_not_supported_exception.html" title="The exception that is thrown when an invoked method is not supported, or when there is an attempt to ..." alt="" coords="325,259,503,285"/>
 <area shape="rect" id="node13" href="$classtc_1_1_out_of_memory_exception.html" title="The exception that is thrown when there is not enough memory to continue the execution of a program." alt="" coords="323,309,505,336"/>
 <area shape="rect" id="node14" href="$classtc_1_1_unauthorised_access_exception.html" title="The exception that is thrown when the operating system denies access because of an I/O error or a spe..." alt="" coords="304,360,524,387"/>
-<area shape="rect" id="node15" href="$classtc_1_1io_1_1_i_o_exception.html" title="The exception that is thrown when an I/O error occurs." alt="" coords="349,411,479,437"/>
+<area shape="rect" id="node15" href="$classtc_1_1crypto_1_1_crypto_exception.html" title="The exception that is thrown when an cryptography error occurs." alt="" coords="323,411,505,437"/>
+<area shape="rect" id="node16" href="$classtc_1_1io_1_1_i_o_exception.html" title="The exception that is thrown when an I/O error occurs." alt="" coords="349,461,479,488"/>
 <area shape="rect" id="node5" href="$classtc_1_1_argument_null_exception.html" title="The exception that is thrown when a null reference is passed to a method that does not accept it as a..." alt="" coords="597,5,775,32"/>
 <area shape="rect" id="node6" href="$classtc_1_1_argument_out_of_range_exception.html" title="The exception that is thrown when the value of an argument is outside the allowable range of values a..." alt="" coords="572,56,800,83"/>
 <area shape="rect" id="node8" href="$classtc_1_1_overflow_exception.html" title="The exception that is thrown when an arithmetic, casting, or conversion operation in a checked contex..." alt="" coords="611,107,761,133"/>
 <area shape="rect" id="node10" href="$classtc_1_1_object_disposed_exception.html" title="The exception that is thrown when an operation is performed on a disposed object." alt="" coords="590,157,782,184"/>
-<area shape="rect" id="node16" href="$classtc_1_1io_1_1_directory_not_empty_exception.html" title="The exception that is thrown when a directory is not empty." alt="" coords="601,279,771,321"/>
-<area shape="rect" id="node17" href="$classtc_1_1io_1_1_directory_not_found_exception.html" title="The exception that is thrown when part of a file or directory cannot be found." alt="" coords="601,345,771,386"/>
-<area shape="rect" id="node18" href="$classtc_1_1io_1_1_file_exists_exception.html" title="The exception that is thrown when an attempt to overwrite/remove a file that exists on disk fails." alt="" coords="599,411,773,437"/>
-<area shape="rect" id="node19" href="$classtc_1_1io_1_1_file_not_found_exception.html" title="The exception that is thrown when an attempt to access a file that does not exist on disk fails." alt="" coords="589,461,783,488"/>
-<area shape="rect" id="node20" href="$classtc_1_1io_1_1_path_too_long_exception.html" title="The exception that is thrown when a path or fully qualified file name is longer than the system&#45;defin..." alt="" coords="589,512,783,539"/>
+<area shape="rect" id="node17" href="$classtc_1_1io_1_1_directory_not_empty_exception.html" title="The exception that is thrown when a directory is not empty." alt="" coords="601,330,771,371"/>
+<area shape="rect" id="node18" href="$classtc_1_1io_1_1_directory_not_found_exception.html" title="The exception that is thrown when part of a file or directory cannot be found." alt="" coords="601,395,771,437"/>
+<area shape="rect" id="node19" href="$classtc_1_1io_1_1_file_exists_exception.html" title="The exception that is thrown when an attempt to overwrite/remove a file that exists on disk fails." alt="" coords="599,461,773,488"/>
+<area shape="rect" id="node20" href="$classtc_1_1io_1_1_file_not_found_exception.html" title="The exception that is thrown when an attempt to access a file that does not exist on disk fails." alt="" coords="589,512,783,539"/>
+<area shape="rect" id="node21" href="$classtc_1_1io_1_1_path_too_long_exception.html" title="The exception that is thrown when a path or fully qualified file name is longer than the system&#45;defin..." alt="" coords="589,563,783,589"/>
 </map>

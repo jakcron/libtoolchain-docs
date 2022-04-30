@@ -1,11 +1,9 @@
 var searchData=
 [
-  ['sdirectorylisting_0',['sDirectoryListing',['../structtc_1_1io_1_1s_directory_listing.html',1,'tc::io']]],
-  ['streamsink_1',['StreamSink',['../classtc_1_1io_1_1_stream_sink.html',1,'tc::io']]],
-  ['streamsource_2',['StreamSource',['../classtc_1_1io_1_1_stream_source.html',1,'tc::io']]],
-  ['streamutil_3',['StreamUtil',['../classtc_1_1io_1_1_stream_util.html',1,'tc::io']]],
-  ['subsink_4',['SubSink',['../classtc_1_1io_1_1_sub_sink.html',1,'tc::io']]],
-  ['subsource_5',['SubSource',['../classtc_1_1io_1_1_sub_source.html',1,'tc::io']]],
-  ['substorage_6',['SubStorage',['../classtc_1_1io_1_1_sub_storage.html',1,'tc::io']]],
-  ['substream_7',['SubStream',['../classtc_1_1io_1_1_sub_stream.html',1,'tc::io']]]
+  ['objectdisposedexception_0',['ObjectDisposedException',['../classtc_1_1_object_disposed_exception.html',1,'tc']]],
+  ['optional_1',['Optional',['../classtc_1_1_optional.html',1,'tc']]],
+  ['outofmemoryexception_2',['OutOfMemoryException',['../classtc_1_1_out_of_memory_exception.html',1,'tc']]],
+  ['overflowexception_3',['OverflowException',['../classtc_1_1_overflow_exception.html',1,'tc']]],
+  ['overlayedsource_4',['OverlayedSource',['../classtc_1_1io_1_1_overlayed_source.html',1,'tc::io']]],
+  ['overlaysourceinfo_5',['OverlaySourceInfo',['../structtc_1_1io_1_1_overlayed_source_1_1_overlay_source_info.html',1,'tc::io::OverlayedSource']]]
 ];

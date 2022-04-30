@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classtc_1_1io_1_1_i_stream.html" title="An interface for implementing a basic data stream handler." alt="" coords="5,56,111,83"/>
+<area shape="rect" id="node2" href="$classtc_1_1io_1_1_file_stream.html" title="An implementation of IStream as a wrapper to local OS file access functions." alt="" coords="171,5,294,32"/>
+<area shape="rect" id="node3" href="$classtc_1_1io_1_1_memory_stream.html" title="A block of run&#45;time memory wrapped as an IStream object." alt="" coords="159,56,307,83"/>
+<area shape="rect" id="node4" href="$classtc_1_1io_1_1_sub_stream.html" title="A wrapper around an existing IStream object that exposes a subset of the base the IStream object." alt="" coords="171,107,295,133"/>
+</map>

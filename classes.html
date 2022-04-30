@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -25,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.3.0</span>
+   <div id="projectname">libtoolchain<span id="projectnumber">&#160;v0.4.0</span>
    </div>
   </td>
  </tr>
@@ -51,22 +47,6 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('classes.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -85,32 +65,38 @@ $(document).ready(function(){initNavTree('classes.html',''); initResizable(); })
   <div class="headertitle"><div class="title">Class Index</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="qindex"><a class="qindex" href="#letter_A">A</a>&#160;|&#160;<a class="qindex" href="#letter_B">B</a>&#160;|&#160;<a class="qindex" href="#letter_D">D</a>&#160;|&#160;<a class="qindex" href="#letter_E">E</a>&#160;|&#160;<a class="qindex" href="#letter_F">F</a>&#160;|&#160;<a class="qindex" href="#letter_I">I</a>&#160;|&#160;<a class="qindex" href="#letter_L">L</a>&#160;|&#160;<a class="qindex" href="#letter_M">M</a>&#160;|&#160;<a class="qindex" href="#letter_N">N</a>&#160;|&#160;<a class="qindex" href="#letter_O">O</a>&#160;|&#160;<a class="qindex" href="#letter_P">P</a>&#160;|&#160;<a class="qindex" href="#letter_S">S</a>&#160;|&#160;<a class="qindex" href="#letter_T">T</a>&#160;|&#160;<a class="qindex" href="#letter_U">U</a></div>
+<div class="qindex"><a class="qindex" href="#letter_A">A</a>&#160;|&#160;<a class="qindex" href="#letter_B">B</a>&#160;|&#160;<a class="qindex" href="#letter_C">C</a>&#160;|&#160;<a class="qindex" href="#letter_D">D</a>&#160;|&#160;<a class="qindex" href="#letter_E">E</a>&#160;|&#160;<a class="qindex" href="#letter_F">F</a>&#160;|&#160;<a class="qindex" href="#letter_H">H</a>&#160;|&#160;<a class="qindex" href="#letter_I">I</a>&#160;|&#160;<a class="qindex" href="#letter_L">L</a>&#160;|&#160;<a class="qindex" href="#letter_M">M</a>&#160;|&#160;<a class="qindex" href="#letter_N">N</a>&#160;|&#160;<a class="qindex" href="#letter_O">O</a>&#160;|&#160;<a class="qindex" href="#letter_P">P</a>&#160;|&#160;<a class="qindex" href="#letter_R">R</a>&#160;|&#160;<a class="qindex" href="#letter_S">S</a>&#160;|&#160;<a class="qindex" href="#letter_T">T</a>&#160;|&#160;<a class="qindex" href="#letter_U">U</a>&#160;|&#160;<a class="qindex" href="#letter_X">X</a></div>
 <div class="classindex">
 <dl class="classindex even">
 <dt class="alphachar"><a id="letter_A" name="letter_A">A</a></dt>
-<dd><a class="el" href="classtc_1_1_access_violation_exception.html">AccessViolationException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1_argument_exception.html">ArgumentException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1_argument_null_exception.html">ArgumentNullException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1_argument_out_of_range_exception.html">ArgumentOutOfRangeException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1_arithmetic_exception.html">ArithmeticException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd></dl>
+<dd><a class="el" href="classtc_1_1_access_violation_exception.html">AccessViolationException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1_aes_encryptor.html">AesEncryptor</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_aes_impl.html">AesImpl</a> (tc::crypto::detail)</dd><dd><a class="el" href="classtc_1_1_argument_exception.html">ArgumentException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1_argument_null_exception.html">ArgumentNullException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1_argument_out_of_range_exception.html">ArgumentOutOfRangeException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1_arithmetic_exception.html">ArithmeticException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd></dl>
 <dl class="classindex odd">
 <dt class="alphachar"><a id="letter_B" name="letter_B">B</a></dt>
-<dd><a class="el" href="structbe__uint16__t.html">be_uint16_t</a></dd><dd><a class="el" href="structbe__uint32__t.html">be_uint32_t</a></dd><dd><a class="el" href="structbe__uint64__t.html">be_uint64_t</a></dd><dd><a class="el" href="classtc_1_1_byte_data.html">ByteData</a> (<a class="el" href="namespacetc.html">tc</a>)</dd></dl>
+<dd><a class="el" href="structtc_1_1be16.html">be16</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="structtc_1_1be32.html">be32</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="structtc_1_1be64.html">be64</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="structbe__uint16__t.html">be_uint16_t</a></dd><dd><a class="el" href="structbe__uint32__t.html">be_uint32_t</a></dd><dd><a class="el" href="structbe__uint64__t.html">be_uint64_t</a></dd><dd><a class="el" href="structtc_1_1bitfield.html">bitfield</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1_byte_data.html">ByteData</a> (<a class="el" href="namespacetc.html">tc</a>)</dd></dl>
 <dl class="classindex even">
+<dt class="alphachar"><a id="letter_C" name="letter_C">C</a></dt>
+<dd><a class="el" href="classtc_1_1crypto_1_1_cbc_encryptor.html">CbcEncryptor</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_cbc_mode_impl.html">CbcModeImpl</a> (tc::crypto::detail)</dd><dd><a class="el" href="classtc_1_1crypto_1_1_crypto_exception.html">CryptoException</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1_ctr_encryptor.html">CtrEncryptor</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_ctr_mode_impl.html">CtrModeImpl</a> (tc::crypto::detail)</dd></dl>
+<dl class="classindex odd">
 <dt class="alphachar"><a id="letter_D" name="letter_D">D</a></dt>
 <dd><a class="el" href="classtc_1_1io_1_1_directory_not_empty_exception.html">DirectoryNotEmptyException</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_directory_not_found_exception.html">DirectoryNotFoundException</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd></dl>
-<dl class="classindex odd">
-<dt class="alphachar"><a id="letter_E" name="letter_E">E</a></dt>
-<dd><a class="el" href="classtc_1_1_exception.html">Exception</a> (<a class="el" href="namespacetc.html">tc</a>)</dd></dl>
 <dl class="classindex even">
+<dt class="alphachar"><a id="letter_E" name="letter_E">E</a></dt>
+<dd><a class="el" href="classtc_1_1crypto_1_1_ecb_encryptor.html">EcbEncryptor</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_ecb_mode_impl.html">EcbModeImpl</a> (tc::crypto::detail)</dd><dd><a class="el" href="classtc_1_1_exception.html">Exception</a> (<a class="el" href="namespacetc.html">tc</a>)</dd></dl>
+<dl class="classindex odd">
 <dt class="alphachar"><a id="letter_F" name="letter_F">F</a></dt>
-<dd><a class="el" href="classtc_1_1io_1_1_file_exists_exception.html">FileExistsException</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_file_not_found_exception.html">FileNotFoundException</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_file_stream.html">FileStream</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd></dl>
+<dd><a class="el" href="classtc_1_1io_1_1_file_exists_exception.html">FileExistsException</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_file_not_found_exception.html">FileNotFoundException</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_file_stream.html">FileStream</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1cli_1_1_format_util.html">FormatUtil</a> (<a class="el" href="namespacetc_1_1cli.html">tc::cli</a>)</dd></dl>
+<dl class="classindex even">
+<dt class="alphachar"><a id="letter_H" name="letter_H">H</a></dt>
+<dd><a class="el" href="classtc_1_1crypto_1_1_hmac_generator.html">HmacGenerator</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_hmac_impl.html">HmacImpl</a> (tc::crypto::detail)</dd></dl>
 <dl class="classindex odd">
 <dt class="alphachar"><a id="letter_I" name="letter_I">I</a></dt>
 <dd><a class="el" href="classtc_1_1_invalid_operation_exception.html">InvalidOperationException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_i_o_exception.html">IOException</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_i_o_util.html">IOUtil</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_i_readable_sink.html">IReadableSink</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_i_sink.html">ISink</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_i_source.html">ISource</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_i_storage.html">IStorage</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_i_stream.html">IStream</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd></dl>
 <dl class="classindex even">
 <dt class="alphachar"><a id="letter_L" name="letter_L">L</a></dt>
-<dd><a class="el" href="structle__uint16__t.html">le_uint16_t</a></dd><dd><a class="el" href="structle__uint32__t.html">le_uint32_t</a></dd><dd><a class="el" href="structle__uint64__t.html">le_uint64_t</a></dd><dd><a class="el" href="classtc_1_1io_1_1_local_storage.html">LocalStorage</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd></dl>
+<dd><a class="el" href="structtc_1_1le16.html">le16</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="structtc_1_1le32.html">le32</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="structtc_1_1le64.html">le64</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="structle__uint16__t.html">le_uint16_t</a></dd><dd><a class="el" href="structle__uint32__t.html">le_uint32_t</a></dd><dd><a class="el" href="structle__uint64__t.html">le_uint64_t</a></dd><dd><a class="el" href="classtc_1_1io_1_1_local_storage.html">LocalStorage</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd></dl>
 <dl class="classindex odd">
 <dt class="alphachar"><a id="letter_M" name="letter_M">M</a></dt>
-<dd><a class="el" href="classtc_1_1io_1_1_memory_source.html">MemorySource</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_memory_stream.html">MemoryStream</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd></dl>
+<dd><a class="el" href="classtc_1_1crypto_1_1_md5_generator.html">Md5Generator</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_md5_impl.html">Md5Impl</a> (tc::crypto::detail)</dd><dd><a class="el" href="classtc_1_1io_1_1_memory_source.html">MemorySource</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_memory_stream.html">MemoryStream</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd></dl>
 <dl class="classindex even">
 <dt class="alphachar"><a id="letter_N" name="letter_N">N</a></dt>
 <dd><a class="el" href="classtc_1_1_not_implemented_exception.html">NotImplementedException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1_not_supported_exception.html">NotSupportedException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd></dl>
@@ -119,24 +105,27 @@ $(document).ready(function(){initNavTree('classes.html',''); initResizable(); })
 <dd><a class="el" href="classtc_1_1_object_disposed_exception.html">ObjectDisposedException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1_optional.html">Optional</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1_out_of_memory_exception.html">OutOfMemoryException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1_overflow_exception.html">OverflowException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_overlayed_source.html">OverlayedSource</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="structtc_1_1io_1_1_overlayed_source_1_1_overlay_source_info.html">OverlayedSource::OverlaySourceInfo</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd></dl>
 <dl class="classindex even">
 <dt class="alphachar"><a id="letter_P" name="letter_P">P</a></dt>
-<dd><a class="el" href="classtc_1_1io_1_1_padding_source.html">PaddingSource</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_path.html">Path</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_path_too_long_exception.html">PathTooLongException</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_path_util.html">PathUtil</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1_platform_error_handling_util.html">PlatformErrorHandlingUtil</a> (<a class="el" href="namespacetc.html">tc</a>)</dd></dl>
+<dd><a class="el" href="classtc_1_1io_1_1_padding_source.html">PaddingSource</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_path.html">Path</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_path_too_long_exception.html">PathTooLongException</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_path_util.html">PathUtil</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_pbkdf1_impl.html">Pbkdf1Impl</a> (tc::crypto::detail)</dd><dd><a class="el" href="classtc_1_1crypto_1_1_pbkdf1_key_deriver.html">Pbkdf1KeyDeriver</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_pbkdf2_impl.html">Pbkdf2Impl</a> (tc::crypto::detail)</dd><dd><a class="el" href="classtc_1_1crypto_1_1_pbkdf2_key_deriver.html">Pbkdf2KeyDeriver</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1_platform_error_handling_util.html">PlatformErrorHandlingUtil</a> (<a class="el" href="namespacetc.html">tc</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_prbg_impl.html">PrbgImpl</a> (tc::crypto::detail)</dd><dd><a class="el" href="classtc_1_1crypto_1_1_pseudo_random_byte_generator.html">PseudoRandomByteGenerator</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd></dl>
 <dl class="classindex odd">
-<dt class="alphachar"><a id="letter_S" name="letter_S">S</a></dt>
-<dd><a class="el" href="structtc_1_1io_1_1s_directory_listing.html">sDirectoryListing</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_stream_sink.html">StreamSink</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_stream_source.html">StreamSource</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_stream_util.html">StreamUtil</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_sub_sink.html">SubSink</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_sub_source.html">SubSource</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_sub_storage.html">SubStorage</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_sub_stream.html">SubStream</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd></dl>
+<dt class="alphachar"><a id="letter_R" name="letter_R">R</a></dt>
+<dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_rsa_impl.html">RsaImpl</a> (tc::crypto::detail)</dd><dd><a class="el" href="structtc_1_1crypto_1_1_rsa_key.html">RsaKey</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1_rsa_key_generator.html">RsaKeyGenerator</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_rsa_key_generator_impl.html">RsaKeyGeneratorImpl</a> (tc::crypto::detail)</dd><dd><a class="el" href="classtc_1_1crypto_1_1_rsa_oaep_encryptor.html">RsaOaepEncryptor</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_rsa_oaep_padding.html">RsaOaepPadding</a> (tc::crypto::detail)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_rsa_pkcs1_padding.html">RsaPkcs1Padding</a> (tc::crypto::detail)</dd><dd><a class="el" href="classtc_1_1crypto_1_1_rsa_pkcs1_signer.html">RsaPkcs1Signer</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="structtc_1_1crypto_1_1_rsa_private_key.html">RsaPrivateKey</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_rsa_pss_padding.html">RsaPssPadding</a> (tc::crypto::detail)</dd><dd><a class="el" href="classtc_1_1crypto_1_1_rsa_pss_signer.html">RsaPssSigner</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="structtc_1_1crypto_1_1_rsa_public_key.html">RsaPublicKey</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd></dl>
 <dl class="classindex even">
+<dt class="alphachar"><a id="letter_S" name="letter_S">S</a></dt>
+<dd><a class="el" href="structtc_1_1io_1_1s_directory_listing.html">sDirectoryListing</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1_sha1_generator.html">Sha1Generator</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_sha1_impl.html">Sha1Impl</a> (tc::crypto::detail)</dd><dd><a class="el" href="classtc_1_1crypto_1_1_sha256_generator.html">Sha256Generator</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_sha256_impl.html">Sha256Impl</a> (tc::crypto::detail)</dd><dd><a class="el" href="classtc_1_1crypto_1_1_sha512_generator.html">Sha512Generator</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_sha512_impl.html">Sha512Impl</a> (tc::crypto::detail)</dd><dd><a class="el" href="classtc_1_1io_1_1_stream_sink.html">StreamSink</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_stream_source.html">StreamSource</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_stream_util.html">StreamUtil</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_sub_sink.html">SubSink</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_sub_source.html">SubSource</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_sub_storage.html">SubStorage</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd><dd><a class="el" href="classtc_1_1io_1_1_sub_stream.html">SubStream</a> (<a class="el" href="namespacetc_1_1io.html">tc::io</a>)</dd></dl>
+<dl class="classindex odd">
 <dt class="alphachar"><a id="letter_T" name="letter_T">T</a></dt>
 <dd><a class="el" href="classtc_1_1string_1_1_transcode_util.html">TranscodeUtil</a> (<a class="el" href="namespacetc_1_1string.html">tc::string</a>)</dd></dl>
-<dl class="classindex odd">
+<dl class="classindex even">
 <dt class="alphachar"><a id="letter_U" name="letter_U">U</a></dt>
 <dd><a class="el" href="classtc_1_1_unauthorised_access_exception.html">UnauthorisedAccessException</a> (<a class="el" href="namespacetc.html">tc</a>)</dd></dl>
+<dl class="classindex odd">
+<dt class="alphachar"><a id="letter_X" name="letter_X">X</a></dt>
+<dd><a class="el" href="classtc_1_1crypto_1_1_xts_encryptor.html">XtsEncryptor</a> (<a class="el" href="namespacetc_1_1crypto.html">tc::crypto</a>)</dd><dd><a class="el" href="classtc_1_1crypto_1_1detail_1_1_xts_mode_impl.html">XtsModeImpl</a> (tc::crypto::detail)</dd></dl>
 </div>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
 </body>
 </html>

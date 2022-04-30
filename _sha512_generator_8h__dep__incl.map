@@ -1,0 +1,10 @@
+<map id="tc/crypto/Sha512Generator.h" name="tc/crypto/Sha512Generator.h">
+<area shape="rect" id="node1" title="Declarations for API resources for SHA2&#45;512 calculations." alt="" coords="391,5,579,32"/>
+<area shape="rect" id="node2" href="$crypto_8h.html" title="Declaration of the cryptography library." alt="" coords="443,169,527,196"/>
+<area shape="rect" id="node4" href="$_hmac_sha512_generator_8h.html" title="Declarations for API resources for HMAC&#45;SHA2&#45;512 calculations." alt="" coords="27,87,250,114"/>
+<area shape="rect" id="node5" href="$_pbkdf2_sha512_key_deriver_8h.html" title="Declarations for API resources for PBKDF2&#45;SHA2&#45;512 key derivation." alt="" coords="274,80,459,121"/>
+<area shape="rect" id="node6" href="$_rsa_oaep_sha512_encryptor_8h.html" title="Declarations for API resources for RSA&#45;OAEP&#45;SHA2&#45;512 calculations." alt="" coords="484,87,726,114"/>
+<area shape="rect" id="node7" href="$_rsa_pkcs1_sha512_signer_8h.html" title="Declarations for API resources for RSA&#45;PKCS1&#45;SHA2&#45;512 calculations." alt="" coords="751,80,934,121"/>
+<area shape="rect" id="node8" href="$_rsa_pss_sha512_signer_8h.html" title="Declarations for API resources for RSA&#45;PSS&#45;SHA2&#45;512 calculations." alt="" coords="958,87,1172,114"/>
+<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="463,244,507,271"/>
+</map>
