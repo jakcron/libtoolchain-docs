@@ -1,0 +1,4 @@
+<map id="tc::bn::bitarray::reset" name="tc::bn::bitarray::reset">
+<area shape="rect" id="node1" title="Clears a given bit in this bitarray." alt="" coords="184,5,327,32"/>
+<area shape="rect" id="node2" href="$structtc_1_1bn_1_1bitarray.html#a0598dba61318c2cb54967889c29b39d0" title="Flips a given bit in this bitarray." alt="" coords="5,5,136,32"/>
+</map>

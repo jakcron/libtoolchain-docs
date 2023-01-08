@@ -1,0 +1,9 @@
+<map id="tc/crypto/Sha1Generator.h" name="tc/crypto/Sha1Generator.h">
+<area shape="rect" id="node1" title="Declarations for API resources for SHA1 calculations." alt="" coords="281,5,456,32"/>
+<area shape="rect" id="node2" href="$crypto_8h.html" title="Declaration of the cryptography library." alt="" coords="326,155,410,181"/>
+<area shape="rect" id="node4" href="$_hmac_sha1_generator_8h.html" title="Declarations for API resources for HMAC&#45;SHA1 calculations." alt="" coords="24,80,233,107"/>
+<area shape="rect" id="node5" href="$_pbkdf1_sha1_key_deriver_8h.html" title="Declarations for API resources for PBKDF1&#45;SHA1 key derivation." alt="" coords="257,80,480,107"/>
+<area shape="rect" id="node6" href="$_pbkdf2_sha1_key_deriver_8h.html" title="Declarations for API resources for PBKDF2&#45;SHA1 key derivation." alt="" coords="504,80,726,107"/>
+<area shape="rect" id="node7" href="$_rsa_pkcs1_sha1_signer_8h.html" title="Declarations for API resources for RSA&#45;PKCS1&#45;SHA1 calculations." alt="" coords="750,80,965,107"/>
+<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="346,229,390,256"/>
+</map>
