@@ -1,8 +1,0 @@
-<map id="tc/io/IFileSystem.h" name="tc/io/IFileSystem.h">
-<area shape="rect" id="node1" title="Declaration of tc::io::IFileSystem." alt="" coords="128,5,260,32"/>
-<area shape="rect" id="node2" href="$io_8h.html" title="Declaration of the input/output library." alt="" coords="165,155,224,181"/>
-<area shape="rect" id="node4" href="$_local_file_system_8h.html" title="Declaration of tc::io::LocalFileSystem." alt="" coords="26,80,184,107"/>
-<area shape="rect" id="node5" href="$_sub_file_system_8h.html" title="Declaration of tc::io::SubFileSystem." alt="" coords="208,80,359,107"/>
-<area shape="rect" id="node6" href="$_virtual_file_system_8h.html" title="Declaration of tc::io::VirtualFileSystem." alt="" coords="384,80,549,107"/>
-<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="172,229,216,256"/>
-</map>

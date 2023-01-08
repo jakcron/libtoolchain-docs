@@ -1,5 +1,0 @@
-<map id="main" name="main">
-<area shape="rect" id="node1" title="Native unicode entry point is defined here and bootstraps umain()." alt="" coords="5,35,56,61"/>
-<area shape="rect" id="node2" href="$_unicode_main_8h.html#a458e4f78ffee1ee350f5d2a991ed8252" title="Multi&#45;platform UTF&#45;8 entry point." alt="" coords="157,5,214,32"/>
-<area shape="rect" id="node3" href="$classtc_1_1string_1_1_transcode_util.html#aa9f18124e771390c209ca4f696827ce1" title="Transcode a UTF&#45;16 string to UTF&#45;8." alt="" coords="104,57,267,98"/>
-</map>

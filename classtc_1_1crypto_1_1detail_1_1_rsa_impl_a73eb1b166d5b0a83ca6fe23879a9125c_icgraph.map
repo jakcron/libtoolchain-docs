@@ -1,6 +1,0 @@
-<map id="tc::crypto::detail::RsaImpl::initialize" name="tc::crypto::detail::RsaImpl::initialize">
-<area shape="rect" id="node1" title="Initialize RSA state with key." alt="" coords="249,71,384,112"/>
-<area shape="rect" id="node2" href="$classtc_1_1crypto_1_1_rsa_pkcs1_signer.html#a427d941d553961079ac9cc63ca2a1de9" title="Initializes the signature calculation." alt="" coords="12,5,195,47"/>
-<area shape="rect" id="node3" href="$classtc_1_1crypto_1_1_rsa_pss_signer.html#a07dfb1fcdea5bd9fbd9f649e12057e3c" title="Initializes the signature calculation." alt="" coords="19,71,188,112"/>
-<area shape="rect" id="node4" href="$classtc_1_1crypto_1_1_rsa_oaep_encryptor.html#a41b2134a6968df65dbfa763d86f9a34d" title="Initializes the encryption state." alt="" coords="5,136,201,177"/>
-</map>

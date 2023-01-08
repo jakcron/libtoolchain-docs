@@ -1,8 +1,0 @@
-<map id="tc/io/IPortablePathResolver.h" name="tc/io/IPortablePathResolver.h">
-<area shape="rect" id="node1" title="Declaration of tc::io::IPortablePathResolver." alt="" coords="5,5,197,32"/>
-<area shape="rect" id="node2" href="$io_8h.html" title="Declaration of the input/output library." alt="" coords="117,229,176,256"/>
-<area shape="rect" id="node4" href="$_basic_path_resolver_8h.html" title="Declaration of tc::io::BasicPathResolver." alt="" coords="97,80,271,107"/>
-<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="125,304,169,331"/>
-<area shape="rect" id="node5" href="$_sub_file_system_8h.html" title="Declaration of tc::io::SubFileSystem." alt="" coords="129,155,279,181"/>
-<area shape="rect" id="node6" href="$_virtual_file_system_8h.html" title="Declaration of tc::io::VirtualFileSystem." alt="" coords="304,155,469,181"/>
-</map>

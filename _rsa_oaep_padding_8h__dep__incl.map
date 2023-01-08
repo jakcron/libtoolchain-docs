@@ -1,8 +1,0 @@
-<map id="tc/crypto/detail/RsaOaepPadding.h" name="tc/crypto/detail/RsaOaepPadding.h">
-<area shape="rect" id="node1" title="Declaration of tc::crypto::detail::RsaOaepPadding." alt="" coords="61,5,228,47"/>
-<area shape="rect" id="node2" href="$_rsa_oaep_encryptor_8h.html" title="Declaration of tc::crypto::RsaOaepEncryptor." alt="" coords="45,95,244,121"/>
-<area shape="rect" id="node3" href="$crypto_8h.html" title="Declaration of the cryptography library." alt="" coords="103,244,187,271"/>
-<area shape="rect" id="node5" href="$_rsa_oaep_sha256_encryptor_8h.html" title="Declarations for API resources for RSA&#45;OAEP&#45;SHA2&#45;256 calculations." alt="" coords="23,169,266,196"/>
-<area shape="rect" id="node6" href="$_rsa_oaep_sha512_encryptor_8h.html" title="Declarations for API resources for RSA&#45;OAEP&#45;SHA2&#45;512 calculations." alt="" coords="290,169,533,196"/>
-<area shape="rect" id="node4" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="123,319,167,345"/>
-</map>

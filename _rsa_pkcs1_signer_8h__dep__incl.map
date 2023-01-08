@@ -1,9 +1,0 @@
-<map id="tc/crypto/RsaPkcs1Signer.h" name="tc/crypto/RsaPkcs1Signer.h">
-<area shape="rect" id="node1" title="Declaration of tc::crypto::RsaPkcs1Signer." alt="" coords="276,5,462,32"/>
-<area shape="rect" id="node2" href="$crypto_8h.html" title="Declaration of the cryptography library." alt="" coords="327,169,411,196"/>
-<area shape="rect" id="node4" href="$_rsa_pkcs1_md5_signer_8h.html" title="Declarations for API resources for RSA&#45;PKCS1&#45;MD5 calculations." alt="" coords="26,87,237,114"/>
-<area shape="rect" id="node5" href="$_rsa_pkcs1_sha1_signer_8h.html" title="Declarations for API resources for RSA&#45;PKCS1&#45;SHA1 calculations." alt="" coords="262,87,476,114"/>
-<area shape="rect" id="node6" href="$_rsa_pkcs1_sha256_signer_8h.html" title="Declarations for API resources for RSA&#45;PKCS1&#45;SHA2&#45;256 calculations." alt="" coords="500,80,683,121"/>
-<area shape="rect" id="node7" href="$_rsa_pkcs1_sha512_signer_8h.html" title="Declarations for API resources for RSA&#45;PKCS1&#45;SHA2&#45;512 calculations." alt="" coords="707,80,890,121"/>
-<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="347,244,391,271"/>
-</map>

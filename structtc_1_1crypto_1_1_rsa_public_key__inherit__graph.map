@@ -1,4 +1,0 @@
-<map id="tc::crypto::RsaPublicKey" name="tc::crypto::RsaPublicKey">
-<area shape="rect" id="node1" title="This extends RsaKey, exposing a constructor to create a RSA public key from a modulus." alt="" coords="5,160,173,237"/>
-<area shape="rect" id="node2" href="$structtc_1_1crypto_1_1_rsa_key.html" title="Struct for storing a RSA key. For use with RSA calculations." alt="" coords="23,5,155,112"/>
-</map>

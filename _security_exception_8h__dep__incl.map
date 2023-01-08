@@ -1,6 +1,0 @@
-<map id="tc/SecurityException.h" name="tc/SecurityException.h">
-<area shape="rect" id="node1" title="Declaration of tc::SecurityException." alt="" coords="5,5,160,32"/>
-<area shape="rect" id="node2" href="$_file_stream_8h.html" title="Declaration of tc::io::FileStream." alt="" coords="20,80,145,107"/>
-<area shape="rect" id="node3" href="$io_8h.html" title="Declaration of the input/output library." alt="" coords="53,155,112,181"/>
-<area shape="rect" id="node4" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="61,229,105,256"/>
-</map>

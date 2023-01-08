@@ -1,9 +1,0 @@
-<map id="tc::io::IStream" name="tc::io::IStream">
-<area shape="rect" id="node1" title="An interface for implementing a basic data stream handler." alt="" coords="599,5,704,244"/>
-<area shape="rect" id="node2" href="$classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html" title="Class for reading from a stream that is encrypted with AES128&#45;CBC." alt="" coords="5,299,217,567"/>
-<area shape="rect" id="node3" href="$classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html" title="Class for reading from a stream that is encrypted with AES128&#45;CTR." alt="" coords="241,299,448,567"/>
-<area shape="rect" id="node4" href="$classtc_1_1io_1_1_concatenated_stream.html" title="A stream that concatenates multiple streams into a single stream." alt="" coords="472,321,655,545"/>
-<area shape="rect" id="node5" href="$classtc_1_1io_1_1_file_stream.html" title="An implementation of IStream as a wrapper to local OS file access functions." alt="" coords="679,292,802,575"/>
-<area shape="rect" id="node6" href="$classtc_1_1io_1_1_memory_stream.html" title="A block of run&#45;time memory wrapped as an IStream object." alt="" coords="827,321,975,545"/>
-<area shape="rect" id="node7" href="$classtc_1_1io_1_1_sub_stream.html" title="A wrapper around an existing IStream object that exposes a subset of the base the IStream object." alt="" coords="999,307,1123,560"/>
-</map>

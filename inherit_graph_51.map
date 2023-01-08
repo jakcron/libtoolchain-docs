@@ -1,5 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classtc_1_1io_1_1_i_path_resolver.html" title="This is an interface for a class that resolves relative paths to canonical paths." alt="" coords="5,5,148,32"/>
-<area shape="rect" id="node2" href="$classtc_1_1io_1_1_i_portable_path_resolver.html" title="This is an extension for the IPathResolver interface that specifies additional methods for setting th..." alt="" coords="196,5,387,32"/>
-<area shape="rect" id="node3" href="$classtc_1_1io_1_1_basic_path_resolver.html" title="This implementation of IPortablePathResolver resolves a path and current directory to canonical path,..." alt="" coords="435,5,605,32"/>
-</map>

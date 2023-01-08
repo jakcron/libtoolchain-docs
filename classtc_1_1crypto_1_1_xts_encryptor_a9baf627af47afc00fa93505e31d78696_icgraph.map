@@ -1,4 +1,0 @@
-<map id="tc::crypto::XtsEncryptor::sector_size" name="tc::crypto::XtsEncryptor::sector_size">
-<area shape="rect" id="node1" title="Get specified sector size." alt="" coords="215,5,376,47"/>
-<area shape="rect" id="node2" href="$classtc_1_1crypto_1_1_xts_encryptor.html#a0319958c2cfe29bdcc9f56f508aad2f2" title="Initializes the XTS encryption state." alt="" coords="5,5,167,47"/>
-</map>
