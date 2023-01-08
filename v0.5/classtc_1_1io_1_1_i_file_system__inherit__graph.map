@@ -1,0 +1,6 @@
+<map id="tc::io::IFileSystem" name="tc::io::IFileSystem">
+<area shape="rect" id="node1" title="An interface for implementing a basic FileSystem handler." alt="" coords="189,5,349,229"/>
+<area shape="rect" id="node2" href="$classtc_1_1io_1_1_local_file_system.html" title="An IFileSystem wrapper around the existing OS FileSystem API." alt="" coords="5,285,165,509"/>
+<area shape="rect" id="node3" href="$classtc_1_1io_1_1_sub_file_system.html" title="A wrapper around an existing IFileSystem object that exposes a subset of the base IFileSystem directo..." alt="" coords="189,277,349,516"/>
+<area shape="rect" id="node4" href="$classtc_1_1io_1_1_virtual_file_system.html" title="A virtual read&#45;only file&#45;system created using a file&#45;system snapshot." alt="" coords="373,277,536,516"/>
+</map>

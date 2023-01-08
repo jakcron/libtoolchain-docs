@@ -1,0 +1,4 @@
+<map id="tc::fs::PartitionedFileObject" name="tc::fs::PartitionedFileObject">
+<area shape="rect" id="node1" title="A wrapper around an existing IFileObject object that exposes are partition (user specified offset &amp; s..." alt="" coords="5,263,187,531"/>
+<area shape="rect" id="node2" href="$classtc_1_1fs_1_1_i_file_object.html" title="An interface for implementing a basic File handler." alt="" coords="34,5,158,215"/>
+</map>

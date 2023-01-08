@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classtc_1_1io_1_1_i_stream.html" title="An interface for implementing a basic data stream handler." alt="" coords="5,162,111,189"/>
+<area shape="rect" id="node2" href="$classtc_1_1crypto_1_1_aes128_cbc_encrypted_stream.html" title="Class for reading from a stream that is encrypted with AES128&#45;CBC." alt="" coords="159,5,371,47"/>
+<area shape="rect" id="node3" href="$classtc_1_1crypto_1_1_aes128_ctr_encrypted_stream.html" title="Class for reading from a stream that is encrypted with AES128&#45;CTR." alt="" coords="161,71,368,112"/>
+<area shape="rect" id="node4" href="$classtc_1_1io_1_1_concatenated_stream.html" title="A stream that concatenates multiple streams into a single stream." alt="" coords="173,137,356,163"/>
+<area shape="rect" id="node5" href="$classtc_1_1io_1_1_file_stream.html" title="An implementation of IStream as a wrapper to local OS file access functions." alt="" coords="203,187,326,214"/>
+<area shape="rect" id="node6" href="$classtc_1_1io_1_1_memory_stream.html" title="A block of run&#45;time memory wrapped as an IStream object." alt="" coords="191,238,339,265"/>
+<area shape="rect" id="node7" href="$classtc_1_1io_1_1_sub_stream.html" title="A wrapper around an existing IStream object that exposes a subset of the base the IStream object." alt="" coords="203,289,327,315"/>
+</map>

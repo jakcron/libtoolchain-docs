@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['read_0',['read',['../classtc_1_1io_1_1_file_stream.html#afb88d1c7d33673f338148706ba20e56c',1,'tc::io::FileStream::read()'],['../classtc_1_1io_1_1_i_stream.html#aebd5c6d74cd2dc285e1efded9c44b7b8',1,'tc::io::IStream::read()'],['../classtc_1_1io_1_1_memory_stream.html#a8701a05722582237841339e9efd425a1',1,'tc::io::MemoryStream::read()'],['../classtc_1_1io_1_1_sub_stream.html#a9e840513eb838732b0b25ada58741ea0',1,'tc::io::SubStream::read()']]],
+  ['removedirectory_1',['removeDirectory',['../classtc_1_1io_1_1_i_storage.html#a4fa38b7d30cbd7c6e2b741c3ed32acfb',1,'tc::io::IStorage::removeDirectory()'],['../classtc_1_1io_1_1_local_storage.html#a9f0096fa56713bdcb059a6b1c840ef06',1,'tc::io::LocalStorage::removeDirectory()'],['../classtc_1_1io_1_1_sub_storage.html#a1482f8634bd5e618936c930549b155ac',1,'tc::io::SubStorage::removeDirectory()']]],
+  ['removefile_2',['removeFile',['../classtc_1_1io_1_1_i_storage.html#a1f981a986e181a17137787bcf4bfed13',1,'tc::io::IStorage::removeFile()'],['../classtc_1_1io_1_1_local_storage.html#ab5e4eee2bd46ad544710fa949fa0e76d',1,'tc::io::LocalStorage::removeFile()'],['../classtc_1_1io_1_1_sub_storage.html#a5f74f306828ad744da6ed7613e766c37',1,'tc::io::SubStorage::removeFile()']]]
+];

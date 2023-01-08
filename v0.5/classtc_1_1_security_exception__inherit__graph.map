@@ -1,0 +1,5 @@
+<map id="tc::SecurityException" name="tc::SecurityException">
+<area shape="rect" id="node1" title="The exception that is thrown when a security error is detected." alt="" coords="5,329,153,436"/>
+<area shape="rect" id="node2" href="$classtc_1_1_exception.html" title="An extension of std::exception that allows optionally specifying a module name." alt="" coords="29,131,129,281"/>
+<area shape="rect" id="node3" title=" " alt="" coords="27,5,131,83"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="tc/NotImplementedException.h" name="tc/NotImplementedException.h">
+<area shape="rect" id="node1" title="Declaration of tc::NotImplementedException." alt="" coords="5,5,208,32"/>
+<area shape="rect" id="node2" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="34,229,78,256"/>
+<area shape="rect" id="node3" href="$_file_stream_8h.html" title="Declaration of tc::io::FileStream." alt="" coords="44,80,169,107"/>
+<area shape="rect" id="node5" href="$_sub_stream_8h.html" title="Declaration of tc::io::SubStream." alt="" coords="194,80,321,107"/>
+<area shape="rect" id="node4" href="$io_8h.html" title="Declaration of the input/output library." alt="" coords="77,155,136,181"/>
+</map>

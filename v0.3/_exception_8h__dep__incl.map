@@ -1,0 +1,42 @@
+<map id="tc/Exception.h" name="tc/Exception.h">
+<area shape="rect" id="node1" title="Declaration of tc::Exception." alt="" coords="2112,5,2219,32"/>
+<area shape="rect" id="node2" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="1954,453,1998,480"/>
+<area shape="rect" id="node3" href="$_access_violation_exception_8h.html" title="Declaration of tc::AccessViolationException." alt="" coords="333,229,533,256"/>
+<area shape="rect" id="node5" href="$io_8h.html" title="Declaration of the input/output library." alt="" coords="2587,379,2645,405"/>
+<area shape="rect" id="node6" href="$_argument_exception_8h.html" title="Declaration of tc::ArgumentException." alt="" coords="1507,155,1669,181"/>
+<area shape="rect" id="node21" href="$_arithmetic_exception_8h.html" title="Declaration of tc::ArithmeticException." alt="" coords="555,155,720,181"/>
+<area shape="rect" id="node23" href="$_invalid_operation_exception_8h.html" title="Declaration of tc::InvalidOperationException." alt="" coords="2627,155,2827,181"/>
+<area shape="rect" id="node25" href="$_not_implemented_exception_8h.html" title="Declaration of tc::NotImplementedException." alt="" coords="2303,229,2505,256"/>
+<area shape="rect" id="node26" href="$_not_supported_exception_8h.html" title="Declaration of tc::NotSupportedException." alt="" coords="3323,229,3509,256"/>
+<area shape="rect" id="node27" href="$_out_of_memory_exception_8h.html" title="Declaration of tc::OutOfMemoryException." alt="" coords="3498,80,3686,107"/>
+<area shape="rect" id="node33" href="$_unauthorised_access_exception_8h.html" title="Declaration of tc::UnauthorisedAccessException." alt="" coords="2052,229,2279,256"/>
+<area shape="rect" id="node35" href="$_i_o_exception_8h.html" title="Declaration of tc::io::IOException." alt="" coords="1694,155,1829,181"/>
+<area shape="rect" id="node4" href="$_file_stream_8h.html" title="Declaration of tc::io::FileStream." alt="" coords="1788,304,1913,331"/>
+<area shape="rect" id="node7" href="$_argument_null_exception_8h.html" title="Declaration of tc::ArgumentNullException." alt="" coords="2890,229,3075,256"/>
+<area shape="rect" id="node16" href="$_argument_out_of_range_exception_8h.html" title="Declaration of tc::ArgumentOutOfRangeException." alt="" coords="2631,229,2865,256"/>
+<area shape="rect" id="node19" href="$_transcode_util_8h.html" title="Declaration of tc::string::TranscodeUtil." alt="" coords="144,229,309,256"/>
+<area shape="rect" id="node8" href="$_memory_stream_8h.html" title="Declaration of tc::io::MemoryStream." alt="" coords="2343,304,2494,331"/>
+<area shape="rect" id="node9" href="$_overlayed_source_8h.html" title="Declaration of tc::io::OverlayedSource." alt="" coords="2721,304,2884,331"/>
+<area shape="rect" id="node10" href="$_stream_sink_8h.html" title="Declaration of tc::io::StreamSink." alt="" coords="3589,304,3720,331"/>
+<area shape="rect" id="node11" href="$_stream_source_8h.html" title="Declaration of tc::io::StreamSource." alt="" coords="3369,304,3514,331"/>
+<area shape="rect" id="node12" href="$_sub_sink_8h.html" title="Declaration of tc::io::SubSink." alt="" coords="3234,304,3345,331"/>
+<area shape="rect" id="node13" href="$_sub_source_8h.html" title="Declaration of tc::io::SubSource." alt="" coords="3083,304,3210,331"/>
+<area shape="rect" id="node14" href="$_sub_storage_8h.html" title="Declaration of tc::io::SubStorage." alt="" coords="2188,304,2319,331"/>
+<area shape="rect" id="node15" href="$_sub_stream_8h.html" title="Declaration of tc::io::SubStream." alt="" coords="2570,304,2697,331"/>
+<area shape="rect" id="node17" href="$_padding_source_8h.html" title="Declaration of tc::io::PaddingSource." alt="" coords="2909,304,3059,331"/>
+<area shape="rect" id="node18" href="$_stream_util_8h.html" title="Declaration of tc::io::StreamUtil." alt="" coords="2039,304,2163,331"/>
+<area shape="rect" id="node20" href="$string_8h.html" title="Declaration of the string library." alt="" coords="393,379,473,405"/>
+<area shape="rect" id="node22" href="$_overflow_exception_8h.html" title="Declaration of tc::OverflowException." alt="" coords="558,229,717,256"/>
+<area shape="rect" id="node24" href="$_object_disposed_exception_8h.html" title="Declaration of tc::ObjectDisposedException." alt="" coords="3099,229,3298,256"/>
+<area shape="rect" id="node28" href="$_byte_data_8h.html" title="Declaration of tc::ByteData." alt="" coords="3586,155,3689,181"/>
+<area shape="rect" id="node29" href="$_i_sink_8h.html" title="Declaration of tc::io::ISink." alt="" coords="3766,229,3858,256"/>
+<area shape="rect" id="node31" href="$_i_source_8h.html" title="Declaration of tc::io::ISource." alt="" coords="3584,229,3691,256"/>
+<area shape="rect" id="node30" href="$_i_readable_sink_8h.html" title="Declaration of tc::io::IReadableSink." alt="" coords="4021,304,4168,331"/>
+<area shape="rect" id="node32" href="$_memory_source_8h.html" title="Declaration of tc::io::MemorySource." alt="" coords="3795,304,3946,331"/>
+<area shape="rect" id="node34" href="$_local_storage_8h.html" title="Declaration of tc::io::LocalStorage." alt="" coords="1335,304,1473,331"/>
+<area shape="rect" id="node36" href="$_directory_not_empty_exception_8h.html" title="Declaration of tc::io::DirectoryNotEmptyException." alt="" coords="741,229,973,256"/>
+<area shape="rect" id="node37" href="$_directory_not_found_exception_8h.html" title="Declaration of tc::io::DirectoryNotFoundException." alt="" coords="998,229,1229,256"/>
+<area shape="rect" id="node38" href="$_file_exists_exception_8h.html" title="Declaration of tc::io::FileExistsException." alt="" coords="1799,229,1977,256"/>
+<area shape="rect" id="node39" href="$_file_not_found_exception_8h.html" title="Declaration of tc::io::FileNotFoundException." alt="" coords="1305,229,1503,256"/>
+<area shape="rect" id="node40" href="$_path_too_long_exception_8h.html" title="Declaration of tc::io::PathTooLongException." alt="" coords="1527,229,1723,256"/>
+</map>
