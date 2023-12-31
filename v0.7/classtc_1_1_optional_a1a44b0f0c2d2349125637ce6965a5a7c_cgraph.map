@@ -1,0 +1,5 @@
+<map id="tc::Optional::operator=" name="tc::Optional::operator=">
+<area shape="rect" id="node1" title="Operator to duplicate another Optional." alt="" coords="5,31,157,57"/>
+<area shape="rect" id="node2" href="$classtc_1_1_optional.html#a9f53a65980dc3b328b9a8bbd326bf8f5" title="Access the wrapped value." alt="" coords="213,5,328,32"/>
+<area shape="rect" id="node3" href="$classtc_1_1_optional.html#a1cf0ad6726a4de55d92fceab13ede701" title="Determine if the Optional value doesn&#39;t exist." alt="" coords="205,56,336,83"/>
+</map>
