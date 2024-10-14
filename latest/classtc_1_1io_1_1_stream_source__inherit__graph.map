@@ -1,0 +1,4 @@
+<map id="tc::io::StreamSource" name="tc::io::StreamSource">
+<area shape="rect" id="node1" title="An IStream wrapped in an ISource." alt="" coords="5,162,147,285"/>
+<area shape="rect" id="node2" href="$classtc_1_1io_1_1_i_source.html" title="An interface defining a byte data source." alt="" coords="24,5,128,114"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="tc::io::FileExistsException" name="tc::io::FileExistsException">
+<area shape="rect" id="node1" title="The exception that is thrown when an attempt to overwrite/remove a file that exists on disk fails." alt="" coords="5,489,180,598"/>
+<area shape="rect" id="node2" href="$classtc_1_1io_1_1_i_o_exception.html" title="The exception that is thrown when an I/O error occurs." alt="" coords="27,333,158,441"/>
+<area shape="rect" id="node3" href="$classtc_1_1_exception.html" title="An extension of std::exception that allows optionally specifying a module name." alt="" coords="43,132,142,285"/>
+<area shape="rect" id="node4" title=" " alt="" coords="41,5,144,84"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="tc::io::ISink" name="tc::io::ISink">
+<area shape="rect" id="node1" title="An interface defining a byte data sink." alt="" coords="187,5,285,129"/>
+<area shape="rect" id="node2" href="$classtc_1_1io_1_1_i_readable_sink.html" title="An interface defining a byte data sink that can be also provide an ISource." alt="" coords="5,199,149,293"/>
+<area shape="rect" id="node3" href="$classtc_1_1io_1_1_stream_sink.html" title="An IStream wrapped in an ISink." alt="" coords="173,177,299,315"/>
+<area shape="rect" id="node4" href="$classtc_1_1io_1_1_sub_sink.html" title="A ISink that exposes a subset of a base ISink." alt="" coords="323,177,431,315"/>
+</map>

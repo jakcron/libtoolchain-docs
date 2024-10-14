@@ -1,0 +1,36 @@
+<map id="tc/io/StreamSink.h" name="tc/io/StreamSink.h">
+<area shape="rect" id="node1" title="Declaration of tc::io::StreamSink." alt="" coords="1041,5,1170,32"/>
+<area shape="rect" id="node2" href="$_i_sink_8h.html" title="Declaration of tc::io::ISink." alt="" coords="716,80,807,107"/>
+<area shape="rect" id="node27" href="$_i_stream_8h.html" title="Declaration of tc::io::IStream." alt="" coords="496,80,603,107"/>
+<area shape="rect" id="node29" href="$_argument_null_exception_8h.html" title="Declaration of tc::ArgumentNullException." alt="" coords="905,80,1090,107"/>
+<area shape="rect" id="node31" href="$_object_disposed_exception_8h.html" title="Declaration of tc::ObjectDisposedException." alt="" coords="1114,80,1313,107"/>
+<area shape="rect" id="node33" href="$_not_supported_exception_8h.html" title="Declaration of tc::NotSupportedException." alt="" coords="1178,230,1363,257"/>
+<area shape="rect" id="node34" href="$_i_o_exception_8h.html" title="Declaration of tc::io::IOException." alt="" coords="1388,230,1521,257"/>
+<area shape="rect" id="node3" href="$types_8h.html" title="Declaration of generic types used by libtoolchain." alt="" coords="510,230,589,257"/>
+<area shape="rect" id="node23" href="$_resource_status_8h.html" title="Declaration of tc::ResourceStatus." alt="" coords="763,155,904,182"/>
+<area shape="rect" id="node25" href="$_byte_data_8h.html" title="Declaration of tc::ByteData." alt="" coords="637,155,739,182"/>
+<area shape="rect" id="node4" title=" " alt="" coords="969,455,1023,482"/>
+<area shape="rect" id="node5" title=" " alt="" coords="46,305,96,332"/>
+<area shape="rect" id="node6" title=" " alt="" coords="119,305,177,332"/>
+<area shape="rect" id="node7" title=" " alt="" coords="201,305,247,332"/>
+<area shape="rect" id="node8" title=" " alt="" coords="271,305,332,332"/>
+<area shape="rect" id="node9" title=" " alt="" coords="355,305,416,332"/>
+<area shape="rect" id="node10" title=" " alt="" coords="439,305,492,332"/>
+<area shape="rect" id="node11" title=" " alt="" coords="515,305,584,332"/>
+<area shape="rect" id="node12" title=" " alt="" coords="608,305,683,332"/>
+<area shape="rect" id="node13" title=" " alt="" coords="203,455,285,482"/>
+<area shape="rect" id="node14" href="$bn_8h.html" title="Declaration of the binary literals library." alt="" coords="757,305,819,332"/>
+<area shape="rect" id="node15" href="$_exception_8h.html" title="Declaration of tc::Exception." alt="" coords="1037,380,1142,407"/>
+<area shape="rect" id="node17" href="$binary__utils_8h.html" title="Declaration of inlines and classes for literal bit manipulation and other low&#45;level operations." alt="" coords="406,380,538,407"/>
+<area shape="rect" id="node18" href="$endian__types_8h.html" title="Declaration of macros and classes to unwrap primatives in an endian agnostic way." alt="" coords="562,380,705,407"/>
+<area shape="rect" id="node20" href="$bitarray_8h.html" title="Declaration of tc::bn::bitarray." alt="" coords="728,380,835,407"/>
+<area shape="rect" id="node21" href="$bn_2string_8h.html" title="Declaration of tc::bn::string." alt="" coords="858,380,955,407"/>
+<area shape="rect" id="node22" href="$pad_8h.html" title="Declaration of tc::bn::pad." alt="" coords="145,380,231,407"/>
+<area shape="rect" id="node16" title=" " alt="" coords="1051,455,1128,482"/>
+<area shape="rect" id="node19" title=" " alt="" coords="596,455,671,482"/>
+<area shape="rect" id="node24" title=" " alt="" coords="824,230,877,257"/>
+<area shape="rect" id="node26" href="$_out_of_memory_exception_8h.html" title="Declaration of tc::OutOfMemoryException." alt="" coords="613,230,800,257"/>
+<area shape="rect" id="node28" href="$_seek_origin_8h.html" title="Declaration of tc::io::SeekOrigin." alt="" coords="387,155,512,182"/>
+<area shape="rect" id="node30" href="$_argument_exception_8h.html" title="Declaration of tc::ArgumentException." alt="" coords="929,155,1090,182"/>
+<area shape="rect" id="node32" href="$_invalid_operation_exception_8h.html" title="Declaration of tc::InvalidOperationException." alt="" coords="1114,155,1313,182"/>
+</map>

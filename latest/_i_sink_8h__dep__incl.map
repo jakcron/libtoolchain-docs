@@ -1,0 +1,8 @@
+<map id="tc/io/ISink.h" name="tc/io/ISink.h">
+<area shape="rect" id="node1" title="Declaration of tc::io::ISink." alt="" coords="133,5,225,32"/>
+<area shape="rect" id="node2" href="$io_8h.html" title="Declaration of the input/output library." alt="" coords="232,155,289,182"/>
+<area shape="rect" id="node4" href="$_i_readable_sink_8h.html" title="Declaration of tc::io::IReadableSink." alt="" coords="26,80,172,107"/>
+<area shape="rect" id="node5" href="$_stream_sink_8h.html" title="Declaration of tc::io::StreamSink." alt="" coords="196,80,325,107"/>
+<area shape="rect" id="node6" href="$_sub_sink_8h.html" title="Declaration of tc::io::SubSink." alt="" coords="349,80,460,107"/>
+<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="239,230,282,257"/>
+</map>

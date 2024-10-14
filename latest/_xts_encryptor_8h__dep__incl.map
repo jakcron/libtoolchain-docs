@@ -1,0 +1,7 @@
+<map id="tc/crypto/XtsEncryptor.h" name="tc/crypto/XtsEncryptor.h">
+<area shape="rect" id="node1" title="Declaration of tc::crypto::XtsEncryptor." alt="" coords="44,5,206,32"/>
+<area shape="rect" id="node2" href="$crypto_8h.html" title="Declaration of the cryptography library." alt="" coords="83,155,167,182"/>
+<area shape="rect" id="node4" href="$_aes128_xts_encryptor_8h.html" title="Declarations for API resources for related to AES128&#45;XTS mode encryption/decryption." alt="" coords="22,80,228,107"/>
+<area shape="rect" id="node5" href="$_aes256_xts_encryptor_8h.html" title="Declarations for API resources for related to AES256&#45;XTS mode encryption/decryption." alt="" coords="253,80,459,107"/>
+<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="103,230,147,257"/>
+</map>

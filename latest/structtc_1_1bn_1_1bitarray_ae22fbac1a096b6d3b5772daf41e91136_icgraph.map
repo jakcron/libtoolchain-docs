@@ -1,0 +1,4 @@
+<map id="tc::bn::bitarray::set" name="tc::bn::bitarray::set">
+<area shape="rect" id="node1" title="Sets a given bit in this bitarray." alt="" coords="184,5,315,32"/>
+<area shape="rect" id="node2" href="$structtc_1_1bn_1_1bitarray.html#a0598dba61318c2cb54967889c29b39d0" title="Flips a given bit in this bitarray." alt="" coords="5,5,136,32"/>
+</map>

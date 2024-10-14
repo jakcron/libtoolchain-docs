@@ -1,0 +1,6 @@
+<map id="tc::bn::bitarray::flip" name="tc::bn::bitarray::flip">
+<area shape="rect" id="node1" title="Flips a given bit in this bitarray." alt="" coords="5,56,136,83"/>
+<area shape="rect" id="node2" href="$structtc_1_1bn_1_1bitarray.html#a1e946ac9419e1e17bddff2fc48140068" title="Clears a given bit in this bitarray." alt="" coords="184,5,326,32"/>
+<area shape="rect" id="node3" href="$structtc_1_1bn_1_1bitarray.html#ae22fbac1a096b6d3b5772daf41e91136" title="Sets a given bit in this bitarray." alt="" coords="189,56,321,83"/>
+<area shape="rect" id="node4" href="$structtc_1_1bn_1_1bitarray.html#ac16fc554d97ed8c900c2f213b9c80efc" title="Checks a given bit in this bitarray." alt="" coords="187,107,323,134"/>
+</map>
