@@ -1,0 +1,11 @@
+<map id="tc/io/ISource.h" name="tc/io/ISource.h">
+<area shape="rect" id="node1" title="Declaration of tc::io::ISource." alt="" coords="395,5,502,32"/>
+<area shape="rect" id="node2" href="$io_8h.html" title="Declaration of the input/output library." alt="" coords="509,155,567,182"/>
+<area shape="rect" id="node4" href="$_i_readable_sink_8h.html" title="Declaration of tc::io::IReadableSink." alt="" coords="23,80,170,107"/>
+<area shape="rect" id="node5" href="$_memory_source_8h.html" title="Declaration of tc::io::MemorySource." alt="" coords="194,80,343,107"/>
+<area shape="rect" id="node6" href="$_overlayed_source_8h.html" title="Declaration of tc::io::OverlayedSource." alt="" coords="368,80,529,107"/>
+<area shape="rect" id="node7" href="$_padding_source_8h.html" title="Declaration of tc::io::PaddingSource." alt="" coords="554,80,703,107"/>
+<area shape="rect" id="node8" href="$_stream_source_8h.html" title="Declaration of tc::io::StreamSource." alt="" coords="727,80,871,107"/>
+<area shape="rect" id="node9" href="$_sub_source_8h.html" title="Declaration of tc::io::SubSource." alt="" coords="895,80,1021,107"/>
+<area shape="rect" id="node3" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="516,230,560,257"/>
+</map>

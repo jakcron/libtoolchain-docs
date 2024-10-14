@@ -1,0 +1,16 @@
+<map id="tc/InvalidOperationException.h" name="tc/InvalidOperationException.h">
+<area shape="rect" id="node1" title="Declaration of tc::InvalidOperationException." alt="" coords="738,5,937,32"/>
+<area shape="rect" id="node2" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="54,320,98,347"/>
+<area shape="rect" id="node3" href="$_object_disposed_exception_8h.html" title="Declaration of tc::ObjectDisposedException." alt="" coords="738,80,936,107"/>
+<area shape="rect" id="node11" href="$_sub_file_system_8h.html" title="Declaration of tc::io::SubFileSystem." alt="" coords="1475,163,1626,190"/>
+<area shape="rect" id="node4" href="$_aes128_cbc_encrypted_stream_8h.html" title="Declaration of tc::crypto::Aes128CbcEncryptedStream." alt="" coords="44,155,247,197"/>
+<area shape="rect" id="node6" href="$_aes128_ctr_encrypted_stream_8h.html" title="Declaration of tc::crypto::Aes128CtrEncryptedStream." alt="" coords="271,155,468,197"/>
+<area shape="rect" id="node7" href="$_concatenated_stream_8h.html" title="Declaration of tc::io::ConcatenatedStream." alt="" coords="492,163,676,190"/>
+<area shape="rect" id="node9" href="$_file_stream_8h.html" title="Declaration of tc::io::FileStream." alt="" coords="700,163,825,190"/>
+<area shape="rect" id="node10" href="$_stream_sink_8h.html" title="Declaration of tc::io::StreamSink." alt="" coords="849,163,978,190"/>
+<area shape="rect" id="node12" href="$_sub_sink_8h.html" title="Declaration of tc::io::SubSink." alt="" coords="1002,163,1112,190"/>
+<area shape="rect" id="node13" href="$_sub_stream_8h.html" title="Declaration of tc::io::SubStream." alt="" coords="1137,163,1263,190"/>
+<area shape="rect" id="node14" href="$_virtual_file_system_8h.html" title="Declaration of tc::io::VirtualFileSystem." alt="" coords="1287,163,1451,190"/>
+<area shape="rect" id="node5" href="$crypto_8h.html" title="Declaration of the cryptography library." alt="" coords="104,245,187,272"/>
+<area shape="rect" id="node8" href="$io_8h.html" title="Declaration of the input/output library." alt="" coords="957,245,1014,272"/>
+</map>

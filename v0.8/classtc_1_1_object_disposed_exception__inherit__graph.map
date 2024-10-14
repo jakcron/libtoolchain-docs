@@ -1,0 +1,6 @@
+<map id="tc::ObjectDisposedException" name="tc::ObjectDisposedException">
+<area shape="rect" id="node1" title="The exception that is thrown when an operation is performed on a disposed object." alt="" coords="6,489,198,598"/>
+<area shape="rect" id="node2" href="$classtc_1_1_invalid_operation_exception.html" title="The exception that is thrown when a method call is invalid for the object&#39;s current state." alt="" coords="5,333,199,441"/>
+<area shape="rect" id="node3" href="$classtc_1_1_exception.html" title="An extension of std::exception that allows optionally specifying a module name." alt="" coords="52,132,152,285"/>
+<area shape="rect" id="node4" title=" " alt="" coords="50,5,154,84"/>
+</map>

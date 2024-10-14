@@ -1,0 +1,10 @@
+<map id="tc/io/FileMode.h" name="tc/io/FileMode.h">
+<area shape="rect" id="node1" title="Declaration of tc::io::FileMode." alt="" coords="86,5,201,32"/>
+<area shape="rect" id="node2" href="$_file_stream_8h.html" title="Declaration of tc::io::FileStream." alt="" coords="5,80,130,107"/>
+<area shape="rect" id="node5" href="$_i_file_system_8h.html" title="Declaration of tc::io::IFileSystem." alt="" coords="161,80,292,107"/>
+<area shape="rect" id="node3" href="$io_8h.html" title="Declaration of the input/output library." alt="" coords="198,230,255,257"/>
+<area shape="rect" id="node4" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="205,305,248,332"/>
+<area shape="rect" id="node6" href="$_local_file_system_8h.html" title="Declaration of tc::io::LocalFileSystem." alt="" coords="147,155,305,182"/>
+<area shape="rect" id="node7" href="$_sub_file_system_8h.html" title="Declaration of tc::io::SubFileSystem." alt="" coords="330,155,480,182"/>
+<area shape="rect" id="node8" href="$_virtual_file_system_8h.html" title="Declaration of tc::io::VirtualFileSystem." alt="" coords="504,155,668,182"/>
+</map>

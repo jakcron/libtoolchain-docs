@@ -1,0 +1,4 @@
+<map id="tc::io::LocalFileSystem" name="tc::io::LocalFileSystem">
+<area shape="rect" id="node1" title="An IFileSystem wrapper around the existing OS FileSystem API." alt="" coords="5,312,165,570"/>
+<area shape="rect" id="node2" href="$classtc_1_1io_1_1_i_file_system.html" title="An interface for implementing a basic FileSystem handler." alt="" coords="5,5,165,264"/>
+</map>

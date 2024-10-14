@@ -1,0 +1,22 @@
+<map id="tc/bn/binary_utils.h" name="tc/bn/binary_utils.h">
+<area shape="rect" id="node1" title="Declaration of inlines and classes for literal bit manipulation and other low&#45;level operations." alt="" coords="481,5,612,32"/>
+<area shape="rect" id="node2" href="$types_8h.html" title="Declaration of generic types used by libtoolchain." alt="" coords="468,80,547,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="228,305,281,332"/>
+<area shape="rect" id="node4" title=" " alt="" coords="47,155,97,182"/>
+<area shape="rect" id="node5" title=" " alt="" coords="120,155,178,182"/>
+<area shape="rect" id="node6" title=" " alt="" coords="202,155,248,182"/>
+<area shape="rect" id="node7" title=" " alt="" coords="272,155,333,182"/>
+<area shape="rect" id="node8" title=" " alt="" coords="356,155,417,182"/>
+<area shape="rect" id="node9" title=" " alt="" coords="440,155,493,182"/>
+<area shape="rect" id="node10" title=" " alt="" coords="516,155,585,182"/>
+<area shape="rect" id="node11" title=" " alt="" coords="609,155,684,182"/>
+<area shape="rect" id="node12" title=" " alt="" coords="889,305,972,332"/>
+<area shape="rect" id="node13" href="$bn_8h.html" title="Declaration of the binary literals library." alt="" coords="758,155,820,182"/>
+<area shape="rect" id="node14" href="$_exception_8h.html" title="Declaration of tc::Exception." alt="" coords="570,230,675,257"/>
+<area shape="rect" id="node16" href="$endian__types_8h.html" title="Declaration of macros and classes to unwrap primatives in an endian agnostic way." alt="" coords="699,230,842,257"/>
+<area shape="rect" id="node18" href="$bitarray_8h.html" title="Declaration of tc::bn::bitarray." alt="" coords="167,230,273,257"/>
+<area shape="rect" id="node19" href="$bn_2string_8h.html" title="Declaration of tc::bn::string." alt="" coords="448,230,546,257"/>
+<area shape="rect" id="node20" href="$pad_8h.html" title="Declaration of tc::bn::pad." alt="" coords="866,230,952,257"/>
+<area shape="rect" id="node15" title=" " alt="" coords="584,305,661,332"/>
+<area shape="rect" id="node17" title=" " alt="" coords="733,305,808,332"/>
+</map>

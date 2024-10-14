@@ -1,0 +1,14 @@
+<map id="tc/cli/OptionParser.h" name="tc/cli/OptionParser.h">
+<area shape="rect" id="node1" title="Declaration of tc::cli::OptionParser." alt="" coords="227,5,366,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,63,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="87,80,133,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="157,80,196,107"/>
+<area shape="rect" id="node5" title=" " alt="" coords="239,305,293,332"/>
+<area shape="rect" id="node6" title=" " alt="" coords="270,80,323,107"/>
+<area shape="rect" id="node7" title=" " alt="" coords="348,80,416,107"/>
+<area shape="rect" id="node8" href="$_argument_exception_8h.html" title="Declaration of tc::ArgumentException." alt="" coords="437,155,599,182"/>
+<area shape="rect" id="node11" href="$_argument_null_exception_8h.html" title="Declaration of tc::ArgumentNullException." alt="" coords="491,80,676,107"/>
+<area shape="rect" id="node12" href="$_argument_out_of_range_exception_8h.html" title="Declaration of tc::ArgumentOutOfRangeException." alt="" coords="700,80,934,107"/>
+<area shape="rect" id="node9" href="$_exception_8h.html" title="Declaration of tc::Exception." alt="" coords="336,230,441,257"/>
+<area shape="rect" id="node10" title=" " alt="" coords="350,305,427,332"/>
+</map>

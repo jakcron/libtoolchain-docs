@@ -1,0 +1,6 @@
+<map id="tc::ArgumentOutOfRangeException" name="tc::ArgumentOutOfRangeException">
+<area shape="rect" id="node1" title="The exception that is thrown when the value of an argument is outside the allowable range of values a..." alt="" coords="5,489,233,598"/>
+<area shape="rect" id="node2" href="$classtc_1_1_argument_exception.html" title="The exception that is thrown when one of the arguments provided to a method is not valid." alt="" coords="42,333,196,441"/>
+<area shape="rect" id="node3" href="$classtc_1_1_exception.html" title="An extension of std::exception that allows optionally specifying a module name." alt="" coords="69,132,169,285"/>
+<area shape="rect" id="node4" title=" " alt="" coords="67,5,171,84"/>
+</map>

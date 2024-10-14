@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classtc_1_1io_1_1_i_sink.html" title="An interface defining a byte data sink." alt="" coords="5,56,94,83"/>
+<area shape="rect" id="node2" href="$classtc_1_1io_1_1_i_readable_sink.html" title="An interface defining a byte data sink that can be also provide an ISource." alt="" coords="142,5,285,32"/>
+<area shape="rect" id="node3" href="$classtc_1_1io_1_1_stream_sink.html" title="An IStream wrapped in an ISink." alt="" coords="150,56,277,83"/>
+<area shape="rect" id="node4" href="$classtc_1_1io_1_1_sub_sink.html" title="A ISink that exposes a subset of a base ISink." alt="" coords="160,107,267,134"/>
+</map>

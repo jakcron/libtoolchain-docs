@@ -1,0 +1,7 @@
+<map id="tc/ArithmeticException.h" name="tc/ArithmeticException.h">
+<area shape="rect" id="node1" title="Declaration of tc::ArithmeticException." alt="" coords="5,5,170,32"/>
+<area shape="rect" id="node2" href="$tc_8h.html" title="Declaration of the libtoolchain namespace." alt="" coords="59,305,103,332"/>
+<area shape="rect" id="node3" href="$_overflow_exception_8h.html" title="Declaration of tc::OverflowException." alt="" coords="68,80,225,107"/>
+<area shape="rect" id="node4" href="$_file_stream_8h.html" title="Declaration of tc::io::FileStream." alt="" coords="119,155,243,182"/>
+<area shape="rect" id="node5" href="$io_8h.html" title="Declaration of the input/output library." alt="" coords="135,230,192,257"/>
+</map>
